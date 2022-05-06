@@ -1,0 +1,67 @@
+/*******************************
+         Theme Overrides
+*******************************/
+.ui.comments {
+  margin-top: 0;
+  .comment {
+    .text, .author {
+      color: #545454;
+    }
+  }
+}
+
+.ui.comments .comment .actions a .cancel-comment {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+
+#topic-and-posts {
+  .post-container {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 2rem;
+
+    .edit-post-link {
+      opacity: 0;
+      transition: opacity .4s ease;
+      color: rgba(0, 0, 0, 0.4);
+      float: right;
+      margin-top: -0.25rem;
+      margin-bottom: 0.75rem;
+      margin-right: 1rem;
+      cursor: pointer;
+    }
+    &:hover {
+      .edit-post-link {
+        opacity: 1;
+        &:hover {
+          color: rgba(0, 0, 0, 0.7);
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: @tabletBreakpoint) {
+  #topic-and-posts {
+    .comments-container {
+      padding-top: 0 !important;
+    }
+    .ui.comments.saved-comments {
+      margin: 0;
+    }
+    .post-container {
+      padding-top: 1rem;
+      border-top: 1px solid #ccc;
+    }
+    .author-info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        margin: 0 1rem;
+      }
+    }
+  }
+}

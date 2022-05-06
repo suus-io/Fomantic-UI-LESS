@@ -1,0 +1,172 @@
+/*******************************
+         Theme Overrides
+*******************************/
+.ui.label > .close.icon,
+.ui.label > .delete.icon {
+  font-size: @14px;
+}
+
+.ui.label {
+  display: inline-block;
+  padding: 6px 8px;
+  vertical-align: middle;
+  font-family: system-ui;
+  > a {
+    vertical-align: middle;
+    > .icon {
+        height: 12px;
+    }
+  }
+  &.basic {
+    padding: 6px 8px;
+  }
+  &:not(.circular) > :last-child.icon {
+    margin: 0em 0 0 0.75em;
+  }
+  &.circular {
+    margin: 0 !important;
+  }
+  &.tiny.topic-tag {
+    padding: 0.283em 0.533em;
+  }
+}
+.ui.label.tiny {
+  letter-spacing: 0.5px;
+}
+
+.ui.label.pointing.hovering {
+  position: absolute;
+  left: 15%;
+  top: 100%;
+}
+
+.ui.basic.label:hover {
+  border-color: @lightGreyFocus;
+}
+
+.ui.labels .label,
+.ui.label {
+  line-height: 1.18em;
+}
+.ui.label.floating {
+  position: relative;
+  left: unset;
+  margin: 0 !important;
+}
+.ui.label.basic.small {
+  font-size: 0.6em;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: @10px;
+  padding: @relative4px @relative5px;
+}
+
+.ui.segment {
+  .ui.label {
+    color: @color;
+    &.basic {
+      color: @basicColor;
+    }
+  }
+}
+
+.ui.label {
+  .corps.avatar {
+    width: 1.4em !important;
+    height: 1.4em !important;
+    margin-top: -0.4em;
+    margin-bottom: -0.2rem;
+    margin-right: 6px;
+    display: inline-block !important;
+  }
+  .detail {
+    text-transform: none;
+    font-weight: normal;
+    font-style: italic;
+    vertical-align: initial;
+    float: right;
+  }
+}
+
+.ui.pointing.above.label {
+  display: block;
+}
+
+.ui.label.mention {
+  &.user-mention {
+    &:before {
+      content: "\ea61";
+      font-family: "Icons";
+      padding-right: 0.5em;
+      vertical-align: top;
+      color: #DAF2FF;
+    }
+  }
+}
+
+
+
+.ui.label {
+  .corps + .corps {
+    margin-left: -1em !important;
+  }
+}
+
+.stacked {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-flex !important;
+  justify-content: center;
+  max-width: 100%;
+
+  .corps + .corps {
+    margin-left: -20% !important;
+    position: relative;
+  }
+}
+
+.item {
+  .ui.statistics.tiny .statistic, .ui.statistic.tiny {
+    & > .value {
+      font-size: 1rem !important;
+    }
+    & > .label {
+      color: #888;
+      text-transform: none;
+      font-weight: normal;
+    }
+  }
+}
+
+.atwho-inserted, .atwho-view {
+  .mention {
+    border: 1px solid rgba(34, 36, 38, 0.15) !important;
+    border-radius: 0.14285714rem !important;
+    transition: background 0.1s ease !important;
+    padding: 0.283rem 0.433rem !important;
+    font-size: 0.875em !important;
+    background: #307ef7 !important;
+    color: white !important;
+    font-weight: 500 !important;
+  }
+  .group-mention {
+    &:before {
+      content: "\eef8";
+      font-family: "Icons";
+      font-size: 1.2em;
+      vertical-align: sub;
+      padding-right: 0.5rem;
+      font-weight: 600;
+    }
+  }
+  .member-mention {
+    &:before {
+      content: "\f075";
+      font-family: "Icons";
+      font-size: 1.2em;
+      vertical-align: sub;
+      padding-right: 0.5rem;
+      font-weight: 600;
+    }
+  }
+}

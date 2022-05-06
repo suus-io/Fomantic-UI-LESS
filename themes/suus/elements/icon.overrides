@@ -1,0 +1,8313 @@
+i.icon, i.icons {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+i.icon.large, i.icons.large {
+  vertical-align: sub;
+}
+
+i.icon:before {
+  background: none !important;
+  height: 14px;
+  font-weight: 600;
+}
+
+// hotfix till SUI 2.3.1 is released
+.icon.suus-zoom-2::before {
+  content: "\f206" !important;
+}
+
+/** System icons overrides **/
+// X with circle
+.icon.delete:before, .icon.remove:before {
+  content: "\ebe6" !important;
+}
+
+// X
+.icon.close:before {
+  content: "\f06e" !important;
+}
+// <
+.icon.chevron.left:before {
+  content: "\eeb9" !important;
+}
+
+// >
+.icon.chevron.right:before {
+  content: "\eeba" !important;
+}
+
+// ^
+.icon.chevron.up:before {
+  content: "\eebc" !important;
+}
+
+// v
+.icon.chevron.down:before {
+  content: "\eeb8" !important;
+}
+
+/*------------------------
+	font icons
+-------------------------*/
+
+.icon.suus-2x-drag-down:before {
+  content: "\ea01";
+}
+
+.icon.suus-2x-drag-up:before {
+  content: "\ea03";
+}
+
+.icon.suus-2x-swipe-down:before {
+  content: "\ea04";
+}
+
+.icon.suus-2x-swipe-left:before {
+  content: "\ea02";
+}
+
+.icon.suus-2x-swipe-right:before {
+  content: "\ea05";
+}
+
+.icon.suus-2x-swipe-up:before {
+  content: "\ea06";
+}
+
+.icon.suus-2x-tap:before {
+  content: "\ea07";
+}
+
+.icon.suus-3d-28:before {
+  content: "\ea08";
+}
+
+.icon.suus-3d-29:before {
+  content: "\ea0a";
+}
+
+.icon.suus-3d:before {
+  content: "\ea09";
+}
+
+.icon.suus-3x-swipe-left:before {
+  content: "\ea0b";
+}
+
+.icon.suus-3x-swipe-right:before {
+  content: "\ea0c";
+}
+
+.icon.suus-3x-swipe-up:before {
+  content: "\ea0d";
+}
+
+.icon.suus-3x-tap:before {
+  content: "\ea0f";
+}
+
+.icon.suus-4x-swipe-left:before {
+  content: "\ea0e";
+}
+
+.icon.suus-4x-swipe-right:before {
+  content: "\ea10";
+}
+
+.icon.suus-4x-swipe-up:before {
+  content: "\ea11";
+}
+
+.icon.suus-a-add:before {
+  content: "\ea12";
+}
+
+.icon.suus-a-check:before {
+  content: "\ea13";
+}
+
+.icon.suus-a-delete:before {
+  content: "\ea14";
+}
+
+.icon.suus-a-edit:before {
+  content: "\ea15";
+}
+
+.icon.suus-a-heart:before {
+  content: "\ea16";
+}
+
+.icon.suus-a-location:before {
+  content: "\ea17";
+}
+
+.icon.suus-a-remove:before {
+  content: "\ea19";
+}
+
+.icon.suus-a-search:before {
+  content: "\ea18";
+}
+
+.icon.suus-a-security:before {
+  content: "\ea1a";
+}
+
+.icon.suus-a-share:before {
+  content: "\ea1b";
+}
+
+.icon.suus-a-star:before {
+  content: "\ea1c";
+}
+
+.icon.suus-a-sync:before {
+  content: "\ea1e";
+}
+
+.icon.suus-a-time:before {
+  content: "\ea1d";
+}
+
+.icon.suus-abc:before {
+  content: "\ea1f";
+}
+
+.icon.suus-accessibility:before {
+  content: "\ea21";
+}
+
+.icon.suus-action-73:before {
+  content: "\ea20";
+}
+
+.icon.suus-action-74:before {
+  content: "\ea22";
+}
+
+.icon.suus-active-38:before {
+  content: "\ea24";
+}
+
+.icon.suus-active-40:before {
+  content: "\ea23";
+}
+
+.icon.suus-add-27:before {
+  content: "\ea25";
+}
+
+.icon.suus-add-29:before {
+  content: "\ea26";
+}
+
+.icon.suus-add:before {
+  content: "\ea27";
+}
+
+.icon.suus-agenda-bookmark:before {
+  content: "\ea28";
+}
+
+.icon.suus-agenda:before {
+  content: "\ea29";
+}
+
+.icon.suus-air-baloon:before {
+  content: "\ea2a";
+}
+
+.icon.suus-air-conditioner:before {
+  content: "\ea2d";
+}
+
+.icon.suus-alarm-add:before {
+  content: "\ea2c";
+}
+
+.icon.suus-alarm-delete:before {
+  content: "\ea2b";
+}
+
+.icon.suus-album-2:before {
+  content: "\ea2e";
+}
+
+.icon.suus-album:before {
+  content: "\ea2f";
+}
+
+.icon.suus-alcohol:before {
+  content: "\ea30";
+}
+
+.icon.suus-alert-circle-exc:before {
+  content: "\ea31";
+}
+
+.icon.suus-alert-circle-i:before {
+  content: "\ea32";
+}
+
+.icon.suus-alert-circle-que:before {
+  content: "\ea33";
+}
+
+.icon.suus-alert-exc:before {
+  content: "\ea34";
+}
+
+.icon.suus-alert-i:before {
+  content: "\ea36";
+}
+
+.icon.suus-alert-que:before {
+  content: "\ea35";
+}
+
+.icon.suus-alert-square-exc:before {
+  content: "\ea37";
+}
+
+.icon.suus-alert-square-i:before {
+  content: "\ea38";
+}
+
+.icon.suus-alert-square-que:before {
+  content: "\ea39";
+}
+
+.icon.suus-alert:before {
+  content: "\ea3a";
+}
+
+.icon.suus-alien-29:before {
+  content: "\ea3c";
+}
+
+.icon.suus-alien-33:before {
+  content: "\ea3b";
+}
+
+.icon.suus-align-bottom:before {
+  content: "\ea3d";
+}
+
+.icon.suus-align-center-horizontal:before {
+  content: "\ea3e";
+}
+
+.icon.suus-align-center-vertical:before {
+  content: "\ea3f";
+}
+
+.icon.suus-align-center:before {
+  content: "\ea40";
+}
+
+.icon.suus-align-justify:before {
+  content: "\ea41";
+}
+
+.icon.suus-align-left-2:before {
+  content: "\ea42";
+}
+
+.icon.suus-align-left:before {
+  content: "\ea43";
+}
+
+.icon.suus-align-right-2:before {
+  content: "\ea44";
+}
+
+.icon.suus-align-right:before {
+  content: "\ea45";
+}
+
+.icon.suus-align-top:before {
+  content: "\ea46";
+}
+
+.icon.suus-ambulance:before {
+  content: "\ea47";
+}
+
+.icon.suus-analytics-88:before {
+  content: "\ea48";
+}
+
+.icon.suus-analytics-89:before {
+  content: "\ea49";
+}
+
+.icon.suus-anchor:before {
+  content: "\ea4a";
+}
+
+.icon.suus-android:before {
+  content: "\ea4b";
+}
+
+.icon.suus-angle:before {
+  content: "\ea4c";
+}
+
+.icon.suus-angry-10:before {
+  content: "\ea4d";
+}
+
+.icon.suus-angry-44:before {
+  content: "\ea4e";
+}
+
+.icon.suus-animation-14:before {
+  content: "\ea4f";
+}
+
+.icon.suus-animation-31:before {
+  content: "\ea50";
+}
+
+.icon.suus-animation-32:before {
+  content: "\ea51";
+}
+
+.icon.suus-app:before {
+  content: "\ea52";
+}
+
+.icon.suus-apple-2:before {
+  content: "\ea54";
+}
+
+.icon.suus-apple:before {
+  content: "\ea53";
+}
+
+.icon.suus-appointment:before {
+  content: "\ea55";
+}
+
+.icon.suus-archive-2:before {
+  content: "\ea56";
+}
+
+.icon.suus-archive-3d-check:before {
+  content: "\ea57";
+}
+
+.icon.suus-archive-3d-content:before {
+  content: "\ea58";
+}
+
+.icon.suus-archive-check:before {
+  content: "\ea59";
+}
+
+.icon.suus-archive-content:before {
+  content: "\ea5a";
+}
+
+.icon.suus-archive-paper-check:before {
+  content: "\ea5b";
+}
+
+.icon.suus-archive-paper:before {
+  content: "\ea5c";
+}
+
+.icon.suus-archive:before {
+  content: "\ea5d";
+}
+
+.icon.suus-armchair:before {
+  content: "\ea5f";
+}
+
+.icon.suus-artboard:before {
+  content: "\ea5e";
+}
+
+.icon.suus-astronaut:before {
+  content: "\ea60";
+}
+
+.icon.suus-at-sign:before {
+  content: "\ea61";
+}
+
+.icon.suus-atm:before {
+  content: "\ea62";
+}
+
+.icon.suus-atom:before {
+  content: "\ea63";
+}
+
+.icon.suus-attach-86:before {
+  content: "\ea64";
+}
+
+.icon.suus-attach-87:before {
+  content: "\ea65";
+}
+
+.icon.suus-audio-91:before {
+  content: "\ea66";
+}
+
+.icon.suus-audio-92:before {
+  content: "\ea67";
+}
+
+.icon.suus-audio:before {
+  content: "\ea68";
+}
+
+.icon.suus-award-48:before {
+  content: "\ea69";
+}
+
+.icon.suus-award-49:before {
+  content: "\ea6a";
+}
+
+.icon.suus-award-55:before {
+  content: "\ea6b";
+}
+
+.icon.suus-award-74:before {
+  content: "\ea6c";
+}
+
+.icon.suus-award:before {
+  content: "\ea6d";
+}
+
+.icon.suus-axe:before {
+  content: "\ea6e";
+}
+
+.icon.suus-b-add:before {
+  content: "\ea6f";
+}
+
+.icon.suus-b-check:before {
+  content: "\ea70";
+}
+
+.icon.suus-b-location:before {
+  content: "\ea71";
+}
+
+.icon.suus-b-love:before {
+  content: "\ea72";
+}
+
+.icon.suus-b-meeting:before {
+  content: "\ea73";
+}
+
+.icon.suus-b-remove:before {
+  content: "\ea75";
+}
+
+.icon.suus-b-security:before {
+  content: "\ea74";
+}
+
+.icon.suus-baby-2:before {
+  content: "\ea76";
+}
+
+.icon.suus-baby-3:before {
+  content: "\ea77";
+}
+
+.icon.suus-baby-bottle:before {
+  content: "\ea78";
+}
+
+.icon.suus-baby:before {
+  content: "\ea79";
+}
+
+.icon.suus-back-78:before {
+  content: "\ea7a";
+}
+
+.icon.suus-back-80:before {
+  content: "\ea7b";
+}
+
+.icon.suus-background:before {
+  content: "\ea7c";
+}
+
+.icon.suus-backpack-2:before {
+  content: "\ea7d";
+}
+
+.icon.suus-backpack-57:before {
+  content: "\ea7e";
+}
+
+.icon.suus-backpack-58:before {
+  content: "\ea7f";
+}
+
+.icon.suus-backpack:before {
+  content: "\ea80";
+}
+
+.icon.suus-backward:before {
+  content: "\ea81";
+}
+
+.icon.suus-bacon:before {
+  content: "\ea82";
+}
+
+.icon.suus-badge-13:before {
+  content: "\ea83";
+}
+
+.icon.suus-badge-14:before {
+  content: "\ea84";
+}
+
+.icon.suus-badge-15:before {
+  content: "\ea85";
+}
+
+.icon.suus-badge:before {
+  content: "\ea86";
+}
+
+.icon.suus-badminton:before {
+  content: "\ea87";
+}
+
+.icon.suus-bag-09:before {
+  content: "\ea88";
+}
+
+.icon.suus-bag-16:before {
+  content: "\ea89";
+}
+
+.icon.suus-bag-17:before {
+  content: "\ea8a";
+}
+
+.icon.suus-bag-20:before {
+  content: "\ea8b";
+}
+
+.icon.suus-bag-21:before {
+  content: "\ea8c";
+}
+
+.icon.suus-bag-22:before {
+  content: "\ea8d";
+}
+
+.icon.suus-bag-49:before {
+  content: "\ea8e";
+}
+
+.icon.suus-bag-50:before {
+  content: "\ea8f";
+}
+
+.icon.suus-bag-add-18:before {
+  content: "\ea90";
+}
+
+.icon.suus-bag-add-21:before {
+  content: "\ea91";
+}
+
+.icon.suus-bag-edit:before {
+  content: "\ea92";
+}
+
+.icon.suus-bag-remove-19:before {
+  content: "\ea93";
+}
+
+.icon.suus-bag-remove-22:before {
+  content: "\ea94";
+}
+
+.icon.suus-bag-time:before {
+  content: "\ea95";
+}
+
+.icon.suus-bag:before {
+  content: "\ea96";
+}
+
+.icon.suus-baguette:before {
+  content: "\ea97";
+}
+
+.icon.suus-balance:before {
+  content: "\ea98";
+}
+
+.icon.suus-ball-basket:before {
+  content: "\ea99";
+}
+
+.icon.suus-ball-soccer:before {
+  content: "\ea9a";
+}
+
+.icon.suus-baloon:before {
+  content: "\ea9b";
+}
+
+.icon.suus-ban-bold:before {
+  content: "\ea9c";
+}
+
+.icon.suus-ban:before {
+  content: "\ea9d";
+}
+
+.icon.suus-banana:before {
+  content: "\ea9e";
+}
+
+.icon.suus-bank:before {
+  content: "\ea9f";
+}
+
+.icon.suus-barbecue-15:before {
+  content: "\eaa0";
+}
+
+.icon.suus-barbecue-tools:before {
+  content: "\eaa1";
+}
+
+.icon.suus-barbecue:before {
+  content: "\eaa2";
+}
+
+.icon.suus-barcode-qr:before {
+  content: "\eaa3";
+}
+
+.icon.suus-barcode-scan:before {
+  content: "\eaa4";
+}
+
+.icon.suus-barcode:before {
+  content: "\eaa5";
+}
+
+.icon.suus-bars:before {
+  content: "\eaa6";
+}
+
+.icon.suus-baseball-ball:before {
+  content: "\eaa7";
+}
+
+.icon.suus-baseball-bat:before {
+  content: "\eaa8";
+}
+
+.icon.suus-baseball:before {
+  content: "\eaa9";
+}
+
+.icon.suus-basket-add:before {
+  content: "\eaaa";
+}
+
+.icon.suus-basket-edit:before {
+  content: "\eaab";
+}
+
+.icon.suus-basket-favorite:before {
+  content: "\eaac";
+}
+
+.icon.suus-basket-remove:before {
+  content: "\eaad";
+}
+
+.icon.suus-basket-search:before {
+  content: "\eaae";
+}
+
+.icon.suus-basket-share:before {
+  content: "\eaaf";
+}
+
+.icon.suus-basket-simple-add:before {
+  content: "\eab0";
+}
+
+.icon.suus-basket-simple-remove:before {
+  content: "\eab1";
+}
+
+.icon.suus-basket-simple:before {
+  content: "\eab2";
+}
+
+.icon.suus-basket-update:before {
+  content: "\eab3";
+}
+
+.icon.suus-basket:before {
+  content: "\eab4";
+}
+
+.icon.suus-basketball-12:before {
+  content: "\eab5";
+}
+
+.icon.suus-basketball-13:before {
+  content: "\eab6";
+}
+
+.icon.suus-bat:before {
+  content: "\eab7";
+}
+
+.icon.suus-bath-tub:before {
+  content: "\eab8";
+}
+
+.icon.suus-battery-81:before {
+  content: "\eab9";
+}
+
+.icon.suus-battery-83:before {
+  content: "\eaba";
+}
+
+.icon.suus-battery-half:before {
+  content: "\eabb";
+}
+
+.icon.suus-battery-level:before {
+  content: "\eabc";
+}
+
+.icon.suus-battery-low:before {
+  content: "\eabd";
+}
+
+.icon.suus-battery:before {
+  content: "\eabf";
+}
+
+.icon.suus-bear-2:before {
+  content: "\eabe";
+}
+
+.icon.suus-bear:before {
+  content: "\eac0";
+}
+
+.icon.suus-bed-09:before {
+  content: "\eac1";
+}
+
+.icon.suus-bed-23:before {
+  content: "\eac2";
+}
+
+.icon.suus-bed-side:before {
+  content: "\eac3";
+}
+
+.icon.suus-bee:before {
+  content: "\eac4";
+}
+
+.icon.suus-beer-95:before {
+  content: "\eac5";
+}
+
+.icon.suus-beer-96:before {
+  content: "\eac6";
+}
+
+.icon.suus-bell-53:before {
+  content: "\eac7";
+}
+
+.icon.suus-bell-54:before {
+  content: "\eac8";
+}
+
+.icon.suus-bell-55:before {
+  content: "\eac9";
+}
+
+.icon.suus-belt:before {
+  content: "\eacb";
+}
+
+.icon.suus-berlin:before {
+  content: "\eaca";
+}
+
+.icon.suus-beverage:before {
+  content: "\eacc";
+}
+
+.icon.suus-big-eyes:before {
+  content: "\eacd";
+}
+
+.icon.suus-big-smile:before {
+  content: "\eace";
+}
+
+.icon.suus-bigmouth:before {
+  content: "\eacf";
+}
+
+.icon.suus-bike-2:before {
+  content: "\ead0";
+}
+
+.icon.suus-bike:before {
+  content: "\ead1";
+}
+
+.icon.suus-billiard:before {
+  content: "\ead2";
+}
+
+.icon.suus-binocular:before {
+  content: "\ead3";
+}
+
+.icon.suus-biscuit:before {
+  content: "\ead4";
+}
+
+.icon.suus-bitcoin:before {
+  content: "\ead5";
+}
+
+.icon.suus-bleah:before {
+  content: "\ead6";
+}
+
+.icon.suus-blend:before {
+  content: "\ead7";
+}
+
+.icon.suus-blind:before {
+  content: "\ead8";
+}
+
+.icon.suus-block-bottom-left:before {
+  content: "\ead9";
+}
+
+.icon.suus-block-bottom-right:before {
+  content: "\eada";
+}
+
+.icon.suus-block-down:before {
+  content: "\eadb";
+}
+
+.icon.suus-block-left:before {
+  content: "\eadc";
+}
+
+.icon.suus-block-right:before {
+  content: "\eadd";
+}
+
+.icon.suus-block-top-left:before {
+  content: "\eade";
+}
+
+.icon.suus-block-top-right:before {
+  content: "\eadf";
+}
+
+.icon.suus-block-up:before {
+  content: "\eae0";
+}
+
+.icon.suus-blog:before {
+  content: "\eae1";
+}
+
+.icon.suus-bluetooth:before {
+  content: "\eae2";
+}
+
+.icon.suus-board-2:before {
+  content: "\eae3";
+}
+
+.icon.suus-board-27:before {
+  content: "\eae4";
+}
+
+.icon.suus-board-28:before {
+  content: "\eae5";
+}
+
+.icon.suus-board-29:before {
+  content: "\eae6";
+}
+
+.icon.suus-board-30:before {
+  content: "\eae7";
+}
+
+.icon.suus-board-51:before {
+  content: "\eae8";
+}
+
+.icon.suus-board:before {
+  content: "\eae9";
+}
+
+.icon.suus-boat-front:before {
+  content: "\eaea";
+}
+
+.icon.suus-boat-small-02:before {
+  content: "\eaeb";
+}
+
+.icon.suus-boat-small-03:before {
+  content: "\eaec";
+}
+
+.icon.suus-boat:before {
+  content: "\eaed";
+}
+
+.icon.suus-bold-add:before {
+  content: "\eaee";
+}
+
+.icon.suus-bold-delete:before {
+  content: "\eaef";
+}
+
+.icon.suus-bold-direction:before {
+  content: "\eaf0";
+}
+
+.icon.suus-bold-down:before {
+  content: "\eaf1";
+}
+
+.icon.suus-bold-left:before {
+  content: "\eaf2";
+}
+
+.icon.suus-bold-remove:before {
+  content: "\eaf3";
+}
+
+.icon.suus-bold-right:before {
+  content: "\eaf5";
+}
+
+.icon.suus-bold-up:before {
+  content: "\eaf4";
+}
+
+.icon.suus-bold:before {
+  content: "\eaf6";
+}
+
+.icon.suus-bolt:before {
+  content: "\eaf7";
+}
+
+.icon.suus-bomb:before {
+  content: "\eaf8";
+}
+
+.icon.suus-bones:before {
+  content: "\eaf9";
+}
+
+.icon.suus-book-07:before {
+  content: "\eafa";
+}
+
+.icon.suus-book-08:before {
+  content: "\eafb";
+}
+
+.icon.suus-book-39:before {
+  content: "\eafc";
+}
+
+.icon.suus-book-bookmark-2:before {
+  content: "\eafd";
+}
+
+.icon.suus-book-bookmark:before {
+  content: "\eafe";
+}
+
+.icon.suus-book-open-2:before {
+  content: "\eaff";
+}
+
+.icon.suus-book-open:before {
+  content: "\eb00";
+}
+
+.icon.suus-book:before {
+  content: "\eb01";
+}
+
+.icon.suus-bookmark-2:before {
+  content: "\eb02";
+}
+
+.icon.suus-bookmark-add-2:before {
+  content: "\eb03";
+}
+
+.icon.suus-bookmark-add:before {
+  content: "\eb04";
+}
+
+.icon.suus-bookmark-remove-2:before {
+  content: "\eb05";
+}
+
+.icon.suus-bookmark-remove:before {
+  content: "\eb06";
+}
+
+.icon.suus-bookmark:before {
+  content: "\eb07";
+}
+
+.icon.suus-books-46:before {
+  content: "\eb08";
+}
+
+.icon.suus-books:before {
+  content: "\eb09";
+}
+
+.icon.suus-boot-2:before {
+  content: "\eb0a";
+}
+
+.icon.suus-boot-woman:before {
+  content: "\eb0b";
+}
+
+.icon.suus-boot:before {
+  content: "\eb0c";
+}
+
+.icon.suus-bored:before {
+  content: "\eb0d";
+}
+
+.icon.suus-bottle-wine:before {
+  content: "\eb0e";
+}
+
+.icon.suus-bottle:before {
+  content: "\eb0f";
+}
+
+.icon.suus-bow:before {
+  content: "\eb10";
+}
+
+.icon.suus-bowl:before {
+  content: "\eb11";
+}
+
+.icon.suus-bowling:before {
+  content: "\eb12";
+}
+
+.icon.suus-box-2:before {
+  content: "\eb13";
+}
+
+.icon.suus-box-3d-50:before {
+  content: "\eb14";
+}
+
+.icon.suus-box-ribbon:before {
+  content: "\eb15";
+}
+
+.icon.suus-box:before {
+  content: "\eb17";
+}
+
+.icon.suus-boxing:before {
+  content: "\eb16";
+}
+
+.icon.suus-bra:before {
+  content: "\eb18";
+}
+
+.icon.suus-brain:before {
+  content: "\eb1a";
+}
+
+.icon.suus-brakes:before {
+  content: "\eb19";
+}
+
+.icon.suus-bread:before {
+  content: "\eb1b";
+}
+
+.icon.suus-briefcase-24:before {
+  content: "\eb1c";
+}
+
+.icon.suus-briefcase-25:before {
+  content: "\eb1d";
+}
+
+.icon.suus-briefcase-26:before {
+  content: "\eb1e";
+}
+
+.icon.suus-brightness-46:before {
+  content: "\eb1f";
+}
+
+.icon.suus-brightness-47:before {
+  content: "\eb21";
+}
+
+.icon.suus-broccoli:before {
+  content: "\eb20";
+}
+
+.icon.suus-broom:before {
+  content: "\eb22";
+}
+
+.icon.suus-browser-chrome:before {
+  content: "\eb23";
+}
+
+.icon.suus-browser-edge:before {
+  content: "\eb24";
+}
+
+.icon.suus-browser-firefox:before {
+  content: "\eb25";
+}
+
+.icon.suus-browser-ie:before {
+  content: "\eb26";
+}
+
+.icon.suus-browser-opera:before {
+  content: "\eb27";
+}
+
+.icon.suus-browser-safari:before {
+  content: "\eb28";
+}
+
+.icon.suus-brush:before {
+  content: "\eb29";
+}
+
+.icon.suus-bucket:before {
+  content: "\eb2a";
+}
+
+.icon.suus-bug:before {
+  content: "\eb2b";
+}
+
+.icon.suus-building:before {
+  content: "\eb2c";
+}
+
+.icon.suus-bulb-61:before {
+  content: "\eb2d";
+}
+
+.icon.suus-bulb-62:before {
+  content: "\eb2e";
+}
+
+.icon.suus-bulb-63:before {
+  content: "\eb2f";
+}
+
+.icon.suus-bulb-saver:before {
+  content: "\eb30";
+}
+
+.icon.suus-bulb:before {
+  content: "\eb31";
+}
+
+.icon.suus-bullet-list-67:before {
+  content: "\eb32";
+}
+
+.icon.suus-bullet-list-68:before {
+  content: "\eb33";
+}
+
+.icon.suus-bullet-list-69:before {
+  content: "\eb34";
+}
+
+.icon.suus-bullet-list-70:before {
+  content: "\eb35";
+}
+
+.icon.suus-bullet-list:before {
+  content: "\eb36";
+}
+
+.icon.suus-bus-front-10:before {
+  content: "\eb37";
+}
+
+.icon.suus-bus-front-12:before {
+  content: "\eb38";
+}
+
+.icon.suus-bus:before {
+  content: "\eb39";
+}
+
+.icon.suus-business-contact-85:before {
+  content: "\eb3a";
+}
+
+.icon.suus-business-contact-89:before {
+  content: "\eb3b";
+}
+
+.icon.suus-businessman-03:before {
+  content: "\eb3c";
+}
+
+.icon.suus-businessman-04:before {
+  content: "\eb3d";
+}
+
+.icon.suus-butterfly:before {
+  content: "\eb3e";
+}
+
+.icon.suus-button-2:before {
+  content: "\eb3f";
+}
+
+.icon.suus-button-circle-pause:before {
+  content: "\eb40";
+}
+
+.icon.suus-button-circle-play:before {
+  content: "\eb41";
+}
+
+.icon.suus-button-circle-stop:before {
+  content: "\eb42";
+}
+
+.icon.suus-button-eject:before {
+  content: "\eb43";
+}
+
+.icon.suus-button-next:before {
+  content: "\eb44";
+}
+
+.icon.suus-button-pause:before {
+  content: "\eb45";
+}
+
+.icon.suus-button-play:before {
+  content: "\eb46";
+}
+
+.icon.suus-button-power:before {
+  content: "\eb47";
+}
+
+.icon.suus-button-previous:before {
+  content: "\eb48";
+}
+
+.icon.suus-button-record:before {
+  content: "\eb49";
+}
+
+.icon.suus-button-rewind:before {
+  content: "\eb4a";
+}
+
+.icon.suus-button-skip:before {
+  content: "\eb4b";
+}
+
+.icon.suus-button-stop:before {
+  content: "\eb4c";
+}
+
+.icon.suus-button:before {
+  content: "\eb4d";
+}
+
+.icon.suus-cabinet:before {
+  content: "\eb4e";
+}
+
+.icon.suus-cable-49:before {
+  content: "\eb4f";
+}
+
+.icon.suus-cable-50:before {
+  content: "\eb50";
+}
+
+.icon.suus-cactus:before {
+  content: "\eb51";
+}
+
+.icon.suus-cake-100:before {
+  content: "\eb52";
+}
+
+.icon.suus-cake-13:before {
+  content: "\eb53";
+}
+
+.icon.suus-cake-slice:before {
+  content: "\eb54";
+}
+
+.icon.suus-cake:before {
+  content: "\eb55";
+}
+
+.icon.suus-calculator:before {
+  content: "\eb56";
+}
+
+.icon.suus-calendar-57:before {
+  content: "\eb57";
+}
+
+.icon.suus-calendar-60:before {
+  content: "\eb58";
+}
+
+.icon.suus-calendar-add:before {
+  content: "\eb5a";
+}
+
+.icon.suus-calendar-check-59:before {
+  content: "\eb59";
+}
+
+.icon.suus-calendar-check-62:before {
+  content: "\eb5b";
+}
+
+.icon.suus-calendar-grid-58:before {
+  content: "\eb5c";
+}
+
+.icon.suus-calendar-grid-61:before {
+  content: "\eb5d";
+}
+
+.icon.suus-camera-18:before {
+  content: "\eb5e";
+}
+
+.icon.suus-camera-19:before {
+  content: "\eb5f";
+}
+
+.icon.suus-camera-20:before {
+  content: "\eb60";
+}
+
+.icon.suus-camera-ban-36:before {
+  content: "\eb61";
+}
+
+.icon.suus-camera-ban-37:before {
+  content: "\eb62";
+}
+
+.icon.suus-camera-compact:before {
+  content: "\eb63";
+}
+
+.icon.suus-camera-screen:before {
+  content: "\eb64";
+}
+
+.icon.suus-camera-square-57:before {
+  content: "\eb65";
+}
+
+.icon.suus-camera-square-58:before {
+  content: "\eb66";
+}
+
+.icon.suus-camera-time:before {
+  content: "\eb67";
+}
+
+.icon.suus-camera:before {
+  content: "\eb68";
+}
+
+.icon.suus-camper:before {
+  content: "\eb69";
+}
+
+.icon.suus-camping:before {
+  content: "\eb6a";
+}
+
+.icon.suus-candle:before {
+  content: "\eb6b";
+}
+
+.icon.suus-candy-2:before {
+  content: "\eb6c";
+}
+
+.icon.suus-candy:before {
+  content: "\eb6d";
+}
+
+.icon.suus-canvas:before {
+  content: "\eb6e";
+}
+
+.icon.suus-cap:before {
+  content: "\eb6f";
+}
+
+.icon.suus-capitalize:before {
+  content: "\eb70";
+}
+
+.icon.suus-caps-all:before {
+  content: "\eb71";
+}
+
+.icon.suus-caps-small:before {
+  content: "\eb72";
+}
+
+.icon.suus-car-2:before {
+  content: "\eb73";
+}
+
+.icon.suus-car-accident:before {
+  content: "\eb74";
+}
+
+.icon.suus-car-connect:before {
+  content: "\eb75";
+}
+
+.icon.suus-car-door:before {
+  content: "\eb77";
+}
+
+.icon.suus-car-front:before {
+  content: "\eb76";
+}
+
+.icon.suus-car-lights:before {
+  content: "\eb78";
+}
+
+.icon.suus-car-parking:before {
+  content: "\eb79";
+}
+
+.icon.suus-car-simple:before {
+  content: "\eb7a";
+}
+
+.icon.suus-car-sport:before {
+  content: "\eb7b";
+}
+
+.icon.suus-car-taxi:before {
+  content: "\eb7c";
+}
+
+.icon.suus-car-ventilation:before {
+  content: "\eb7e";
+}
+
+.icon.suus-car-wash:before {
+  content: "\eb7d";
+}
+
+.icon.suus-car:before {
+  content: "\eb7f";
+}
+
+.icon.suus-card-add-2:before {
+  content: "\eb80";
+}
+
+.icon.suus-card-add:before {
+  content: "\eb81";
+}
+
+.icon.suus-card-alert:before {
+  content: "\eb82";
+}
+
+.icon.suus-card-edit:before {
+  content: "\eb83";
+}
+
+.icon.suus-card-favorite:before {
+  content: "\eb85";
+}
+
+.icon.suus-card-remove:before {
+  content: "\eb84";
+}
+
+.icon.suus-card-update:before {
+  content: "\eb86";
+}
+
+.icon.suus-cardio:before {
+  content: "\eb87";
+}
+
+.icon.suus-carrot:before {
+  content: "\eb88";
+}
+
+.icon.suus-cart-9:before {
+  content: "\eb89";
+}
+
+.icon.suus-cart-add-9:before {
+  content: "\eb8a";
+}
+
+.icon.suus-cart-add:before {
+  content: "\eb8b";
+}
+
+.icon.suus-cart-favorite:before {
+  content: "\eb8c";
+}
+
+.icon.suus-cart-full:before {
+  content: "\eb8d";
+}
+
+.icon.suus-cart-in-9:before {
+  content: "\eb8e";
+}
+
+.icon.suus-cart-refresh:before {
+  content: "\eb90";
+}
+
+.icon.suus-cart-remove-9:before {
+  content: "\eb8f";
+}
+
+.icon.suus-cart-remove:before {
+  content: "\eb91";
+}
+
+.icon.suus-cart-return:before {
+  content: "\eb92";
+}
+
+.icon.suus-cart-simple-add:before {
+  content: "\eb93";
+}
+
+.icon.suus-cart-simple-in:before {
+  content: "\eb94";
+}
+
+.icon.suus-cart-simple-remove:before {
+  content: "\eb95";
+}
+
+.icon.suus-cart-simple:before {
+  content: "\eb96";
+}
+
+.icon.suus-cart-speed:before {
+  content: "\eb97";
+}
+
+.icon.suus-cart:before {
+  content: "\eb98";
+}
+
+.icon.suus-cash-register:before {
+  content: "\eb99";
+}
+
+.icon.suus-castle:before {
+  content: "\eb9a";
+}
+
+.icon.suus-cat:before {
+  content: "\eb9b";
+}
+
+.icon.suus-cauldron:before {
+  content: "\eb9c";
+}
+
+.icon.suus-cctv:before {
+  content: "\eb9d";
+}
+
+.icon.suus-cd-reader:before {
+  content: "\eb9e";
+}
+
+.icon.suus-celsius:before {
+  content: "\eb9f";
+}
+
+.icon.suus-centralize:before {
+  content: "\eba0";
+}
+
+.icon.suus-chair-2:before {
+  content: "\eba1";
+}
+
+.icon.suus-chair:before {
+  content: "\eba2";
+}
+
+.icon.suus-chalkboard:before {
+  content: "\eba3";
+}
+
+.icon.suus-champagne:before {
+  content: "\eba4";
+}
+
+.icon.suus-chart-2:before {
+  content: "\eba5";
+}
+
+.icon.suus-chart-3:before {
+  content: "\eba6";
+}
+
+.icon.suus-chart-bar-32:before {
+  content: "\eba7";
+}
+
+.icon.suus-chart-bar-33:before {
+  content: "\eba8";
+}
+
+.icon.suus-chart-bar-52:before {
+  content: "\eba9";
+}
+
+.icon.suus-chart-bar-53:before {
+  content: "\ebaa";
+}
+
+.icon.suus-chart-bar:before {
+  content: "\ebab";
+}
+
+.icon.suus-chart-bars:before {
+  content: "\ebac";
+}
+
+.icon.suus-chart-growth:before {
+  content: "\ebad";
+}
+
+.icon.suus-chart-pie-35:before {
+  content: "\ebaf";
+}
+
+.icon.suus-chart-pie-36:before {
+  content: "\ebae";
+}
+
+.icon.suus-chart-pie:before {
+  content: "\ebb0";
+}
+
+.icon.suus-chart:before {
+  content: "\ebb1";
+}
+
+.icon.suus-chat-33:before {
+  content: "\ebb2";
+}
+
+.icon.suus-chat-45:before {
+  content: "\ebb3";
+}
+
+.icon.suus-chat-46:before {
+  content: "\ebb4";
+}
+
+.icon.suus-chat-content:before {
+  content: "\ebb6";
+}
+
+.icon.suus-chat-reply:before {
+  content: "\ebb5";
+}
+
+.icon.suus-chat-round-content:before {
+  content: "\ebb7";
+}
+
+.icon.suus-chat-round:before {
+  content: "\ebb8";
+}
+
+.icon.suus-chat:before {
+  content: "\ebb9";
+}
+
+.icon.suus-check-2:before {
+  content: "\ebba";
+}
+
+.icon.suus-check-bold:before {
+  content: "\ebbb";
+}
+
+.icon.suus-check-circle-07:before {
+  content: "\ebbc";
+}
+
+.icon.suus-check-circle-08:before {
+  content: "\ebbd";
+}
+
+.icon.suus-check-curve:before {
+  content: "\ebbe";
+}
+
+.icon.suus-check-in:before {
+  content: "\ebbf";
+}
+
+.icon.suus-check-out:before {
+  content: "\ebc0";
+}
+
+.icon.suus-check-simple:before {
+  content: "\ebc1";
+}
+
+.icon.suus-check-small:before {
+  content: "\ebc2";
+}
+
+.icon.suus-check-square-09:before {
+  content: "\ebc3";
+}
+
+.icon.suus-check-square-11:before {
+  content: "\ebc4";
+}
+
+.icon.suus-check:before {
+  content: "\ebc5";
+}
+
+.icon.suus-cheese-24:before {
+  content: "\ebc6";
+}
+
+.icon.suus-cheese-87:before {
+  content: "\ebc7";
+}
+
+.icon.suus-cheeseburger:before {
+  content: "\ebc8";
+}
+
+.icon.suus-chef-hat:before {
+  content: "\ebc9";
+}
+
+.icon.suus-cheque-2:before {
+  content: "\ebca";
+}
+
+.icon.suus-cheque-3:before {
+  content: "\ebcb";
+}
+
+.icon.suus-cheque:before {
+  content: "\ebcc";
+}
+
+.icon.suus-cherry:before {
+  content: "\ebcd";
+}
+
+.icon.suus-chicken-2:before {
+  content: "\ebce";
+}
+
+.icon.suus-chicken:before {
+  content: "\ebcf";
+}
+
+.icon.suus-child:before {
+  content: "\ebd0";
+}
+
+.icon.suus-chili:before {
+  content: "\ebd1";
+}
+
+.icon.suus-chimney:before {
+  content: "\ebd2";
+}
+
+.icon.suus-china:before {
+  content: "\ebd3";
+}
+
+.icon.suus-chinese:before {
+  content: "\ebd4";
+}
+
+.icon.suus-chips:before {
+  content: "\ebd5";
+}
+
+.icon.suus-chocolate:before {
+  content: "\ebd6";
+}
+
+.icon.suus-church:before {
+  content: "\ebd7";
+}
+
+.icon.suus-circle-08:before {
+  content: "\ebd8";
+}
+
+.icon.suus-circle-09:before {
+  content: "\ebd9";
+}
+
+.icon.suus-circle-10:before {
+  content: "\ebda";
+}
+
+.icon.suus-circle-add:before {
+  content: "\ebdb";
+}
+
+.icon.suus-circle-bold-add:before {
+  content: "\ebdc";
+}
+
+.icon.suus-circle-bold-delete:before {
+  content: "\ebdd";
+}
+
+.icon.suus-circle-bold-remove:before {
+  content: "\ebdf";
+}
+
+.icon.suus-circle-delete:before {
+  content: "\ebde";
+}
+
+.icon.suus-circle-down-12:before {
+  content: "\ebe0";
+}
+
+.icon.suus-circle-down-40:before {
+  content: "\ebe1";
+}
+
+.icon.suus-circle-in:before {
+  content: "\ebe2";
+}
+
+.icon.suus-circle-left-10:before {
+  content: "\ebe3";
+}
+
+.icon.suus-circle-left-38:before {
+  content: "\ebe4";
+}
+
+.icon.suus-circle-out:before {
+  content: "\ebe5";
+}
+
+.icon.suus-circle-remove:before {
+  content: "\ebe6";
+}
+
+.icon.suus-circle-right-09:before {
+  content: "\ebe7";
+}
+
+.icon.suus-circle-right-37:before {
+  content: "\ebe8";
+}
+
+.icon.suus-circle-simple-down:before {
+  content: "\ebe9";
+}
+
+.icon.suus-circle-simple-left:before {
+  content: "\ebea";
+}
+
+.icon.suus-circle-simple-right:before {
+  content: "\ebeb";
+}
+
+.icon.suus-circle-simple-up:before {
+  content: "\ebec";
+}
+
+.icon.suus-circle-up-11:before {
+  content: "\ebed";
+}
+
+.icon.suus-circle-up-39:before {
+  content: "\ebee";
+}
+
+.icon.suus-circle:before {
+  content: "\ebef";
+}
+
+.icon.suus-circuit-round:before {
+  content: "\ebf0";
+}
+
+.icon.suus-circuit:before {
+  content: "\ebf1";
+}
+
+.icon.suus-clone:before {
+  content: "\ebf2";
+}
+
+.icon.suus-cloud-25:before {
+  content: "\ebf3";
+}
+
+.icon.suus-cloud-26:before {
+  content: "\ebf4";
+}
+
+.icon.suus-cloud-download-93:before {
+  content: "\ebf5";
+}
+
+.icon.suus-cloud-download-95:before {
+  content: "\ebf6";
+}
+
+.icon.suus-cloud-drop:before {
+  content: "\ebf7";
+}
+
+.icon.suus-cloud-fog-31:before {
+  content: "\ebf8";
+}
+
+.icon.suus-cloud-fog-32:before {
+  content: "\ebf9";
+}
+
+.icon.suus-cloud-hail:before {
+  content: "\ebfa";
+}
+
+.icon.suus-cloud-light:before {
+  content: "\ebfb";
+}
+
+.icon.suus-cloud-moon:before {
+  content: "\ebfc";
+}
+
+.icon.suus-cloud-rain:before {
+  content: "\ebfd";
+}
+
+.icon.suus-cloud-rainbow:before {
+  content: "\ebfe";
+}
+
+.icon.suus-cloud-snow-34:before {
+  content: "\ebff";
+}
+
+.icon.suus-cloud-snow-42:before {
+  content: "\ec00";
+}
+
+.icon.suus-cloud-sun-17:before {
+  content: "\ec01";
+}
+
+.icon.suus-cloud-sun-19:before {
+  content: "\ec03";
+}
+
+.icon.suus-cloud-upload-94:before {
+  content: "\ec02";
+}
+
+.icon.suus-cloud-upload-96:before {
+  content: "\ec04";
+}
+
+.icon.suus-cloud:before {
+  content: "\ec05";
+}
+
+.icon.suus-clover:before {
+  content: "\ec06";
+}
+
+.icon.suus-coat-hanger:before {
+  content: "\ec07";
+}
+
+.icon.suus-coat:before {
+  content: "\ec08";
+}
+
+.icon.suus-cockade:before {
+  content: "\ec09";
+}
+
+.icon.suus-cocktail:before {
+  content: "\ec0a";
+}
+
+.icon.suus-code-editor:before {
+  content: "\ec0b";
+}
+
+.icon.suus-code:before {
+  content: "\ec0c";
+}
+
+.icon.suus-coffe-long:before {
+  content: "\ec0d";
+}
+
+.icon.suus-coffee-2:before {
+  content: "\ec0e";
+}
+
+.icon.suus-coffee-long:before {
+  content: "\ec0f";
+}
+
+.icon.suus-coffee:before {
+  content: "\ec10";
+}
+
+.icon.suus-coffin:before {
+  content: "\ec11";
+}
+
+.icon.suus-coins:before {
+  content: "\ec12";
+}
+
+.icon.suus-collar:before {
+  content: "\ec13";
+}
+
+.icon.suus-collection:before {
+  content: "\ec14";
+}
+
+.icon.suus-color:before {
+  content: "\ec15";
+}
+
+.icon.suus-command:before {
+  content: "\ec16";
+}
+
+.icon.suus-comment-add:before {
+  content: "\ec17";
+}
+
+.icon.suus-compare:before {
+  content: "\ec18";
+}
+
+.icon.suus-compass-04:before {
+  content: "\ec19";
+}
+
+.icon.suus-compass-05:before {
+  content: "\ec1a";
+}
+
+.icon.suus-compass-06:before {
+  content: "\ec1b";
+}
+
+.icon.suus-compass-2:before {
+  content: "\ec1c";
+}
+
+.icon.suus-compass-3:before {
+  content: "\ec1e";
+}
+
+.icon.suus-compass:before {
+  content: "\ec1d";
+}
+
+.icon.suus-computer-monitor:before {
+  content: "\ec1f";
+}
+
+.icon.suus-computer-old:before {
+  content: "\ec20";
+}
+
+.icon.suus-computer-upload:before {
+  content: "\ec21";
+}
+
+.icon.suus-computer:before {
+  content: "\ec22";
+}
+
+.icon.suus-cone:before {
+  content: "\ec23";
+}
+
+.icon.suus-connect:before {
+  content: "\ec24";
+}
+
+.icon.suus-connection:before {
+  content: "\ec25";
+}
+
+.icon.suus-contact-86:before {
+  content: "\ec26";
+}
+
+.icon.suus-contact-87:before {
+  content: "\ec27";
+}
+
+.icon.suus-contact-88:before {
+  content: "\ec28";
+}
+
+.icon.suus-contacts-2:before {
+  content: "\ec29";
+}
+
+.icon.suus-contacts-44:before {
+  content: "\ec2a";
+}
+
+.icon.suus-contacts-45:before {
+  content: "\ec2b";
+}
+
+.icon.suus-contacts:before {
+  content: "\ec2c";
+}
+
+.icon.suus-contrast-2:before {
+  content: "\ec2d";
+}
+
+.icon.suus-contrast:before {
+  content: "\ec2e";
+}
+
+.icon.suus-controller-2:before {
+  content: "\ec2f";
+}
+
+.icon.suus-controller-modern:before {
+  content: "\ec30";
+}
+
+.icon.suus-controller:before {
+  content: "\ec31";
+}
+
+.icon.suus-conversion:before {
+  content: "\ec32";
+}
+
+.icon.suus-cookies:before {
+  content: "\ec33";
+}
+
+.icon.suus-copy-2:before {
+  content: "\ec34";
+}
+
+.icon.suus-copy:before {
+  content: "\ec35";
+}
+
+.icon.suus-corner-down-round:before {
+  content: "\ec37";
+}
+
+.icon.suus-corner-down:before {
+  content: "\ec36";
+}
+
+.icon.suus-corner-left-down:before {
+  content: "\ec38";
+}
+
+.icon.suus-corner-left-round:before {
+  content: "\ec3a";
+}
+
+.icon.suus-corner-left:before {
+  content: "\ec39";
+}
+
+.icon.suus-corner-right-down:before {
+  content: "\ec3b";
+}
+
+.icon.suus-corner-right-round:before {
+  content: "\ec3c";
+}
+
+.icon.suus-corner-right:before {
+  content: "\ec3d";
+}
+
+.icon.suus-corner-up-left:before {
+  content: "\ec3e";
+}
+
+.icon.suus-corner-up-right:before {
+  content: "\ec3f";
+}
+
+.icon.suus-corner-up-round:before {
+  content: "\ec40";
+}
+
+.icon.suus-corner-up:before {
+  content: "\ec41";
+}
+
+.icon.suus-corset:before {
+  content: "\ec42";
+}
+
+.icon.suus-countdown-34:before {
+  content: "\ec43";
+}
+
+.icon.suus-countdown-35:before {
+  content: "\ec44";
+}
+
+.icon.suus-couple-gay:before {
+  content: "\ec45";
+}
+
+.icon.suus-couple-lesbian:before {
+  content: "\ec46";
+}
+
+.icon.suus-coupon:before {
+  content: "\ec47";
+}
+
+.icon.suus-course:before {
+  content: "\ec48";
+}
+
+.icon.suus-cow:before {
+  content: "\ec49";
+}
+
+.icon.suus-crab:before {
+  content: "\ec4a";
+}
+
+.icon.suus-cradle:before {
+  content: "\ec4c";
+}
+
+.icon.suus-credit-card-in:before {
+  content: "\ec4b";
+}
+
+.icon.suus-credit-card:before {
+  content: "\ec4d";
+}
+
+.icon.suus-credit-locked:before {
+  content: "\ec4e";
+}
+
+.icon.suus-cricket:before {
+  content: "\ec4f";
+}
+
+.icon.suus-croissant:before {
+  content: "\ec50";
+}
+
+.icon.suus-crop:before {
+  content: "\ec51";
+}
+
+.icon.suus-cross-down:before {
+  content: "\ec52";
+}
+
+.icon.suus-cross-horizontal:before {
+  content: "\ec53";
+}
+
+.icon.suus-cross-left:before {
+  content: "\ec54";
+}
+
+.icon.suus-cross-right:before {
+  content: "\ec55";
+}
+
+.icon.suus-cross-up:before {
+  content: "\ec56";
+}
+
+.icon.suus-cross-vertical:before {
+  content: "\ec57";
+}
+
+.icon.suus-cross:before {
+  content: "\ec58";
+}
+
+.icon.suus-crosshair:before {
+  content: "\ec59";
+}
+
+.icon.suus-crown:before {
+  content: "\ec5a";
+}
+
+.icon.suus-cry-15:before {
+  content: "\ec5b";
+}
+
+.icon.suus-cry-57:before {
+  content: "\ec5c";
+}
+
+.icon.suus-css3:before {
+  content: "\ec5d";
+}
+
+.icon.suus-currency-dollar:before {
+  content: "\ec5e";
+}
+
+.icon.suus-currency-euro:before {
+  content: "\ec5f";
+}
+
+.icon.suus-currency-exchange:before {
+  content: "\ec60";
+}
+
+.icon.suus-currency-pound:before {
+  content: "\ec61";
+}
+
+.icon.suus-currency-yen:before {
+  content: "\ec62";
+}
+
+.icon.suus-cursor-48:before {
+  content: "\ec63";
+}
+
+.icon.suus-cursor-49:before {
+  content: "\ec64";
+}
+
+.icon.suus-cursor-add:before {
+  content: "\ec65";
+}
+
+.icon.suus-cursor-grab:before {
+  content: "\ec66";
+}
+
+.icon.suus-cursor-load:before {
+  content: "\ec68";
+}
+
+.icon.suus-cursor-menu:before {
+  content: "\ec67";
+}
+
+.icon.suus-cursor-not-allowed:before {
+  content: "\ec69";
+}
+
+.icon.suus-cursor-pointer:before {
+  content: "\ec6a";
+}
+
+.icon.suus-cursor-text:before {
+  content: "\ec6b";
+}
+
+.icon.suus-curtain:before {
+  content: "\ec6c";
+}
+
+.icon.suus-curve-circuit:before {
+  content: "\ec6d";
+}
+
+.icon.suus-curve-directions:before {
+  content: "\ec6e";
+}
+
+.icon.suus-curve-split:before {
+  content: "\ec6f";
+}
+
+.icon.suus-curved-next:before {
+  content: "\ec70";
+}
+
+.icon.suus-curved-previous:before {
+  content: "\ec71";
+}
+
+.icon.suus-customer-support:before {
+  content: "\ec72";
+}
+
+.icon.suus-cut:before {
+  content: "\ec73";
+}
+
+.icon.suus-cute:before {
+  content: "\ec74";
+}
+
+.icon.suus-cutlery-75:before {
+  content: "\ec75";
+}
+
+.icon.suus-cutlery-76:before {
+  content: "\ec76";
+}
+
+.icon.suus-cutlery-77:before {
+  content: "\ec77";
+}
+
+.icon.suus-cyclist:before {
+  content: "\ec78";
+}
+
+.icon.suus-dart:before {
+  content: "\ec79";
+}
+
+.icon.suus-dashboard-29:before {
+  content: "\ec7a";
+}
+
+.icon.suus-dashboard-30:before {
+  content: "\ec7c";
+}
+
+.icon.suus-dashboard-half:before {
+  content: "\ec7b";
+}
+
+.icon.suus-dashboard-level:before {
+  content: "\ec7d";
+}
+
+.icon.suus-database:before {
+  content: "\ec7e";
+}
+
+.icon.suus-dead-hand:before {
+  content: "\ec7f";
+}
+
+.icon.suus-decoration:before {
+  content: "\ec80";
+}
+
+.icon.suus-deer:before {
+  content: "\ec81";
+}
+
+.icon.suus-delete-28:before {
+  content: "\ec83";
+}
+
+.icon.suus-delete-30:before {
+  content: "\ec82";
+}
+
+.icon.suus-delete-49:before {
+  content: "\ec84";
+}
+
+.icon.suus-delete-50:before {
+  content: "\ec85";
+}
+
+.icon.suus-delivery-2:before {
+  content: "\ec86";
+}
+
+.icon.suus-delivery-3:before {
+  content: "\ec88";
+}
+
+.icon.suus-delivery-fast:before {
+  content: "\ec87";
+}
+
+.icon.suus-delivery-time:before {
+  content: "\ec89";
+}
+
+.icon.suus-delivery-track:before {
+  content: "\ec8a";
+}
+
+.icon.suus-delivery:before {
+  content: "\ec8b";
+}
+
+.icon.suus-design:before {
+  content: "\ec8c";
+}
+
+.icon.suus-desk-drawer:before {
+  content: "\ec8e";
+}
+
+.icon.suus-desk:before {
+  content: "\ec8f";
+}
+
+.icon.suus-desktop-screen:before {
+  content: "\ec8d";
+}
+
+.icon.suus-desktop:before {
+  content: "\ec90";
+}
+
+.icon.suus-dev:before {
+  content: "\ec92";
+}
+
+.icon.suus-device-connection:before {
+  content: "\ec91";
+}
+
+.icon.suus-devil:before {
+  content: "\ec93";
+}
+
+.icon.suus-diag-bottom-left:before {
+  content: "\ec94";
+}
+
+.icon.suus-diag-bottom-right:before {
+  content: "\ec95";
+}
+
+.icon.suus-diag-top-left:before {
+  content: "\ec96";
+}
+
+.icon.suus-diag-top-right:before {
+  content: "\ec97";
+}
+
+.icon.suus-diamond:before {
+  content: "\ec98";
+}
+
+.icon.suus-dice:before {
+  content: "\ec99";
+}
+
+.icon.suus-direction-53:before {
+  content: "\ec9a";
+}
+
+.icon.suus-direction-56:before {
+  content: "\ec9c";
+}
+
+.icon.suus-direction:before {
+  content: "\ec9b";
+}
+
+.icon.suus-directions:before {
+  content: "\ec9d";
+}
+
+.icon.suus-disabled:before {
+  content: "\ec9e";
+}
+
+.icon.suus-discount-2:before {
+  content: "\ec9f";
+}
+
+.icon.suus-discount:before {
+  content: "\eca0";
+}
+
+.icon.suus-disgusted:before {
+  content: "\eca1";
+}
+
+.icon.suus-dishwasher:before {
+  content: "\eca2";
+}
+
+.icon.suus-disk-2:before {
+  content: "\eca4";
+}
+
+.icon.suus-disk-reader:before {
+  content: "\eca3";
+}
+
+.icon.suus-disk:before {
+  content: "\eca5";
+}
+
+.icon.suus-disperse:before {
+  content: "\eca7";
+}
+
+.icon.suus-distribute-horizontal:before {
+  content: "\eca6";
+}
+
+.icon.suus-distribute-vertical:before {
+  content: "\eca8";
+}
+
+.icon.suus-divider:before {
+  content: "\eca9";
+}
+
+.icon.suus-dna-27:before {
+  content: "\ecaa";
+}
+
+.icon.suus-dna-38:before {
+  content: "\ecab";
+}
+
+.icon.suus-dock-bottom:before {
+  content: "\ecac";
+}
+
+.icon.suus-dock-left:before {
+  content: "\ecae";
+}
+
+.icon.suus-dock-right:before {
+  content: "\ecad";
+}
+
+.icon.suus-dock-top:before {
+  content: "\ecaf";
+}
+
+.icon.suus-dock:before {
+  content: "\ecb0";
+}
+
+.icon.suus-doctor:before {
+  content: "\ecb1";
+}
+
+.icon.suus-dog-house:before {
+  content: "\ecb2";
+}
+
+.icon.suus-dog:before {
+  content: "\ecb4";
+}
+
+.icon.suus-donut:before {
+  content: "\ecb3";
+}
+
+.icon.suus-door:before {
+  content: "\ecb5";
+}
+
+.icon.suus-dots-download:before {
+  content: "\ecb6";
+}
+
+.icon.suus-dots-upload:before {
+  content: "\ecb7";
+}
+
+.icon.suus-dots:before {
+  content: "\ecb8";
+}
+
+.icon.suus-double-left:before {
+  content: "\ecba";
+}
+
+.icon.suus-double-right:before {
+  content: "\ecb9";
+}
+
+.icon.suus-double-tap:before {
+  content: "\ecbb";
+}
+
+.icon.suus-download-2:before {
+  content: "\ecbc";
+}
+
+.icon.suus-download-3:before {
+  content: "\ecbd";
+}
+
+.icon.suus-download:before {
+  content: "\ecbe";
+}
+
+.icon.suus-drag-21:before {
+  content: "\ecbf";
+}
+
+.icon.suus-drag-31:before {
+  content: "\ecc0";
+}
+
+.icon.suus-drag-down:before {
+  content: "\ecc1";
+}
+
+.icon.suus-drag-left:before {
+  content: "\ecc2";
+}
+
+.icon.suus-drag-right:before {
+  content: "\ecc4";
+}
+
+.icon.suus-drag-up:before {
+  content: "\ecc3";
+}
+
+.icon.suus-drag:before {
+  content: "\ecc5";
+}
+
+.icon.suus-drawer-2:before {
+  content: "\ecc6";
+}
+
+.icon.suus-drawer:before {
+  content: "\ecc7";
+}
+
+.icon.suus-dress-man:before {
+  content: "\ecc8";
+}
+
+.icon.suus-dress-woman:before {
+  content: "\ecc9";
+}
+
+.icon.suus-drink-2:before {
+  content: "\ecca";
+}
+
+.icon.suus-drink:before {
+  content: "\eccb";
+}
+
+.icon.suus-drop-15:before {
+  content: "\eccc";
+}
+
+.icon.suus-drop:before {
+  content: "\eccd";
+}
+
+.icon.suus-drops:before {
+  content: "\ecce";
+}
+
+.icon.suus-dumbbells:before {
+  content: "\eccf";
+}
+
+.icon.suus-eclipse:before {
+  content: "\ecd0";
+}
+
+.icon.suus-edit-2:before {
+  content: "\ecd1";
+}
+
+.icon.suus-edit-71:before {
+  content: "\ecd2";
+}
+
+.icon.suus-edit-72:before {
+  content: "\ecd3";
+}
+
+.icon.suus-edit-73:before {
+  content: "\ecd4";
+}
+
+.icon.suus-edit-74:before {
+  content: "\ecd5";
+}
+
+.icon.suus-edit-75:before {
+  content: "\ecd6";
+}
+
+.icon.suus-edit-76:before {
+  content: "\ecd7";
+}
+
+.icon.suus-edit-77:before {
+  content: "\ecd8";
+}
+
+.icon.suus-edit-78:before {
+  content: "\ecd9";
+}
+
+.icon.suus-edit-color:before {
+  content: "\ecda";
+}
+
+.icon.suus-edit-contrast-42:before {
+  content: "\ecdb";
+}
+
+.icon.suus-edit-contrast-43:before {
+  content: "\ecdc";
+}
+
+.icon.suus-edit-saturation:before {
+  content: "\ecdd";
+}
+
+.icon.suus-edit:before {
+  content: "\ecde";
+}
+
+.icon.suus-egg-38:before {
+  content: "\ecdf";
+}
+
+.icon.suus-egg-39:before {
+  content: "\ece0";
+}
+
+.icon.suus-egg:before {
+  content: "\ece1";
+}
+
+.icon.suus-eject:before {
+  content: "\ece2";
+}
+
+.icon.suus-email-83:before {
+  content: "\ece3";
+}
+
+.icon.suus-email-84:before {
+  content: "\ece4";
+}
+
+.icon.suus-email-85:before {
+  content: "\ece5";
+}
+
+.icon.suus-energy-drink-2:before {
+  content: "\ece6";
+}
+
+.icon.suus-energy-drink:before {
+  content: "\ece7";
+}
+
+.icon.suus-energy-supplement:before {
+  content: "\ece8";
+}
+
+.icon.suus-engine-start:before {
+  content: "\ece9";
+}
+
+.icon.suus-engine:before {
+  content: "\ecea";
+}
+
+.icon.suus-enlarge-45:before {
+  content: "\ecec";
+}
+
+.icon.suus-enlarge-46:before {
+  content: "\eceb";
+}
+
+.icon.suus-enlarge-57:before {
+  content: "\eced";
+}
+
+.icon.suus-enlarge-58:before {
+  content: "\ecee";
+}
+
+.icon.suus-enlarge-59:before {
+  content: "\ecef";
+}
+
+.icon.suus-enlarge-circle:before {
+  content: "\ecf0";
+}
+
+.icon.suus-enlarge-diagonal-43:before {
+  content: "\ecf1";
+}
+
+.icon.suus-enlarge-diagonal-44:before {
+  content: "\ecf2";
+}
+
+.icon.suus-enlarge-horizontal:before {
+  content: "\ecf3";
+}
+
+.icon.suus-enlarge-vertical:before {
+  content: "\ecf4";
+}
+
+.icon.suus-eraser-32:before {
+  content: "\ecf5";
+}
+
+.icon.suus-eraser-33:before {
+  content: "\ecf6";
+}
+
+.icon.suus-eraser-46:before {
+  content: "\ecf7";
+}
+
+.icon.suus-exchange:before {
+  content: "\ecf8";
+}
+
+.icon.suus-exclamation:before {
+  content: "\ecf9";
+}
+
+.icon.suus-explore-2:before {
+  content: "\ecfa";
+}
+
+.icon.suus-explore-user:before {
+  content: "\ecfb";
+}
+
+.icon.suus-explore:before {
+  content: "\ecfc";
+}
+
+.icon.suus-export:before {
+  content: "\ecfd";
+}
+
+.icon.suus-eye-17:before {
+  content: "\ecfe";
+}
+
+.icon.suus-eye-19:before {
+  content: "\ecff";
+}
+
+.icon.suus-eye-ban-18:before {
+  content: "\ed00";
+}
+
+.icon.suus-eye-ban-20:before {
+  content: "\ed01";
+}
+
+.icon.suus-factory:before {
+  content: "\ed02";
+}
+
+.icon.suus-fahrenheit:before {
+  content: "\ed03";
+}
+
+.icon.suus-family:before {
+  content: "\ed04";
+}
+
+.icon.suus-fat-add:before {
+  content: "\ed05";
+}
+
+.icon.suus-fat-delete:before {
+  content: "\ed06";
+}
+
+.icon.suus-fat-remove:before {
+  content: "\ed08";
+}
+
+.icon.suus-fav-remove:before {
+  content: "\ed07";
+}
+
+.icon.suus-favourite-28:before {
+  content: "\ed09";
+}
+
+.icon.suus-favourite-31:before {
+  content: "\ed0a";
+}
+
+.icon.suus-favourite-add-29:before {
+  content: "\ed0b";
+}
+
+.icon.suus-favourite-add-32:before {
+  content: "\ed0c";
+}
+
+.icon.suus-favourite-remove-30:before {
+  content: "\ed0d";
+}
+
+.icon.suus-favourite-remove-33:before {
+  content: "\ed0e";
+}
+
+.icon.suus-fencing:before {
+  content: "\ed0f";
+}
+
+.icon.suus-file-add:before {
+  content: "\ed10";
+}
+
+.icon.suus-file-delete:before {
+  content: "\ed11";
+}
+
+.icon.suus-file-download-87:before {
+  content: "\ed13";
+}
+
+.icon.suus-file-download-89:before {
+  content: "\ed12";
+}
+
+.icon.suus-file-download-94:before {
+  content: "\ed14";
+}
+
+.icon.suus-file-upload-86:before {
+  content: "\ed15";
+}
+
+.icon.suus-file-upload-88:before {
+  content: "\ed16";
+}
+
+.icon.suus-file-upload-93:before {
+  content: "\ed17";
+}
+
+.icon.suus-filter-check:before {
+  content: "\ed18";
+}
+
+.icon.suus-filter-organization:before {
+  content: "\ed19";
+}
+
+.icon.suus-filter-remove:before {
+  content: "\ed1a";
+}
+
+.icon.suus-filter:before {
+  content: "\ed1b";
+}
+
+.icon.suus-fire:before {
+  content: "\ed1c";
+}
+
+.icon.suus-firewall:before {
+  content: "\ed1d";
+}
+
+.icon.suus-fish:before {
+  content: "\ed1e";
+}
+
+.icon.suus-fishbone:before {
+  content: "\ed1f";
+}
+
+.icon.suus-fishing:before {
+  content: "\ed20";
+}
+
+.icon.suus-fist:before {
+  content: "\ed21";
+}
+
+.icon.suus-fit-horizontal:before {
+  content: "\ed22";
+}
+
+.icon.suus-fit-vertical:before {
+  content: "\ed23";
+}
+
+.icon.suus-flag-complex:before {
+  content: "\ed24";
+}
+
+.icon.suus-flag-diagonal-33:before {
+  content: "\ed25";
+}
+
+.icon.suus-flag-diagonal-34:before {
+  content: "\ed26";
+}
+
+.icon.suus-flag-finish:before {
+  content: "\ed27";
+}
+
+.icon.suus-flag-points-31:before {
+  content: "\ed28";
+}
+
+.icon.suus-flag-points-32:before {
+  content: "\ed29";
+}
+
+.icon.suus-flag-simple:before {
+  content: "\ed2a";
+}
+
+.icon.suus-flag-triangle:before {
+  content: "\ed2b";
+}
+
+.icon.suus-flag:before {
+  content: "\ed2c";
+}
+
+.icon.suus-flame:before {
+  content: "\ed2d";
+}
+
+.icon.suus-flash-21:before {
+  content: "\ed2e";
+}
+
+.icon.suus-flash-24:before {
+  content: "\ed2f";
+}
+
+.icon.suus-flash-29:before {
+  content: "\ed30";
+}
+
+.icon.suus-flash-auto-22:before {
+  content: "\ed31";
+}
+
+.icon.suus-flash-auto-25:before {
+  content: "\ed32";
+}
+
+.icon.suus-flash-off-23:before {
+  content: "\ed33";
+}
+
+.icon.suus-flash-off-26:before {
+  content: "\ed35";
+}
+
+.icon.suus-flask-2:before {
+  content: "\ed36";
+}
+
+.icon.suus-flask:before {
+  content: "\ed34";
+}
+
+.icon.suus-flick-down:before {
+  content: "\ed37";
+}
+
+.icon.suus-flick-left:before {
+  content: "\ed38";
+}
+
+.icon.suus-flick-right:before {
+  content: "\ed39";
+}
+
+.icon.suus-flick-up:before {
+  content: "\ed3a";
+}
+
+.icon.suus-flip-horizontal:before {
+  content: "\ed3b";
+}
+
+.icon.suus-flip-vertical:before {
+  content: "\ed3c";
+}
+
+.icon.suus-flip:before {
+  content: "\ed3d";
+}
+
+.icon.suus-flower-05:before {
+  content: "\ed3e";
+}
+
+.icon.suus-flower-06:before {
+  content: "\ed3f";
+}
+
+.icon.suus-flower-07:before {
+  content: "\ed40";
+}
+
+.icon.suus-focus-32:before {
+  content: "\ed41";
+}
+
+.icon.suus-focus-38:before {
+  content: "\ed42";
+}
+
+.icon.suus-focus-40:before {
+  content: "\ed43";
+}
+
+.icon.suus-focus-circle:before {
+  content: "\ed44";
+}
+
+.icon.suus-focus:before {
+  content: "\ed45";
+}
+
+.icon.suus-fog:before {
+  content: "\ed46";
+}
+
+.icon.suus-folder-13:before {
+  content: "\ed47";
+}
+
+.icon.suus-folder-14:before {
+  content: "\ed48";
+}
+
+.icon.suus-folder-15:before {
+  content: "\ed49";
+}
+
+.icon.suus-folder-16:before {
+  content: "\ed4a";
+}
+
+.icon.suus-folder-17:before {
+  content: "\ed4b";
+}
+
+.icon.suus-folder-18:before {
+  content: "\ed4c";
+}
+
+.icon.suus-folder-19:before {
+  content: "\ed4d";
+}
+
+.icon.suus-folder-add:before {
+  content: "\ed4e";
+}
+
+.icon.suus-folder-audio:before {
+  content: "\ed4f";
+}
+
+.icon.suus-folder-bookmark:before {
+  content: "\ed50";
+}
+
+.icon.suus-folder-chart-bar:before {
+  content: "\ed51";
+}
+
+.icon.suus-folder-chart-pie:before {
+  content: "\ed53";
+}
+
+.icon.suus-folder-check:before {
+  content: "\ed52";
+}
+
+.icon.suus-folder-cloud:before {
+  content: "\ed54";
+}
+
+.icon.suus-folder-dev:before {
+  content: "\ed55";
+}
+
+.icon.suus-folder-download:before {
+  content: "\ed56";
+}
+
+.icon.suus-folder-edit:before {
+  content: "\ed57";
+}
+
+.icon.suus-folder-exclamation:before {
+  content: "\ed58";
+}
+
+.icon.suus-folder-gallery:before {
+  content: "\ed59";
+}
+
+.icon.suus-folder-heart:before {
+  content: "\ed5a";
+}
+
+.icon.suus-folder-image:before {
+  content: "\ed5b";
+}
+
+.icon.suus-folder-info:before {
+  content: "\ed5c";
+}
+
+.icon.suus-folder-link:before {
+  content: "\ed5d";
+}
+
+.icon.suus-folder-locked:before {
+  content: "\ed5e";
+}
+
+.icon.suus-folder-money:before {
+  content: "\ed5f";
+}
+
+.icon.suus-folder-music:before {
+  content: "\ed60";
+}
+
+.icon.suus-folder-no-access:before {
+  content: "\ed61";
+}
+
+.icon.suus-folder-play:before {
+  content: "\ed62";
+}
+
+.icon.suus-folder-question:before {
+  content: "\ed63";
+}
+
+.icon.suus-folder-refresh:before {
+  content: "\ed64";
+}
+
+.icon.suus-folder-remove:before {
+  content: "\ed65";
+}
+
+.icon.suus-folder-search:before {
+  content: "\ed66";
+}
+
+.icon.suus-folder-settings-81:before {
+  content: "\ed67";
+}
+
+.icon.suus-folder-settings-97:before {
+  content: "\ed68";
+}
+
+.icon.suus-folder-shared:before {
+  content: "\ed69";
+}
+
+.icon.suus-folder-star:before {
+  content: "\ed6a";
+}
+
+.icon.suus-folder-time:before {
+  content: "\ed6b";
+}
+
+.icon.suus-folder-upload:before {
+  content: "\ed6c";
+}
+
+.icon.suus-folder-user:before {
+  content: "\ed6d";
+}
+
+.icon.suus-folder-vector:before {
+  content: "\ed6e";
+}
+
+.icon.suus-food-dog:before {
+  content: "\ed6f";
+}
+
+.icon.suus-food:before {
+  content: "\ed70";
+}
+
+.icon.suus-football-headguard:before {
+  content: "\ed71";
+}
+
+.icon.suus-forecast:before {
+  content: "\ed72";
+}
+
+.icon.suus-forest:before {
+  content: "\ed73";
+}
+
+.icon.suus-fork-round:before {
+  content: "\ed74";
+}
+
+.icon.suus-fork:before {
+  content: "\ed75";
+}
+
+.icon.suus-form:before {
+  content: "\ed76";
+}
+
+.icon.suus-format-left:before {
+  content: "\ed77";
+}
+
+.icon.suus-format-right:before {
+  content: "\ed78";
+}
+
+.icon.suus-forward:before {
+  content: "\ed79";
+}
+
+.icon.suus-frame-12:before {
+  content: "\ed7a";
+}
+
+.icon.suus-frame-41:before {
+  content: "\ed7b";
+}
+
+.icon.suus-frame:before {
+  content: "\ed7d";
+}
+
+.icon.suus-frankenstein:before {
+  content: "\ed7c";
+}
+
+.icon.suus-fridge:before {
+  content: "\ed7e";
+}
+
+.icon.suus-fuel-2:before {
+  content: "\ed7f";
+}
+
+.icon.suus-fuel-electric:before {
+  content: "\ed80";
+}
+
+.icon.suus-fuel:before {
+  content: "\ed81";
+}
+
+.icon.suus-full-screen:before {
+  content: "\ed82";
+}
+
+.icon.suus-fullscreen-70:before {
+  content: "\ed84";
+}
+
+.icon.suus-fullscreen-71:before {
+  content: "\ed83";
+}
+
+.icon.suus-fullscreen-76:before {
+  content: "\ed85";
+}
+
+.icon.suus-fullscreen-77:before {
+  content: "\ed86";
+}
+
+.icon.suus-fullscreen-double-74:before {
+  content: "\ed87";
+}
+
+.icon.suus-fullscreen-double-75:before {
+  content: "\ed88";
+}
+
+.icon.suus-fullscreen-split-72:before {
+  content: "\ed89";
+}
+
+.icon.suus-fullscreen-split-73:before {
+  content: "\ed8a";
+}
+
+.icon.suus-fullsize:before {
+  content: "\ed8b";
+}
+
+.icon.suus-funnel-39:before {
+  content: "\ed8c";
+}
+
+.icon.suus-funnel-40:before {
+  content: "\ed8e";
+}
+
+.icon.suus-funnel-41:before {
+  content: "\ed8f";
+}
+
+.icon.suus-gallery:before {
+  content: "\ed90";
+}
+
+.icon.suus-gantt:before {
+  content: "\ed8d";
+}
+
+.icon.suus-ghost-2:before {
+  content: "\ed91";
+}
+
+.icon.suus-ghost:before {
+  content: "\ed92";
+}
+
+.icon.suus-gift-2:before {
+  content: "\ed93";
+}
+
+.icon.suus-gift-exchange:before {
+  content: "\ed94";
+}
+
+.icon.suus-gift:before {
+  content: "\ed95";
+}
+
+.icon.suus-glass:before {
+  content: "\ed96";
+}
+
+.icon.suus-glasses-2:before {
+  content: "\ed97";
+}
+
+.icon.suus-glasses:before {
+  content: "\ed98";
+}
+
+.icon.suus-globe-2:before {
+  content: "\ed99";
+}
+
+.icon.suus-globe:before {
+  content: "\ed9a";
+}
+
+.icon.suus-glove:before {
+  content: "\ed9b";
+}
+
+.icon.suus-gloves:before {
+  content: "\ed9d";
+}
+
+.icon.suus-goal-64:before {
+  content: "\ed9c";
+}
+
+.icon.suus-goal-65:before {
+  content: "\ed9e";
+}
+
+.icon.suus-gold:before {
+  content: "\ed9f";
+}
+
+.icon.suus-golf:before {
+  content: "\eda0";
+}
+
+.icon.suus-gps:before {
+  content: "\eda1";
+}
+
+.icon.suus-grab:before {
+  content: "\eda2";
+}
+
+.icon.suus-grammar-check:before {
+  content: "\eda3";
+}
+
+.icon.suus-grape:before {
+  content: "\eda5";
+}
+
+.icon.suus-grave:before {
+  content: "\eda4";
+}
+
+.icon.suus-grid-45:before {
+  content: "\eda6";
+}
+
+.icon.suus-grid-46:before {
+  content: "\eda7";
+}
+
+.icon.suus-grid-48:before {
+  content: "\eda8";
+}
+
+.icon.suus-grid-49:before {
+  content: "\eda9";
+}
+
+.icon.suus-grid-50:before {
+  content: "\edaa";
+}
+
+.icon.suus-grid-square:before {
+  content: "\edab";
+}
+
+.icon.suus-grid:before {
+  content: "\edad";
+}
+
+.icon.suus-group:before {
+  content: "\edae";
+}
+
+.icon.suus-guitar:before {
+  content: "\edac";
+}
+
+.icon.suus-hammer:before {
+  content: "\edaf";
+}
+
+.icon.suus-hand-card:before {
+  content: "\edb0";
+}
+
+.icon.suus-handout:before {
+  content: "\edb1";
+}
+
+.icon.suus-handshake:before {
+  content: "\edb4";
+}
+
+.icon.suus-hanger-clothes:before {
+  content: "\edb3";
+}
+
+.icon.suus-hanger:before {
+  content: "\edb2";
+}
+
+.icon.suus-hannibal:before {
+  content: "\edb5";
+}
+
+.icon.suus-happy-sun:before {
+  content: "\edb6";
+}
+
+.icon.suus-hat-2:before {
+  content: "\edb7";
+}
+
+.icon.suus-hat-3:before {
+  content: "\edb8";
+}
+
+.icon.suus-hat-top:before {
+  content: "\edb9";
+}
+
+.icon.suus-hat:before {
+  content: "\edba";
+}
+
+.icon.suus-hdmi:before {
+  content: "\edbb";
+}
+
+.icon.suus-headphone:before {
+  content: "\edbd";
+}
+
+.icon.suus-headphones-2:before {
+  content: "\edbc";
+}
+
+.icon.suus-headphones-mic:before {
+  content: "\edbe";
+}
+
+.icon.suus-headphones:before {
+  content: "\edbf";
+}
+
+.icon.suus-headset:before {
+  content: "\edc0";
+}
+
+.icon.suus-heart-2:before {
+  content: "\edc2";
+}
+
+.icon.suus-heart-add:before {
+  content: "\edc1";
+}
+
+.icon.suus-heart-remove:before {
+  content: "\edc3";
+}
+
+.icon.suus-heart:before {
+  content: "\edc5";
+}
+
+.icon.suus-heartbeat:before {
+  content: "\edc4";
+}
+
+.icon.suus-heater:before {
+  content: "\edc6";
+}
+
+.icon.suus-height:before {
+  content: "\edc7";
+}
+
+.icon.suus-helicopter:before {
+  content: "\edc8";
+}
+
+.icon.suus-helmet-2:before {
+  content: "\edc9";
+}
+
+.icon.suus-helmet:before {
+  content: "\edca";
+}
+
+.icon.suus-hierarchy-53:before {
+  content: "\edcb";
+}
+
+.icon.suus-hierarchy-54:before {
+  content: "\edcc";
+}
+
+.icon.suus-hierarchy-55:before {
+  content: "\edcd";
+}
+
+.icon.suus-hierarchy-56:before {
+  content: "\edce";
+}
+
+.icon.suus-hit-down:before {
+  content: "\edcf";
+}
+
+.icon.suus-hit-left:before {
+  content: "\edd0";
+}
+
+.icon.suus-hit-right:before {
+  content: "\edd1";
+}
+
+.icon.suus-hit-up:before {
+  content: "\edd2";
+}
+
+.icon.suus-hob:before {
+  content: "\edd3";
+}
+
+.icon.suus-hockey:before {
+  content: "\edd4";
+}
+
+.icon.suus-hold:before {
+  content: "\edd5";
+}
+
+.icon.suus-home-2:before {
+  content: "\edd6";
+}
+
+.icon.suus-home-51:before {
+  content: "\edd7";
+}
+
+.icon.suus-home-52:before {
+  content: "\edd8";
+}
+
+.icon.suus-home-minimal:before {
+  content: "\edd9";
+}
+
+.icon.suus-home-search:before {
+  content: "\edda";
+}
+
+.icon.suus-home-simple:before {
+  content: "\eddb";
+}
+
+.icon.suus-home:before {
+  content: "\eddc";
+}
+
+.icon.suus-hoodie:before {
+  content: "\eddd";
+}
+
+.icon.suus-hospital-32:before {
+  content: "\edde";
+}
+
+.icon.suus-hospital-33:before {
+  content: "\eddf";
+}
+
+.icon.suus-hospital-34:before {
+  content: "\ede0";
+}
+
+.icon.suus-hot-dog:before {
+  content: "\ede1";
+}
+
+.icon.suus-hotel-bell:before {
+  content: "\ede2";
+}
+
+.icon.suus-hotel-symbol:before {
+  content: "\ede3";
+}
+
+.icon.suus-hotel:before {
+  content: "\ede4";
+}
+
+.icon.suus-hourglass:before {
+  content: "\ede5";
+}
+
+.icon.suus-html5:before {
+  content: "\ede7";
+}
+
+.icon.suus-humidity-26:before {
+  content: "\ede6";
+}
+
+.icon.suus-humidity-52:before {
+  content: "\ede8";
+}
+
+.icon.suus-hurricane-44:before {
+  content: "\ede9";
+}
+
+.icon.suus-hurricane-45:before {
+  content: "\edea";
+}
+
+.icon.suus-hut:before {
+  content: "\edeb";
+}
+
+.icon.suus-hybrid:before {
+  content: "\edec";
+}
+
+.icon.suus-ice-cream-22:before {
+  content: "\eded";
+}
+
+.icon.suus-ice-cream-72:before {
+  content: "\edee";
+}
+
+.icon.suus-igloo:before {
+  content: "\edef";
+}
+
+.icon.suus-image-01:before {
+  content: "\edf0";
+}
+
+.icon.suus-image-02:before {
+  content: "\edf1";
+}
+
+.icon.suus-image-05:before {
+  content: "\edf3";
+}
+
+.icon.suus-image-2:before {
+  content: "\edf2";
+}
+
+.icon.suus-image-3:before {
+  content: "\edf4";
+}
+
+.icon.suus-image-add:before {
+  content: "\edf5";
+}
+
+.icon.suus-image-delete:before {
+  content: "\edf6";
+}
+
+.icon.suus-image-location:before {
+  content: "\edf7";
+}
+
+.icon.suus-image:before {
+  content: "\edf8";
+}
+
+.icon.suus-infinite:before {
+  content: "\edf9";
+}
+
+.icon.suus-info:before {
+  content: "\edfa";
+}
+
+.icon.suus-input-12:before {
+  content: "\edfb";
+}
+
+.icon.suus-input-21:before {
+  content: "\edfc";
+}
+
+.icon.suus-intestine:before {
+  content: "\edfe";
+}
+
+.icon.suus-invert:before {
+  content: "\edfd";
+}
+
+.icon.suus-iron-2:before {
+  content: "\edff";
+}
+
+.icon.suus-iron-dont:before {
+  content: "\ee00";
+}
+
+.icon.suus-iron:before {
+  content: "\ee01";
+}
+
+.icon.suus-istanbul:before {
+  content: "\ee02";
+}
+
+.icon.suus-italic:before {
+  content: "\ee03";
+}
+
+.icon.suus-jam:before {
+  content: "\ee04";
+}
+
+.icon.suus-jeans-41:before {
+  content: "\ee05";
+}
+
+.icon.suus-jeans-43:before {
+  content: "\ee06";
+}
+
+.icon.suus-jeans-pocket:before {
+  content: "\ee08";
+}
+
+.icon.suus-jellyfish:before {
+  content: "\ee07";
+}
+
+.icon.suus-journey-04:before {
+  content: "\ee09";
+}
+
+.icon.suus-journey-05:before {
+  content: "\ee0a";
+}
+
+.icon.suus-journey-06:before {
+  content: "\ee0b";
+}
+
+.icon.suus-journey-07:before {
+  content: "\ee0c";
+}
+
+.icon.suus-journey-08:before {
+  content: "\ee0d";
+}
+
+.icon.suus-kettle:before {
+  content: "\ee0e";
+}
+
+.icon.suus-kettlebell:before {
+  content: "\ee0f";
+}
+
+.icon.suus-key-25:before {
+  content: "\ee10";
+}
+
+.icon.suus-key-26:before {
+  content: "\ee11";
+}
+
+.icon.suus-keyboard-hide:before {
+  content: "\ee12";
+}
+
+.icon.suus-keyboard-mouse:before {
+  content: "\ee13";
+}
+
+.icon.suus-keyboard-wifi:before {
+  content: "\ee14";
+}
+
+.icon.suus-keyboard-wireless:before {
+  content: "\ee16";
+}
+
+.icon.suus-keyboard:before {
+  content: "\ee15";
+}
+
+.icon.suus-kid-2:before {
+  content: "\ee17";
+}
+
+.icon.suus-kid:before {
+  content: "\ee18";
+}
+
+.icon.suus-kiss:before {
+  content: "\ee19";
+}
+
+.icon.suus-kitchen-fan:before {
+  content: "\ee1a";
+}
+
+.icon.suus-kitchen:before {
+  content: "\ee1b";
+}
+
+.icon.suus-knife:before {
+  content: "\ee1c";
+}
+
+.icon.suus-knob:before {
+  content: "\ee1d";
+}
+
+.icon.suus-l-add:before {
+  content: "\ee1e";
+}
+
+.icon.suus-l-check:before {
+  content: "\ee1f";
+}
+
+.icon.suus-l-location:before {
+  content: "\ee20";
+}
+
+.icon.suus-l-remove:before {
+  content: "\ee21";
+}
+
+.icon.suus-l-search:before {
+  content: "\ee22";
+}
+
+.icon.suus-l-security:before {
+  content: "\ee23";
+}
+
+.icon.suus-l-settings:before {
+  content: "\ee24";
+}
+
+.icon.suus-l-sync:before {
+  content: "\ee25";
+}
+
+.icon.suus-l-system-update:before {
+  content: "\ee26";
+}
+
+.icon.suus-lab:before {
+  content: "\ee27";
+}
+
+.icon.suus-lamp-2:before {
+  content: "\ee28";
+}
+
+.icon.suus-lamp-3:before {
+  content: "\ee29";
+}
+
+.icon.suus-lamp-floor:before {
+  content: "\ee2a";
+}
+
+.icon.suus-lamp:before {
+  content: "\ee2b";
+}
+
+.icon.suus-language:before {
+  content: "\ee2c";
+}
+
+.icon.suus-laptop-1:before {
+  content: "\ee2d";
+}
+
+.icon.suus-laptop-2:before {
+  content: "\ee2e";
+}
+
+.icon.suus-laptop-71:before {
+  content: "\ee2f";
+}
+
+.icon.suus-laptop-72:before {
+  content: "\ee30";
+}
+
+.icon.suus-laptop:before {
+  content: "\ee31";
+}
+
+.icon.suus-laugh-17:before {
+  content: "\ee32";
+}
+
+.icon.suus-laugh-35:before {
+  content: "\ee33";
+}
+
+.icon.suus-launch-11:before {
+  content: "\ee34";
+}
+
+.icon.suus-launch-47:before {
+  content: "\ee35";
+}
+
+.icon.suus-law:before {
+  content: "\ee36";
+}
+
+.icon.suus-layers-2:before {
+  content: "\ee38";
+}
+
+.icon.suus-layers-3:before {
+  content: "\ee37";
+}
+
+.icon.suus-layers:before {
+  content: "\ee3a";
+}
+
+.icon.suus-layout-11:before {
+  content: "\ee39";
+}
+
+.icon.suus-layout-25:before {
+  content: "\ee3b";
+}
+
+.icon.suus-leaf-36:before {
+  content: "\ee3c";
+}
+
+.icon.suus-leaf-38:before {
+  content: "\ee3e";
+}
+
+.icon.suus-leaf-80:before {
+  content: "\ee3d";
+}
+
+.icon.suus-leaf-81:before {
+  content: "\ee3f";
+}
+
+.icon.suus-leaf-edit:before {
+  content: "\ee40";
+}
+
+.icon.suus-lemon-slice:before {
+  content: "\ee41";
+}
+
+.icon.suus-lens-31:before {
+  content: "\ee42";
+}
+
+.icon.suus-lens-56:before {
+  content: "\ee43";
+}
+
+.icon.suus-library:before {
+  content: "\ee44";
+}
+
+.icon.suus-light-2:before {
+  content: "\ee46";
+}
+
+.icon.suus-light-3:before {
+  content: "\ee45";
+}
+
+.icon.suus-light-traffic:before {
+  content: "\ee47";
+}
+
+.icon.suus-light:before {
+  content: "\ee48";
+}
+
+.icon.suus-lighter:before {
+  content: "\ee49";
+}
+
+.icon.suus-lighthouse:before {
+  content: "\ee4a";
+}
+
+.icon.suus-like-2:before {
+  content: "\ee4b";
+}
+
+.icon.suus-like-no:before {
+  content: "\ee4c";
+}
+
+.icon.suus-like:before {
+  content: "\ee4d";
+}
+
+.icon.suus-line-height:before {
+  content: "\ee4e";
+}
+
+.icon.suus-lines:before {
+  content: "\ee4f";
+}
+
+.icon.suus-link-2:before {
+  content: "\ee50";
+}
+
+.icon.suus-link-66:before {
+  content: "\ee51";
+}
+
+.icon.suus-link-67:before {
+  content: "\ee52";
+}
+
+.icon.suus-link-68:before {
+  content: "\ee53";
+}
+
+.icon.suus-link-69:before {
+  content: "\ee54";
+}
+
+.icon.suus-link-71:before {
+  content: "\ee55";
+}
+
+.icon.suus-link-72:before {
+  content: "\ee58";
+}
+
+.icon.suus-link-broken-70:before {
+  content: "\ee56";
+}
+
+.icon.suus-link-broken-73:before {
+  content: "\ee57";
+}
+
+.icon.suus-link:before {
+  content: "\ee59";
+}
+
+.icon.suus-list-bullet:before {
+  content: "\ee5a";
+}
+
+.icon.suus-list-numbers:before {
+  content: "\ee5b";
+}
+
+.icon.suus-list:before {
+  content: "\ee5c";
+}
+
+.icon.suus-lobster:before {
+  content: "\ee5d";
+}
+
+.icon.suus-lock-circle-open:before {
+  content: "\ee5f";
+}
+
+.icon.suus-lock-circle:before {
+  content: "\ee5e";
+}
+
+.icon.suus-lock-landscape:before {
+  content: "\ee60";
+}
+
+.icon.suus-lock-open:before {
+  content: "\ee61";
+}
+
+.icon.suus-lock-portrait:before {
+  content: "\ee62";
+}
+
+.icon.suus-lock:before {
+  content: "\ee63";
+}
+
+.icon.suus-locked:before {
+  content: "\ee64";
+}
+
+.icon.suus-log-in:before {
+  content: "\ee66";
+}
+
+.icon.suus-log-out-2:before {
+  content: "\ee65";
+}
+
+.icon.suus-log-out:before {
+  content: "\ee68";
+}
+
+.icon.suus-logout:before {
+  content: "\ee67";
+}
+
+.icon.suus-london:before {
+  content: "\ee69";
+}
+
+.icon.suus-long-sleeve:before {
+  content: "\ee6a";
+}
+
+.icon.suus-loop-30:before {
+  content: "\ee6b";
+}
+
+.icon.suus-loop-34:before {
+  content: "\ee6c";
+}
+
+.icon.suus-loop-82:before {
+  content: "\ee6d";
+}
+
+.icon.suus-loop-83:before {
+  content: "\ee6e";
+}
+
+.icon.suus-loop:before {
+  content: "\ee6f";
+}
+
+.icon.suus-luggage:before {
+  content: "\ee70";
+}
+
+.icon.suus-lungs:before {
+  content: "\ee71";
+}
+
+.icon.suus-m-add:before {
+  content: "\ee72";
+}
+
+.icon.suus-m-check:before {
+  content: "\ee73";
+}
+
+.icon.suus-m-delete:before {
+  content: "\ee74";
+}
+
+.icon.suus-m-edit:before {
+  content: "\ee75";
+}
+
+.icon.suus-m-heart:before {
+  content: "\ee76";
+}
+
+.icon.suus-m-location:before {
+  content: "\ee77";
+}
+
+.icon.suus-m-remove:before {
+  content: "\ee78";
+}
+
+.icon.suus-m-search:before {
+  content: "\ee79";
+}
+
+.icon.suus-m-security:before {
+  content: "\ee7a";
+}
+
+.icon.suus-m-settings:before {
+  content: "\ee7b";
+}
+
+.icon.suus-m-share:before {
+  content: "\ee7c";
+}
+
+.icon.suus-m-star:before {
+  content: "\ee7d";
+}
+
+.icon.suus-m-sync:before {
+  content: "\ee7e";
+}
+
+.icon.suus-m-time:before {
+  content: "\ee7f";
+}
+
+.icon.suus-m-update:before {
+  content: "\ee80";
+}
+
+.icon.suus-macro:before {
+  content: "\ee81";
+}
+
+.icon.suus-mad-12:before {
+  content: "\ee82";
+}
+
+.icon.suus-mad-58:before {
+  content: "\ee83";
+}
+
+.icon.suus-magnet:before {
+  content: "\ee84";
+}
+
+.icon.suus-makeup:before {
+  content: "\ee85";
+}
+
+.icon.suus-malicious:before {
+  content: "\ee86";
+}
+
+.icon.suus-man-20:before {
+  content: "\ee87";
+}
+
+.icon.suus-man-23:before {
+  content: "\ee88";
+}
+
+.icon.suus-man-down:before {
+  content: "\ee89";
+}
+
+.icon.suus-man-glasses:before {
+  content: "\ee8a";
+}
+
+.icon.suus-man-up:before {
+  content: "\ee8b";
+}
+
+.icon.suus-man:before {
+  content: "\ee8c";
+}
+
+.icon.suus-manga-62:before {
+  content: "\ee8d";
+}
+
+.icon.suus-manga-63:before {
+  content: "\ee8e";
+}
+
+.icon.suus-map-big:before {
+  content: "\ee8f";
+}
+
+.icon.suus-map-compass:before {
+  content: "\ee90";
+}
+
+.icon.suus-map-gps:before {
+  content: "\ee91";
+}
+
+.icon.suus-map-marker:before {
+  content: "\ee92";
+}
+
+.icon.suus-map-pin:before {
+  content: "\ee93";
+}
+
+.icon.suus-map:before {
+  content: "\ee94";
+}
+
+.icon.suus-margin-left:before {
+  content: "\ee95";
+}
+
+.icon.suus-margin-right:before {
+  content: "\ee96";
+}
+
+.icon.suus-marker-2:before {
+  content: "\ee97";
+}
+
+.icon.suus-marker-3:before {
+  content: "\ee98";
+}
+
+.icon.suus-marker:before {
+  content: "\ee99";
+}
+
+.icon.suus-market-music:before {
+  content: "\ee9a";
+}
+
+.icon.suus-market-play:before {
+  content: "\ee9b";
+}
+
+.icon.suus-matches:before {
+  content: "\ee9c";
+}
+
+.icon.suus-math:before {
+  content: "\ee9d";
+}
+
+.icon.suus-measure-02:before {
+  content: "\ee9e";
+}
+
+.icon.suus-measure-17:before {
+  content: "\ee9f";
+}
+
+.icon.suus-measure-big:before {
+  content: "\eea0";
+}
+
+.icon.suus-measuring-cup:before {
+  content: "\eea2";
+}
+
+.icon.suus-meat-spit:before {
+  content: "\eea1";
+}
+
+.icon.suus-meeting:before {
+  content: "\eea3";
+}
+
+.icon.suus-menu-34:before {
+  content: "\eea4";
+}
+
+.icon.suus-menu-35:before {
+  content: "\eea5";
+}
+
+.icon.suus-menu-bold:before {
+  content: "\eea6";
+}
+
+.icon.suus-menu-dots:before {
+  content: "\eea7";
+}
+
+.icon.suus-menu-left:before {
+  content: "\eea8";
+}
+
+.icon.suus-menu-right:before {
+  content: "\eea9";
+}
+
+.icon.suus-menu-square:before {
+  content: "\eeaa";
+}
+
+.icon.suus-menu:before {
+  content: "\eeab";
+}
+
+.icon.suus-merge-2:before {
+  content: "\eeac";
+}
+
+.icon.suus-merge-round:before {
+  content: "\eead";
+}
+
+.icon.suus-merge:before {
+  content: "\eeaf";
+}
+
+.icon.suus-message:before {
+  content: "\eeae";
+}
+
+.icon.suus-metrics:before {
+  content: "\eeb0";
+}
+
+.icon.suus-mic-2:before {
+  content: "\eeb1";
+}
+
+.icon.suus-mic:before {
+  content: "\eeb2";
+}
+
+.icon.suus-mickey-mouse:before {
+  content: "\eeb3";
+}
+
+.icon.suus-microscope:before {
+  content: "\eeb4";
+}
+
+.icon.suus-microsoft:before {
+  content: "\eeb6";
+}
+
+.icon.suus-microwave:before {
+  content: "\eeb5";
+}
+
+.icon.suus-milk:before {
+  content: "\eeb7";
+}
+
+.icon.suus-minimal-down:before {
+  content: "\eeb8";
+}
+
+.icon.suus-minimal-left:before {
+  content: "\eeb9";
+}
+
+.icon.suus-minimal-right:before {
+  content: "\eeba";
+}
+
+.icon.suus-minimal-up:before {
+  content: "\eebc";
+}
+
+.icon.suus-mirror-2:before {
+  content: "\eebb";
+}
+
+.icon.suus-mirror:before {
+  content: "\eebd";
+}
+
+.icon.suus-mistletoe:before {
+  content: "\eebe";
+}
+
+.icon.suus-mixer:before {
+  content: "\eebf";
+}
+
+.icon.suus-mobile-button:before {
+  content: "\eec0";
+}
+
+.icon.suus-mobile-camera:before {
+  content: "\eec1";
+}
+
+.icon.suus-mobile-card:before {
+  content: "\eec2";
+}
+
+.icon.suus-mobile-contact:before {
+  content: "\eec3";
+}
+
+.icon.suus-mobile-design:before {
+  content: "\eec4";
+}
+
+.icon.suus-mobile-dev:before {
+  content: "\eec5";
+}
+
+.icon.suus-mobile-landscape:before {
+  content: "\eec6";
+}
+
+.icon.suus-mobile-recharger-08:before {
+  content: "\eec7";
+}
+
+.icon.suus-mobile-recharger-09:before {
+  content: "\eec8";
+}
+
+.icon.suus-mobile-toolbar:before {
+  content: "\eec9";
+}
+
+.icon.suus-mobile:before {
+  content: "\eecb";
+}
+
+.icon.suus-moka:before {
+  content: "\eecc";
+}
+
+.icon.suus-molecule-39:before {
+  content: "\eeca";
+}
+
+.icon.suus-molecule-40:before {
+  content: "\eecd";
+}
+
+.icon.suus-molecule:before {
+  content: "\eece";
+}
+
+.icon.suus-money-11:before {
+  content: "\eecf";
+}
+
+.icon.suus-money-12:before {
+  content: "\eed0";
+}
+
+.icon.suus-money-13:before {
+  content: "\eed1";
+}
+
+.icon.suus-money-bag:before {
+  content: "\eed3";
+}
+
+.icon.suus-money-coins:before {
+  content: "\eed2";
+}
+
+.icon.suus-money-growth:before {
+  content: "\eed4";
+}
+
+.icon.suus-money-time:before {
+  content: "\eed5";
+}
+
+.icon.suus-money:before {
+  content: "\eed6";
+}
+
+.icon.suus-monster:before {
+  content: "\eed7";
+}
+
+.icon.suus-moon-cloud-drop:before {
+  content: "\eed8";
+}
+
+.icon.suus-moon-cloud-fog:before {
+  content: "\eed9";
+}
+
+.icon.suus-moon-cloud-hail:before {
+  content: "\eeda";
+}
+
+.icon.suus-moon-cloud-light:before {
+  content: "\eedb";
+}
+
+.icon.suus-moon-cloud-rain:before {
+  content: "\eedc";
+}
+
+.icon.suus-moon-cloud-snow-61:before {
+  content: "\eedd";
+}
+
+.icon.suus-moon-cloud-snow-62:before {
+  content: "\eede";
+}
+
+.icon.suus-moon-fog:before {
+  content: "\eedf";
+}
+
+.icon.suus-moon-full:before {
+  content: "\eee0";
+}
+
+.icon.suus-moon-stars:before {
+  content: "\eee1";
+}
+
+.icon.suus-moon:before {
+  content: "\eee2";
+}
+
+.icon.suus-mosque:before {
+  content: "\eee3";
+}
+
+.icon.suus-moto:before {
+  content: "\eee4";
+}
+
+.icon.suus-mountain:before {
+  content: "\eee6";
+}
+
+.icon.suus-mouse-08:before {
+  content: "\eee5";
+}
+
+.icon.suus-mouse-09:before {
+  content: "\eee7";
+}
+
+.icon.suus-mouse-10:before {
+  content: "\eee8";
+}
+
+.icon.suus-move-05:before {
+  content: "\eee9";
+}
+
+.icon.suus-move-06:before {
+  content: "\eeea";
+}
+
+.icon.suus-move-92:before {
+  content: "\eeeb";
+}
+
+.icon.suus-move-down-2:before {
+  content: "\eeec";
+}
+
+.icon.suus-move-down-right:before {
+  content: "\eeed";
+}
+
+.icon.suus-move-down:before {
+  content: "\eeef";
+}
+
+.icon.suus-move-left:before {
+  content: "\eeee";
+}
+
+.icon.suus-move-right:before {
+  content: "\eef0";
+}
+
+.icon.suus-move-up-2:before {
+  content: "\eef1";
+}
+
+.icon.suus-move-up-left:before {
+  content: "\eef2";
+}
+
+.icon.suus-move-up:before {
+  content: "\eef4";
+}
+
+.icon.suus-movie-61:before {
+  content: "\eef3";
+}
+
+.icon.suus-movie-62:before {
+  content: "\eef5";
+}
+
+.icon.suus-muffin:before {
+  content: "\eef6";
+}
+
+.icon.suus-mug:before {
+  content: "\eef7";
+}
+
+.icon.suus-multiple-11:before {
+  content: "\eef8";
+}
+
+.icon.suus-multiple-19:before {
+  content: "\eef9";
+}
+
+.icon.suus-multiple:before {
+  content: "\eefa";
+}
+
+.icon.suus-mushroom:before {
+  content: "\eefb";
+}
+
+.icon.suus-music-2:before {
+  content: "\eefc";
+}
+
+.icon.suus-music-album:before {
+  content: "\eefd";
+}
+
+.icon.suus-music-cloud:before {
+  content: "\eefe";
+}
+
+.icon.suus-music:before {
+  content: "\eeff";
+}
+
+.icon.suus-navigation:before {
+  content: "\ef00";
+}
+
+.icon.suus-needle:before {
+  content: "\ef01";
+}
+
+.icon.suus-nerd-22:before {
+  content: "\ef02";
+}
+
+.icon.suus-nerd-23:before {
+  content: "\ef03";
+}
+
+.icon.suus-net:before {
+  content: "\ef04";
+}
+
+.icon.suus-network:before {
+  content: "\ef05";
+}
+
+.icon.suus-new:before {
+  content: "\ef06";
+}
+
+.icon.suus-newsletter-dev:before {
+  content: "\ef07";
+}
+
+.icon.suus-newsletter:before {
+  content: "\ef08";
+}
+
+.icon.suus-night:before {
+  content: "\ef09";
+}
+
+.icon.suus-ninja:before {
+  content: "\ef0a";
+}
+
+.icon.suus-no-access:before {
+  content: "\ef0b";
+}
+
+.icon.suus-no-words:before {
+  content: "\ef0c";
+}
+
+.icon.suus-node:before {
+  content: "\ef0d";
+}
+
+.icon.suus-note-03:before {
+  content: "\ef0e";
+}
+
+.icon.suus-note-04:before {
+  content: "\ef0f";
+}
+
+.icon.suus-note-code:before {
+  content: "\ef10";
+}
+
+.icon.suus-notebook-2:before {
+  content: "\ef11";
+}
+
+.icon.suus-notebook:before {
+  content: "\ef13";
+}
+
+.icon.suus-notepad:before {
+  content: "\ef12";
+}
+
+.icon.suus-notes:before {
+  content: "\ef14";
+}
+
+.icon.suus-notification-69:before {
+  content: "\ef15";
+}
+
+.icon.suus-notification-70:before {
+  content: "\ef16";
+}
+
+.icon.suus-nurse:before {
+  content: "\ef17";
+}
+
+.icon.suus-ny:before {
+  content: "\ef18";
+}
+
+.icon.suus-octopus:before {
+  content: "\ef19";
+}
+
+.icon.suus-oil:before {
+  content: "\ef1a";
+}
+
+.icon.suus-open-in-browser:before {
+  content: "\ef1b";
+}
+
+.icon.suus-oven:before {
+  content: "\ef1c";
+}
+
+.icon.suus-owl:before {
+  content: "\ef1d";
+}
+
+.icon.suus-p-add:before {
+  content: "\ef1e";
+}
+
+.icon.suus-p-check:before {
+  content: "\ef1f";
+}
+
+.icon.suus-p-edit:before {
+  content: "\ef20";
+}
+
+.icon.suus-p-heart:before {
+  content: "\ef21";
+}
+
+.icon.suus-p-location:before {
+  content: "\ef22";
+}
+
+.icon.suus-p-remove:before {
+  content: "\ef23";
+}
+
+.icon.suus-p-search:before {
+  content: "\ef24";
+}
+
+.icon.suus-p-settings:before {
+  content: "\ef25";
+}
+
+.icon.suus-p-share:before {
+  content: "\ef26";
+}
+
+.icon.suus-p-sync:before {
+  content: "\ef27";
+}
+
+.icon.suus-p-system-update:before {
+  content: "\ef28";
+}
+
+.icon.suus-p-time:before {
+  content: "\ef29";
+}
+
+.icon.suus-paint-16:before {
+  content: "\ef2a";
+}
+
+.icon.suus-paint-37:before {
+  content: "\ef2b";
+}
+
+.icon.suus-paint-38:before {
+  content: "\ef2c";
+}
+
+.icon.suus-paint-brush:before {
+  content: "\ef2d";
+}
+
+.icon.suus-paint-bucket-39:before {
+  content: "\ef2e";
+}
+
+.icon.suus-paint-bucket-40:before {
+  content: "\ef30";
+}
+
+.icon.suus-pajamas:before {
+  content: "\ef2f";
+}
+
+.icon.suus-palette:before {
+  content: "\ef31";
+}
+
+.icon.suus-pan:before {
+  content: "\ef32";
+}
+
+.icon.suus-panda:before {
+  content: "\ef33";
+}
+
+.icon.suus-panel:before {
+  content: "\ef34";
+}
+
+.icon.suus-pantone:before {
+  content: "\ef35";
+}
+
+.icon.suus-paper-2:before {
+  content: "\ef36";
+}
+
+.icon.suus-paper-design:before {
+  content: "\ef37";
+}
+
+.icon.suus-paper-dev:before {
+  content: "\ef39";
+}
+
+.icon.suus-paper-diploma:before {
+  content: "\ef38";
+}
+
+.icon.suus-paper:before {
+  content: "\ef3a";
+}
+
+.icon.suus-paragraph:before {
+  content: "\ef3b";
+}
+
+.icon.suus-parent:before {
+  content: "\ef3c";
+}
+
+.icon.suus-paris-tower:before {
+  content: "\ef3d";
+}
+
+.icon.suus-parking-sensors:before {
+  content: "\ef3e";
+}
+
+.icon.suus-parrot:before {
+  content: "\ef3f";
+}
+
+.icon.suus-passport:before {
+  content: "\ef41";
+}
+
+.icon.suus-patch-19:before {
+  content: "\ef40";
+}
+
+.icon.suus-patch-34:before {
+  content: "\ef42";
+}
+
+.icon.suus-patch:before {
+  content: "\ef43";
+}
+
+.icon.suus-path-exclude:before {
+  content: "\ef44";
+}
+
+.icon.suus-path-intersect:before {
+  content: "\ef45";
+}
+
+.icon.suus-path-minus:before {
+  content: "\ef46";
+}
+
+.icon.suus-path-unite:before {
+  content: "\ef47";
+}
+
+.icon.suus-paw:before {
+  content: "\ef48";
+}
+
+.icon.suus-payment:before {
+  content: "\ef49";
+}
+
+.icon.suus-pci-card:before {
+  content: "\ef4a";
+}
+
+.icon.suus-pen-01:before {
+  content: "\ef4b";
+}
+
+.icon.suus-pen-23:before {
+  content: "\ef4c";
+}
+
+.icon.suus-pen-tool:before {
+  content: "\ef4d";
+}
+
+.icon.suus-pencil-47:before {
+  content: "\ef4e";
+}
+
+.icon.suus-pencil:before {
+  content: "\ef4f";
+}
+
+.icon.suus-penguin:before {
+  content: "\ef51";
+}
+
+.icon.suus-percentage-38:before {
+  content: "\ef50";
+}
+
+.icon.suus-percentage-39:before {
+  content: "\ef52";
+}
+
+.icon.suus-phone-2:before {
+  content: "\ef53";
+}
+
+.icon.suus-phone-3:before {
+  content: "\ef54";
+}
+
+.icon.suus-phone-call-end:before {
+  content: "\ef55";
+}
+
+.icon.suus-phone-call:before {
+  content: "\ef56";
+}
+
+.icon.suus-phone:before {
+  content: "\ef57";
+}
+
+.icon.suus-photo-editor:before {
+  content: "\ef59";
+}
+
+.icon.suus-piano:before {
+  content: "\ef58";
+}
+
+.icon.suus-pickaxe:before {
+  content: "\ef5a";
+}
+
+.icon.suus-picture:before {
+  content: "\ef5b";
+}
+
+.icon.suus-pig-2:before {
+  content: "\ef5c";
+}
+
+.icon.suus-pig:before {
+  content: "\ef5d";
+}
+
+.icon.suus-pill-42:before {
+  content: "\ef5e";
+}
+
+.icon.suus-pill-43:before {
+  content: "\ef5f";
+}
+
+.icon.suus-pill-container-44:before {
+  content: "\ef60";
+}
+
+.icon.suus-pill-container-47:before {
+  content: "\ef61";
+}
+
+.icon.suus-pin-2:before {
+  content: "\ef62";
+}
+
+.icon.suus-pin-3:before {
+  content: "\ef63";
+}
+
+.icon.suus-pin-4:before {
+  content: "\ef64";
+}
+
+.icon.suus-pin-add-2:before {
+  content: "\ef65";
+}
+
+.icon.suus-pin-add:before {
+  content: "\ef66";
+}
+
+.icon.suus-pin-check:before {
+  content: "\ef67";
+}
+
+.icon.suus-pin-copy:before {
+  content: "\ef68";
+}
+
+.icon.suus-pin-delete:before {
+  content: "\ef69";
+}
+
+.icon.suus-pin-edit:before {
+  content: "\ef6a";
+}
+
+.icon.suus-pin-heart:before {
+  content: "\ef6b";
+}
+
+.icon.suus-pin-remove-2:before {
+  content: "\ef6c";
+}
+
+.icon.suus-pin-remove:before {
+  content: "\ef6d";
+}
+
+.icon.suus-pin-search:before {
+  content: "\ef6e";
+}
+
+.icon.suus-pin-security:before {
+  content: "\ef70";
+}
+
+.icon.suus-pin-settings:before {
+  content: "\ef6f";
+}
+
+.icon.suus-pin-share:before {
+  content: "\ef71";
+}
+
+.icon.suus-pin-star:before {
+  content: "\ef72";
+}
+
+.icon.suus-pin-sync:before {
+  content: "\ef73";
+}
+
+.icon.suus-pin-time:before {
+  content: "\ef74";
+}
+
+.icon.suus-pin-user:before {
+  content: "\ef75";
+}
+
+.icon.suus-pin:before {
+  content: "\ef76";
+}
+
+.icon.suus-pinch:before {
+  content: "\ef77";
+}
+
+.icon.suus-ping-pong:before {
+  content: "\ef78";
+}
+
+.icon.suus-pins:before {
+  content: "\ef79";
+}
+
+.icon.suus-pipe:before {
+  content: "\ef7a";
+}
+
+.icon.suus-pirate:before {
+  content: "\ef7b";
+}
+
+.icon.suus-pizza-slice:before {
+  content: "\ef7c";
+}
+
+.icon.suus-pizza:before {
+  content: "\ef7d";
+}
+
+.icon.suus-plane-17:before {
+  content: "\ef7e";
+}
+
+.icon.suus-plane-18:before {
+  content: "\ef7f";
+}
+
+.icon.suus-planet:before {
+  content: "\ef80";
+}
+
+.icon.suus-plant-ground:before {
+  content: "\ef82";
+}
+
+.icon.suus-plant-vase:before {
+  content: "\ef81";
+}
+
+.icon.suus-plate:before {
+  content: "\ef83";
+}
+
+.icon.suus-play-68:before {
+  content: "\ef84";
+}
+
+.icon.suus-play-69:before {
+  content: "\ef85";
+}
+
+.icon.suus-play:before {
+  content: "\ef86";
+}
+
+.icon.suus-player-19:before {
+  content: "\ef87";
+}
+
+.icon.suus-player-48:before {
+  content: "\ef88";
+}
+
+.icon.suus-player:before {
+  content: "\ef89";
+}
+
+.icon.suus-playlist:before {
+  content: "\ef8a";
+}
+
+.icon.suus-plug:before {
+  content: "\ef8b";
+}
+
+.icon.suus-podium-trophy:before {
+  content: "\ef8c";
+}
+
+.icon.suus-podium:before {
+  content: "\ef8d";
+}
+
+.icon.suus-point-a:before {
+  content: "\ef8e";
+}
+
+.icon.suus-point-b:before {
+  content: "\ef8f";
+}
+
+.icon.suus-polaroid-add:before {
+  content: "\ef90";
+}
+
+.icon.suus-polaroid-delete:before {
+  content: "\ef91";
+}
+
+.icon.suus-polaroid-multiple:before {
+  content: "\ef92";
+}
+
+.icon.suus-polaroid-user:before {
+  content: "\ef93";
+}
+
+.icon.suus-polaroid:before {
+  content: "\ef94";
+}
+
+.icon.suus-police:before {
+  content: "\ef95";
+}
+
+.icon.suus-pool:before {
+  content: "\ef96";
+}
+
+.icon.suus-poop:before {
+  content: "\ef97";
+}
+
+.icon.suus-pos:before {
+  content: "\ef9a";
+}
+
+.icon.suus-position-marker:before {
+  content: "\ef98";
+}
+
+.icon.suus-position-pin:before {
+  content: "\ef99";
+}
+
+.icon.suus-position-user:before {
+  content: "\ef9c";
+}
+
+.icon.suus-pot:before {
+  content: "\ef9b";
+}
+
+.icon.suus-power-level:before {
+  content: "\ef9d";
+}
+
+.icon.suus-preferences-circle-rotate:before {
+  content: "\ef9e";
+}
+
+.icon.suus-preferences-circle:before {
+  content: "\ef9f";
+}
+
+.icon.suus-preferences-container-circle-rotate:before {
+  content: "\efa1";
+}
+
+.icon.suus-preferences-container-circle:before {
+  content: "\efa2";
+}
+
+.icon.suus-preferences-container-rotate:before {
+  content: "\efa0";
+}
+
+.icon.suus-preferences-container:before {
+  content: "\efa4";
+}
+
+.icon.suus-preferences-rotate:before {
+  content: "\efa3";
+}
+
+.icon.suus-preferences:before {
+  content: "\efa5";
+}
+
+.icon.suus-print-round:before {
+  content: "\efa6";
+}
+
+.icon.suus-print:before {
+  content: "\efa7";
+}
+
+.icon.suus-priority-high:before {
+  content: "\efa8";
+}
+
+.icon.suus-priority-low:before {
+  content: "\efa9";
+}
+
+.icon.suus-progress:before {
+  content: "\efaa";
+}
+
+.icon.suus-prosciutto:before {
+  content: "\efab";
+}
+
+.icon.suus-pulse-chart:before {
+  content: "\efac";
+}
+
+.icon.suus-pulse-phone:before {
+  content: "\efad";
+}
+
+.icon.suus-pulse-sleep:before {
+  content: "\efae";
+}
+
+.icon.suus-pulse-watch:before {
+  content: "\efaf";
+}
+
+.icon.suus-pulse:before {
+  content: "\efb0";
+}
+
+.icon.suus-pumpkin:before {
+  content: "\efb1";
+}
+
+.icon.suus-push-next:before {
+  content: "\efb2";
+}
+
+.icon.suus-push-previous:before {
+  content: "\efb3";
+}
+
+.icon.suus-puzzle-09:before {
+  content: "\efb4";
+}
+
+.icon.suus-puzzle-10:before {
+  content: "\efb5";
+}
+
+.icon.suus-puzzled:before {
+  content: "\efb6";
+}
+
+.icon.suus-pyramid:before {
+  content: "\efb7";
+}
+
+.icon.suus-question:before {
+  content: "\efb8";
+}
+
+.icon.suus-quite-happy:before {
+  content: "\efb9";
+}
+
+.icon.suus-quote:before {
+  content: "\efba";
+}
+
+.icon.suus-rabbit:before {
+  content: "\efbb";
+}
+
+.icon.suus-rackets:before {
+  content: "\efbc";
+}
+
+.icon.suus-radar:before {
+  content: "\efbd";
+}
+
+.icon.suus-radiation:before {
+  content: "\efc1";
+}
+
+.icon.suus-radio:before {
+  content: "\efc0";
+}
+
+.icon.suus-rain-hail:before {
+  content: "\efbe";
+}
+
+.icon.suus-rain:before {
+  content: "\efbf";
+}
+
+.icon.suus-rainbow:before {
+  content: "\efc2";
+}
+
+.icon.suus-ram:before {
+  content: "\efc3";
+}
+
+.icon.suus-rat:before {
+  content: "\efc5";
+}
+
+.icon.suus-receipt-list-42:before {
+  content: "\efc4";
+}
+
+.icon.suus-receipt-list-43:before {
+  content: "\efc6";
+}
+
+.icon.suus-receipt:before {
+  content: "\efc7";
+}
+
+.icon.suus-recipe-book-46:before {
+  content: "\efc8";
+}
+
+.icon.suus-recipe-book-47:before {
+  content: "\efc9";
+}
+
+.icon.suus-recycling:before {
+  content: "\efca";
+}
+
+.icon.suus-redo-10:before {
+  content: "\efcb";
+}
+
+.icon.suus-redo-26:before {
+  content: "\efcc";
+}
+
+.icon.suus-redo-79:before {
+  content: "\efd0";
+}
+
+.icon.suus-redo-81:before {
+  content: "\efd1";
+}
+
+.icon.suus-refresh-01:before {
+  content: "\efce";
+}
+
+.icon.suus-refresh-02:before {
+  content: "\efcd";
+}
+
+.icon.suus-refresh-68:before {
+  content: "\efcf";
+}
+
+.icon.suus-refresh-69:before {
+  content: "\efd2";
+}
+
+.icon.suus-refresh:before {
+  content: "\efd4";
+}
+
+.icon.suus-reload:before {
+  content: "\efd3";
+}
+
+.icon.suus-remix:before {
+  content: "\efd5";
+}
+
+.icon.suus-remote:before {
+  content: "\efd7";
+}
+
+.icon.suus-remove:before {
+  content: "\efd6";
+}
+
+.icon.suus-replace-folder:before {
+  content: "\efd8";
+}
+
+.icon.suus-replace:before {
+  content: "\efd9";
+}
+
+.icon.suus-replay:before {
+  content: "\efda";
+}
+
+.icon.suus-reply-all:before {
+  content: "\efdb";
+}
+
+.icon.suus-reply:before {
+  content: "\efdc";
+}
+
+.icon.suus-restore:before {
+  content: "\efdd";
+}
+
+.icon.suus-rim:before {
+  content: "\efde";
+}
+
+.icon.suus-ring:before {
+  content: "\efdf";
+}
+
+.icon.suus-rio:before {
+  content: "\efe0";
+}
+
+.icon.suus-road-2:before {
+  content: "\efe2";
+}
+
+.icon.suus-road-sign-left:before {
+  content: "\efe1";
+}
+
+.icon.suus-road-sign-right:before {
+  content: "\efe4";
+}
+
+.icon.suus-road:before {
+  content: "\efe3";
+}
+
+.icon.suus-robot:before {
+  content: "\efe5";
+}
+
+.icon.suus-rock:before {
+  content: "\efe6";
+}
+
+.icon.suus-roll:before {
+  content: "\efe7";
+}
+
+.icon.suus-rolling-pin:before {
+  content: "\efe8";
+}
+
+.icon.suus-rome:before {
+  content: "\efe9";
+}
+
+.icon.suus-rope:before {
+  content: "\efea";
+}
+
+.icon.suus-rotate-22:before {
+  content: "\efeb";
+}
+
+.icon.suus-rotate-23:before {
+  content: "\efec";
+}
+
+.icon.suus-rotate-left-2:before {
+  content: "\efed";
+}
+
+.icon.suus-rotate-left:before {
+  content: "\efee";
+}
+
+.icon.suus-rotate-lock:before {
+  content: "\efef";
+}
+
+.icon.suus-rotate-right-2:before {
+  content: "\eff0";
+}
+
+.icon.suus-rotate-right:before {
+  content: "\eff1";
+}
+
+.icon.suus-rotate:before {
+  content: "\eff2";
+}
+
+.icon.suus-round-dollar:before {
+  content: "\eff3";
+}
+
+.icon.suus-round-down:before {
+  content: "\eff4";
+}
+
+.icon.suus-round-euro:before {
+  content: "\eff5";
+}
+
+.icon.suus-round-left-down:before {
+  content: "\eff6";
+}
+
+.icon.suus-round-left:before {
+  content: "\eff7";
+}
+
+.icon.suus-round-pound:before {
+  content: "\eff8";
+}
+
+.icon.suus-round-right-down:before {
+  content: "\eff9";
+}
+
+.icon.suus-round-right:before {
+  content: "\effa";
+}
+
+.icon.suus-round-up-left:before {
+  content: "\effb";
+}
+
+.icon.suus-round-up-right:before {
+  content: "\effc";
+}
+
+.icon.suus-round-up:before {
+  content: "\effd";
+}
+
+.icon.suus-round-yen:before {
+  content: "\effe";
+}
+
+.icon.suus-route-alert:before {
+  content: "\efff";
+}
+
+.icon.suus-route-close:before {
+  content: "\f000";
+}
+
+.icon.suus-route-open:before {
+  content: "\f001";
+}
+
+.icon.suus-rowing:before {
+  content: "\f003";
+}
+
+.icon.suus-rugby:before {
+  content: "\f002";
+}
+
+.icon.suus-ruler-pencil:before {
+  content: "\f004";
+}
+
+.icon.suus-sad:before {
+  content: "\f005";
+}
+
+.icon.suus-safe:before {
+  content: "\f007";
+}
+
+.icon.suus-sale:before {
+  content: "\f006";
+}
+
+.icon.suus-salt:before {
+  content: "\f008";
+}
+
+.icon.suus-santa-hat:before {
+  content: "\f009";
+}
+
+.icon.suus-satisfied:before {
+  content: "\f00a";
+}
+
+.icon.suus-sausage:before {
+  content: "\f00b";
+}
+
+.icon.suus-save-planet:before {
+  content: "\f00c";
+}
+
+.icon.suus-scale-2:before {
+  content: "\f00d";
+}
+
+.icon.suus-scale-3:before {
+  content: "\f00e";
+}
+
+.icon.suus-scale-4:before {
+  content: "\f00f";
+}
+
+.icon.suus-scale-down:before {
+  content: "\f010";
+}
+
+.icon.suus-scale-horizontal:before {
+  content: "\f011";
+}
+
+.icon.suus-scale-up:before {
+  content: "\f012";
+}
+
+.icon.suus-scale-vertical:before {
+  content: "\f013";
+}
+
+.icon.suus-scale:before {
+  content: "\f014";
+}
+
+.icon.suus-scan:before {
+  content: "\f015";
+}
+
+.icon.suus-scarf:before {
+  content: "\f016";
+}
+
+.icon.suus-school:before {
+  content: "\f017";
+}
+
+.icon.suus-scissors-dashed:before {
+  content: "\f018";
+}
+
+.icon.suus-scissors:before {
+  content: "\f019";
+}
+
+.icon.suus-scotch:before {
+  content: "\f01a";
+}
+
+.icon.suus-scroll-horitontal:before {
+  content: "\f01b";
+}
+
+.icon.suus-scroll-vertical:before {
+  content: "\f01c";
+}
+
+.icon.suus-sd:before {
+  content: "\f01d";
+}
+
+.icon.suus-sea-mask:before {
+  content: "\f01e";
+}
+
+.icon.suus-search-2:before {
+  content: "\f01f";
+}
+
+.icon.suus-search-3:before {
+  content: "\f020";
+}
+
+.icon.suus-search:before {
+  content: "\f021";
+}
+
+.icon.suus-seat:before {
+  content: "\f022";
+}
+
+.icon.suus-seatbelt:before {
+  content: "\f023";
+}
+
+.icon.suus-security:before {
+  content: "\f024";
+}
+
+.icon.suus-segmentation:before {
+  content: "\f025";
+}
+
+.icon.suus-select-83:before {
+  content: "\f026";
+}
+
+.icon.suus-select-84:before {
+  content: "\f027";
+}
+
+.icon.suus-select:before {
+  content: "\f028";
+}
+
+.icon.suus-selection:before {
+  content: "\f029";
+}
+
+.icon.suus-selfie:before {
+  content: "\f02a";
+}
+
+.icon.suus-send-2:before {
+  content: "\f02b";
+}
+
+.icon.suus-send:before {
+  content: "\f02c";
+}
+
+.icon.suus-sensor:before {
+  content: "\f02d";
+}
+
+.icon.suus-separate-round:before {
+  content: "\f02e";
+}
+
+.icon.suus-separate:before {
+  content: "\f02f";
+}
+
+.icon.suus-settings-46:before {
+  content: "\f030";
+}
+
+.icon.suus-settings-99:before {
+  content: "\f031";
+}
+
+.icon.suus-settings-gear-63:before {
+  content: "\f033";
+}
+
+.icon.suus-settings-gear-64:before {
+  content: "\f032";
+}
+
+.icon.suus-settings-gear-65:before {
+  content: "\f034";
+}
+
+.icon.suus-settings-tool-66:before {
+  content: "\f035";
+}
+
+.icon.suus-settings-tool-67:before {
+  content: "\f037";
+}
+
+.icon.suus-settings:before {
+  content: "\f036";
+}
+
+.icon.suus-sf-bridge:before {
+  content: "\f038";
+}
+
+.icon.suus-shake:before {
+  content: "\f039";
+}
+
+.icon.suus-shaker:before {
+  content: "\f03a";
+}
+
+.icon.suus-shape-adjust:before {
+  content: "\f03b";
+}
+
+.icon.suus-shape-circle:before {
+  content: "\f03c";
+}
+
+.icon.suus-shape-polygon:before {
+  content: "\f03d";
+}
+
+.icon.suus-shape-square:before {
+  content: "\f03e";
+}
+
+.icon.suus-shape-triangle:before {
+  content: "\f03f";
+}
+
+.icon.suus-shapes:before {
+  content: "\f040";
+}
+
+.icon.suus-share-2:before {
+  content: "\f041";
+}
+
+.icon.suus-share-66:before {
+  content: "\f042";
+}
+
+.icon.suus-share-91:before {
+  content: "\f043";
+}
+
+.icon.suus-share-92:before {
+  content: "\f044";
+}
+
+.icon.suus-share-bold:before {
+  content: "\f045";
+}
+
+.icon.suus-share-left:before {
+  content: "\f046";
+}
+
+.icon.suus-share-right:before {
+  content: "\f047";
+}
+
+.icon.suus-share:before {
+  content: "\f048";
+}
+
+.icon.suus-shared:before {
+  content: "\f04a";
+}
+
+.icon.suus-shark-2:before {
+  content: "\f049";
+}
+
+.icon.suus-shark:before {
+  content: "\f04b";
+}
+
+.icon.suus-sharpener:before {
+  content: "\f04c";
+}
+
+.icon.suus-sheep:before {
+  content: "\f04d";
+}
+
+.icon.suus-shirt-business:before {
+  content: "\f04e";
+}
+
+.icon.suus-shirt-buttons:before {
+  content: "\f04f";
+}
+
+.icon.suus-shirt-neck:before {
+  content: "\f050";
+}
+
+.icon.suus-shirt:before {
+  content: "\f051";
+}
+
+.icon.suus-shoe-man:before {
+  content: "\f052";
+}
+
+.icon.suus-shoe-run:before {
+  content: "\f053";
+}
+
+.icon.suus-shoe-sport:before {
+  content: "\f054";
+}
+
+.icon.suus-shoe-woman:before {
+  content: "\f055";
+}
+
+.icon.suus-shop-location:before {
+  content: "\f056";
+}
+
+.icon.suus-shop:before {
+  content: "\f057";
+}
+
+.icon.suus-shovel:before {
+  content: "\f058";
+}
+
+.icon.suus-shower:before {
+  content: "\f05a";
+}
+
+.icon.suus-shrimp:before {
+  content: "\f059";
+}
+
+.icon.suus-shuffle-01:before {
+  content: "\f05b";
+}
+
+.icon.suus-shuffle-35:before {
+  content: "\f05c";
+}
+
+.icon.suus-shuffle-97:before {
+  content: "\f05d";
+}
+
+.icon.suus-shuffle-98:before {
+  content: "\f05e";
+}
+
+.icon.suus-shy:before {
+  content: "\f05f";
+}
+
+.icon.suus-sick:before {
+  content: "\f060";
+}
+
+.icon.suus-sickle:before {
+  content: "\f062";
+}
+
+.icon.suus-sidebar:before {
+  content: "\f061";
+}
+
+.icon.suus-sign-board:before {
+  content: "\f063";
+}
+
+.icon.suus-sign:before {
+  content: "\f064";
+}
+
+.icon.suus-signal-2:before {
+  content: "\f065";
+}
+
+.icon.suus-signal:before {
+  content: "\f066";
+}
+
+.icon.suus-signature:before {
+  content: "\f067";
+}
+
+.icon.suus-silly:before {
+  content: "\f068";
+}
+
+.icon.suus-sim-card:before {
+  content: "\f069";
+}
+
+.icon.suus-simple-add:before {
+  content: "\f06a";
+}
+
+.icon.suus-simple-delete:before {
+  content: "\f06b";
+}
+
+.icon.suus-simple-down:before {
+  content: "\f06c";
+}
+
+.icon.suus-simple-left:before {
+  content: "\f06d";
+}
+
+.icon.suus-simple-remove:before {
+  content: "\f06e";
+}
+
+.icon.suus-simple-right:before {
+  content: "\f06f";
+}
+
+.icon.suus-simple-up:before {
+  content: "\f070";
+}
+
+.icon.suus-single-01:before {
+  content: "\f071";
+}
+
+.icon.suus-single-02:before {
+  content: "\f072";
+}
+
+.icon.suus-single-03:before {
+  content: "\f073";
+}
+
+.icon.suus-single-04:before {
+  content: "\f074";
+}
+
+.icon.suus-single-05:before {
+  content: "\f075";
+}
+
+.icon.suus-single-body:before {
+  content: "\f076";
+}
+
+.icon.suus-single-content-02:before {
+  content: "\f077";
+}
+
+.icon.suus-single-content-03:before {
+  content: "\f078";
+}
+
+.icon.suus-single-copies:before {
+  content: "\f079";
+}
+
+.icon.suus-single-copy-04:before {
+  content: "\f07a";
+}
+
+.icon.suus-single-copy-06:before {
+  content: "\f07b";
+}
+
+.icon.suus-single-folded-content:before {
+  content: "\f07c";
+}
+
+.icon.suus-single-folded:before {
+  content: "\f07d";
+}
+
+.icon.suus-single-paragraph:before {
+  content: "\f07e";
+}
+
+.icon.suus-single-position:before {
+  content: "\f07f";
+}
+
+.icon.suus-single:before {
+  content: "\f080";
+}
+
+.icon.suus-sink-wash:before {
+  content: "\f081";
+}
+
+.icon.suus-sink:before {
+  content: "\f082";
+}
+
+.icon.suus-size:before {
+  content: "\f083";
+}
+
+.icon.suus-skateboard-2:before {
+  content: "\f084";
+}
+
+.icon.suus-skateboard:before {
+  content: "\f085";
+}
+
+.icon.suus-skew-down:before {
+  content: "\f086";
+}
+
+.icon.suus-skew-left:before {
+  content: "\f087";
+}
+
+.icon.suus-skew-right:before {
+  content: "\f089";
+}
+
+.icon.suus-skew-up:before {
+  content: "\f088";
+}
+
+.icon.suus-skirt:before {
+  content: "\f08a";
+}
+
+.icon.suus-skull-2:before {
+  content: "\f08b";
+}
+
+.icon.suus-skull:before {
+  content: "\f08c";
+}
+
+.icon.suus-slacks-12:before {
+  content: "\f08d";
+}
+
+.icon.suus-slacks-13:before {
+  content: "\f08e";
+}
+
+.icon.suus-sleep-2:before {
+  content: "\f08f";
+}
+
+.icon.suus-sleep:before {
+  content: "\f090";
+}
+
+.icon.suus-slice:before {
+  content: "\f091";
+}
+
+.icon.suus-slide-left:before {
+  content: "\f092";
+}
+
+.icon.suus-slide-right:before {
+  content: "\f093";
+}
+
+.icon.suus-slider:before {
+  content: "\f094";
+}
+
+.icon.suus-sloth:before {
+  content: "\f095";
+}
+
+.icon.suus-small-add:before {
+  content: "\f096";
+}
+
+.icon.suus-small-delete:before {
+  content: "\f097";
+}
+
+.icon.suus-small-down:before {
+  content: "\f098";
+}
+
+.icon.suus-small-left:before {
+  content: "\f099";
+}
+
+.icon.suus-small-remove:before {
+  content: "\f09a";
+}
+
+.icon.suus-small-right:before {
+  content: "\f09c";
+}
+
+.icon.suus-small-triangle-down:before {
+  content: "\f09b";
+}
+
+.icon.suus-small-triangle-left:before {
+  content: "\f09d";
+}
+
+.icon.suus-small-triangle-right:before {
+  content: "\f09e";
+}
+
+.icon.suus-small-triangle-up:before {
+  content: "\f0a0";
+}
+
+.icon.suus-small-up:before {
+  content: "\f09f";
+}
+
+.icon.suus-smart:before {
+  content: "\f0a1";
+}
+
+.icon.suus-smile:before {
+  content: "\f0a2";
+}
+
+.icon.suus-snake:before {
+  content: "\f0a3";
+}
+
+.icon.suus-snow-ball:before {
+  content: "\f0a4";
+}
+
+.icon.suus-snow:before {
+  content: "\f0a5";
+}
+
+.icon.suus-snowboard:before {
+  content: "\f0a6";
+}
+
+.icon.suus-snowman-head:before {
+  content: "\f0a7";
+}
+
+.icon.suus-snowman:before {
+  content: "\f0a8";
+}
+
+.icon.suus-soak:before {
+  content: "\f0a9";
+}
+
+.icon.suus-soccer-field:before {
+  content: "\f0aa";
+}
+
+.icon.suus-sock:before {
+  content: "\f0ab";
+}
+
+.icon.suus-socket-europe-1:before {
+  content: "\f0ac";
+}
+
+.icon.suus-socket-europe-2:before {
+  content: "\f0ad";
+}
+
+.icon.suus-socket-uk:before {
+  content: "\f0ae";
+}
+
+.icon.suus-socket:before {
+  content: "\f0af";
+}
+
+.icon.suus-sofa:before {
+  content: "\f0b0";
+}
+
+.icon.suus-soldier:before {
+  content: "\f0b1";
+}
+
+.icon.suus-sound-wave:before {
+  content: "\f0b2";
+}
+
+.icon.suus-spa:before {
+  content: "\f0b5";
+}
+
+.icon.suus-spaceship:before {
+  content: "\f0b3";
+}
+
+.icon.suus-speaker-01:before {
+  content: "\f0b4";
+}
+
+.icon.suus-speaker-05:before {
+  content: "\f0b6";
+}
+
+.icon.suus-speaker:before {
+  content: "\f0b7";
+}
+
+.icon.suus-speechless:before {
+  content: "\f0b9";
+}
+
+.icon.suus-spider:before {
+  content: "\f0b8";
+}
+
+.icon.suus-spiteful:before {
+  content: "\f0ba";
+}
+
+.icon.suus-split-33:before {
+  content: "\f0bb";
+}
+
+.icon.suus-split-37:before {
+  content: "\f0bc";
+}
+
+.icon.suus-split-horizontal:before {
+  content: "\f0bd";
+}
+
+.icon.suus-split-round:before {
+  content: "\f0be";
+}
+
+.icon.suus-split-vertical:before {
+  content: "\f0bf";
+}
+
+.icon.suus-split:before {
+  content: "\f0c0";
+}
+
+.icon.suus-sport:before {
+  content: "\f0c1";
+}
+
+.icon.suus-spray-2:before {
+  content: "\f0c2";
+}
+
+.icon.suus-spray:before {
+  content: "\f0c3";
+}
+
+.icon.suus-square-add-08:before {
+  content: "\f0c5";
+}
+
+.icon.suus-square-add-11:before {
+  content: "\f0c4";
+}
+
+.icon.suus-square-corner-down-left:before {
+  content: "\f0c6";
+}
+
+.icon.suus-square-corner-down-right:before {
+  content: "\f0c7";
+}
+
+.icon.suus-square-corner-up-left:before {
+  content: "\f0c8";
+}
+
+.icon.suus-square-corner-up-right:before {
+  content: "\f0c9";
+}
+
+.icon.suus-square-delete-10:before {
+  content: "\f0ca";
+}
+
+.icon.suus-square-delete-13:before {
+  content: "\f0cc";
+}
+
+.icon.suus-square-down-06:before {
+  content: "\f0cb";
+}
+
+.icon.suus-square-down:before {
+  content: "\f0cd";
+}
+
+.icon.suus-square-download:before {
+  content: "\f0ce";
+}
+
+.icon.suus-square-left-04:before {
+  content: "\f0cf";
+}
+
+.icon.suus-square-left:before {
+  content: "\f0d0";
+}
+
+.icon.suus-square-marker:before {
+  content: "\f0d1";
+}
+
+.icon.suus-square-pin:before {
+  content: "\f0d2";
+}
+
+.icon.suus-square-remove-09:before {
+  content: "\f0d4";
+}
+
+.icon.suus-square-remove-12:before {
+  content: "\f0d3";
+}
+
+.icon.suus-square-right-03:before {
+  content: "\f0d5";
+}
+
+.icon.suus-square-right:before {
+  content: "\f0d6";
+}
+
+.icon.suus-square-simple-down:before {
+  content: "\f0d7";
+}
+
+.icon.suus-square-simple-left:before {
+  content: "\f0d8";
+}
+
+.icon.suus-square-simple-right:before {
+  content: "\f0d9";
+}
+
+.icon.suus-square-simple-up:before {
+  content: "\f0da";
+}
+
+.icon.suus-square-up-05:before {
+  content: "\f0db";
+}
+
+.icon.suus-square-up:before {
+  content: "\f0dc";
+}
+
+.icon.suus-square-upload:before {
+  content: "\f0dd";
+}
+
+.icon.suus-stamp:before {
+  content: "\f0de";
+}
+
+.icon.suus-standing-man:before {
+  content: "\f0df";
+}
+
+.icon.suus-standing-woman:before {
+  content: "\f0e1";
+}
+
+.icon.suus-star:before {
+  content: "\f0e2";
+}
+
+.icon.suus-steak:before {
+  content: "\f0e0";
+}
+
+.icon.suus-steering-wheel:before {
+  content: "\f0e3";
+}
+
+.icon.suus-steps:before {
+  content: "\f0e4";
+}
+
+.icon.suus-stock-2:before {
+  content: "\f0e5";
+}
+
+.icon.suus-stock:before {
+  content: "\f0e6";
+}
+
+.icon.suus-storage-hanger:before {
+  content: "\f0e7";
+}
+
+.icon.suus-storage:before {
+  content: "\f0e8";
+}
+
+.icon.suus-store:before {
+  content: "\f0e9";
+}
+
+.icon.suus-strategy:before {
+  content: "\f0ea";
+}
+
+.icon.suus-strawberry:before {
+  content: "\f0eb";
+}
+
+.icon.suus-stre-down:before {
+  content: "\f0ec";
+}
+
+.icon.suus-stre-left:before {
+  content: "\f0ed";
+}
+
+.icon.suus-stre-right:before {
+  content: "\f0ee";
+}
+
+.icon.suus-stre-up:before {
+  content: "\f0ef";
+}
+
+.icon.suus-stretch:before {
+  content: "\f0f0";
+}
+
+.icon.suus-strikethrough:before {
+  content: "\f0f1";
+}
+
+.icon.suus-strong-down:before {
+  content: "\f0f2";
+}
+
+.icon.suus-strong-left:before {
+  content: "\f0f4";
+}
+
+.icon.suus-strong-right:before {
+  content: "\f0f3";
+}
+
+.icon.suus-strong-up:before {
+  content: "\f0f5";
+}
+
+.icon.suus-subscript:before {
+  content: "\f0f6";
+}
+
+.icon.suus-sun-cloud-drop:before {
+  content: "\f0f7";
+}
+
+.icon.suus-sun-cloud-fog:before {
+  content: "\f0f8";
+}
+
+.icon.suus-sun-cloud-hail:before {
+  content: "\f0f9";
+}
+
+.icon.suus-sun-cloud-light:before {
+  content: "\f0fa";
+}
+
+.icon.suus-sun-cloud-rain:before {
+  content: "\f0fc";
+}
+
+.icon.suus-sun-cloud-snow-54:before {
+  content: "\f0fb";
+}
+
+.icon.suus-sun-cloud-snow-55:before {
+  content: "\f0fd";
+}
+
+.icon.suus-sun-cloud:before {
+  content: "\f0fe";
+}
+
+.icon.suus-sun-fog-29:before {
+  content: "\f0ff";
+}
+
+.icon.suus-sun-fog-30:before {
+  content: "\f100";
+}
+
+.icon.suus-sun-fog-43:before {
+  content: "\f101";
+}
+
+.icon.suus-sunglasses-48:before {
+  content: "\f102";
+}
+
+.icon.suus-sunglasses-49:before {
+  content: "\f103";
+}
+
+.icon.suus-sunglasses:before {
+  content: "\f104";
+}
+
+.icon.suus-superscript:before {
+  content: "\f105";
+}
+
+.icon.suus-supplement:before {
+  content: "\f106";
+}
+
+.icon.suus-support-16:before {
+  content: "\f107";
+}
+
+.icon.suus-support-17:before {
+  content: "\f109";
+}
+
+.icon.suus-surf-2:before {
+  content: "\f108";
+}
+
+.icon.suus-surf:before {
+  content: "\f10a";
+}
+
+.icon.suus-surprise:before {
+  content: "\f10b";
+}
+
+.icon.suus-sushi:before {
+  content: "\f10c";
+}
+
+.icon.suus-swap-horizontal:before {
+  content: "\f10d";
+}
+
+.icon.suus-swap-vertical:before {
+  content: "\f10e";
+}
+
+.icon.suus-swimsuit:before {
+  content: "\f10f";
+}
+
+.icon.suus-swimwear:before {
+  content: "\f110";
+}
+
+.icon.suus-swipe-bottom:before {
+  content: "\f111";
+}
+
+.icon.suus-swipe-left:before {
+  content: "\f112";
+}
+
+.icon.suus-swipe-right:before {
+  content: "\f113";
+}
+
+.icon.suus-swipe-up:before {
+  content: "\f114";
+}
+
+.icon.suus-swiss-knife:before {
+  content: "\f115";
+}
+
+.icon.suus-sync:before {
+  content: "\f116";
+}
+
+.icon.suus-syringe:before {
+  content: "\f117";
+}
+
+.icon.suus-system-update:before {
+  content: "\f118";
+}
+
+.icon.suus-table-left:before {
+  content: "\f119";
+}
+
+.icon.suus-table-right:before {
+  content: "\f11a";
+}
+
+.icon.suus-table:before {
+  content: "\f11b";
+}
+
+.icon.suus-tablet-2:before {
+  content: "\f11c";
+}
+
+.icon.suus-tablet-button:before {
+  content: "\f11d";
+}
+
+.icon.suus-tablet-mobile:before {
+  content: "\f11e";
+}
+
+.icon.suus-tablet-reader-31:before {
+  content: "\f11f";
+}
+
+.icon.suus-tablet-reader-42:before {
+  content: "\f120";
+}
+
+.icon.suus-tablet-toolbar:before {
+  content: "\f121";
+}
+
+.icon.suus-tablet:before {
+  content: "\f122";
+}
+
+.icon.suus-tacos:before {
+  content: "\f123";
+}
+
+.icon.suus-tactic:before {
+  content: "\f124";
+}
+
+.icon.suus-tag-2:before {
+  content: "\f125";
+}
+
+.icon.suus-tag-add:before {
+  content: "\f126";
+}
+
+.icon.suus-tag-check:before {
+  content: "\f127";
+}
+
+.icon.suus-tag-content:before {
+  content: "\f128";
+}
+
+.icon.suus-tag-cut:before {
+  content: "\f129";
+}
+
+.icon.suus-tag-line:before {
+  content: "\f12a";
+}
+
+.icon.suus-tag-loyalty:before {
+  content: "\f12b";
+}
+
+.icon.suus-tag-remove:before {
+  content: "\f12c";
+}
+
+.icon.suus-tag-sale:before {
+  content: "\f12d";
+}
+
+.icon.suus-tag:before {
+  content: "\f12e";
+}
+
+.icon.suus-tail-down:before {
+  content: "\f12f";
+}
+
+.icon.suus-tail-left:before {
+  content: "\f130";
+}
+
+.icon.suus-tail-right:before {
+  content: "\f131";
+}
+
+.icon.suus-tail-triangle-down:before {
+  content: "\f132";
+}
+
+.icon.suus-tail-triangle-left:before {
+  content: "\f133";
+}
+
+.icon.suus-tail-triangle-right:before {
+  content: "\f134";
+}
+
+.icon.suus-tail-triangle-up:before {
+  content: "\f136";
+}
+
+.icon.suus-tail-up:before {
+  content: "\f135";
+}
+
+.icon.suus-tap-01:before {
+  content: "\f137";
+}
+
+.icon.suus-tap-02:before {
+  content: "\f138";
+}
+
+.icon.suus-tape:before {
+  content: "\f139";
+}
+
+.icon.suus-target:before {
+  content: "\f13a";
+}
+
+.icon.suus-tea:before {
+  content: "\f13b";
+}
+
+.icon.suus-temperature-23:before {
+  content: "\f13c";
+}
+
+.icon.suus-temperature-24:before {
+  content: "\f13d";
+}
+
+.icon.suus-temple-25:before {
+  content: "\f13e";
+}
+
+.icon.suus-tennis-ball:before {
+  content: "\f140";
+}
+
+.icon.suus-tennis:before {
+  content: "\f141";
+}
+
+.icon.suus-text-2:before {
+  content: "\f13f";
+}
+
+.icon.suus-text:before {
+  content: "\f142";
+}
+
+.icon.suus-ticket-75:before {
+  content: "\f143";
+}
+
+.icon.suus-ticket-76:before {
+  content: "\f144";
+}
+
+.icon.suus-tie-01:before {
+  content: "\f145";
+}
+
+.icon.suus-tie-02:before {
+  content: "\f146";
+}
+
+.icon.suus-tie-bow:before {
+  content: "\f147";
+}
+
+.icon.suus-tile-55:before {
+  content: "\f148";
+}
+
+.icon.suus-tile-56:before {
+  content: "\f149";
+}
+
+.icon.suus-time-2:before {
+  content: "\f14a";
+}
+
+.icon.suus-time-3:before {
+  content: "\f14b";
+}
+
+.icon.suus-time-alarm:before {
+  content: "\f14c";
+}
+
+.icon.suus-time-clock:before {
+  content: "\f14d";
+}
+
+.icon.suus-time-countdown:before {
+  content: "\f14e";
+}
+
+.icon.suus-time:before {
+  content: "\f150";
+}
+
+.icon.suus-timeline:before {
+  content: "\f14f";
+}
+
+.icon.suus-todo:before {
+  content: "\f151";
+}
+
+.icon.suus-toilet-paper:before {
+  content: "\f152";
+}
+
+.icon.suus-toilet:before {
+  content: "\f153";
+}
+
+.icon.suus-tooth:before {
+  content: "\f154";
+}
+
+.icon.suus-touch:before {
+  content: "\f155";
+}
+
+.icon.suus-track-delivery:before {
+  content: "\f156";
+}
+
+.icon.suus-tracking:before {
+  content: "\f157";
+}
+
+.icon.suus-tractor:before {
+  content: "\f158";
+}
+
+.icon.suus-train-speed:before {
+  content: "\f159";
+}
+
+.icon.suus-train:before {
+  content: "\f15a";
+}
+
+.icon.suus-tram:before {
+  content: "\f15b";
+}
+
+.icon.suus-transform-origin:before {
+  content: "\f15c";
+}
+
+.icon.suus-transform:before {
+  content: "\f15d";
+}
+
+.icon.suus-trash-round:before {
+  content: "\f15e";
+}
+
+.icon.suus-trash-simple:before {
+  content: "\f15f";
+}
+
+.icon.suus-trash:before {
+  content: "\f160";
+}
+
+.icon.suus-treasure-map-21:before {
+  content: "\f161";
+}
+
+.icon.suus-treasure-map-40:before {
+  content: "\f162";
+}
+
+.icon.suus-tree-01:before {
+  content: "\f163";
+}
+
+.icon.suus-tree-02:before {
+  content: "\f165";
+}
+
+.icon.suus-tree-03:before {
+  content: "\f164";
+}
+
+.icon.suus-tree-ball:before {
+  content: "\f166";
+}
+
+.icon.suus-tree:before {
+  content: "\f167";
+}
+
+.icon.suus-trend-down:before {
+  content: "\f168";
+}
+
+.icon.suus-trend-up:before {
+  content: "\f16a";
+}
+
+.icon.suus-triangle-down-20:before {
+  content: "\f169";
+}
+
+.icon.suus-triangle-down-65:before {
+  content: "\f16b";
+}
+
+.icon.suus-triangle-down:before {
+  content: "\f16d";
+}
+
+.icon.suus-triangle-left-18:before {
+  content: "\f16c";
+}
+
+.icon.suus-triangle-left-63:before {
+  content: "\f16e";
+}
+
+.icon.suus-triangle-left:before {
+  content: "\f16f";
+}
+
+.icon.suus-triangle-right-17:before {
+  content: "\f171";
+}
+
+.icon.suus-triangle-right-62:before {
+  content: "\f170";
+}
+
+.icon.suus-triangle-right:before {
+  content: "\f172";
+}
+
+.icon.suus-triangle-up-19:before {
+  content: "\f173";
+}
+
+.icon.suus-triangle-up-64:before {
+  content: "\f174";
+}
+
+.icon.suus-triangle-up:before {
+  content: "\f175";
+}
+
+.icon.suus-tripod:before {
+  content: "\f176";
+}
+
+.icon.suus-trolley:before {
+  content: "\f177";
+}
+
+.icon.suus-trophy:before {
+  content: "\f178";
+}
+
+.icon.suus-truck-front:before {
+  content: "\f179";
+}
+
+.icon.suus-trunk:before {
+  content: "\f17a";
+}
+
+.icon.suus-tshirt-53:before {
+  content: "\f17b";
+}
+
+.icon.suus-tshirt-54:before {
+  content: "\f17c";
+}
+
+.icon.suus-tshirt-sport:before {
+  content: "\f17d";
+}
+
+.icon.suus-turtle:before {
+  content: "\f17e";
+}
+
+.icon.suus-tv-2:before {
+  content: "\f17f";
+}
+
+.icon.suus-tv-old:before {
+  content: "\f180";
+}
+
+.icon.suus-tv:before {
+  content: "\f181";
+}
+
+.icon.suus-ui-03:before {
+  content: "\f182";
+}
+
+.icon.suus-ui-04:before {
+  content: "\f183";
+}
+
+.icon.suus-umbrella-13:before {
+  content: "\f184";
+}
+
+.icon.suus-umbrella-14:before {
+  content: "\f185";
+}
+
+.icon.suus-underline:before {
+  content: "\f187";
+}
+
+.icon.suus-underwear-man:before {
+  content: "\f186";
+}
+
+.icon.suus-underwear:before {
+  content: "\f188";
+}
+
+.icon.suus-undo-25:before {
+  content: "\f189";
+}
+
+.icon.suus-undo-29:before {
+  content: "\f18a";
+}
+
+.icon.suus-ungroup:before {
+  content: "\f18b";
+}
+
+.icon.suus-unite-round:before {
+  content: "\f18c";
+}
+
+.icon.suus-unite:before {
+  content: "\f18d";
+}
+
+.icon.suus-upload-2:before {
+  content: "\f18e";
+}
+
+.icon.suus-upload:before {
+  content: "\f18f";
+}
+
+.icon.suus-upset-13:before {
+  content: "\f190";
+}
+
+.icon.suus-upset-14:before {
+  content: "\f191";
+}
+
+.icon.suus-usb:before {
+  content: "\f192";
+}
+
+.icon.suus-user-balance:before {
+  content: "\f193";
+}
+
+.icon.suus-user-climb:before {
+  content: "\f195";
+}
+
+.icon.suus-user-frame-31:before {
+  content: "\f194";
+}
+
+.icon.suus-user-frame-32:before {
+  content: "\f196";
+}
+
+.icon.suus-user-frame-33:before {
+  content: "\f198";
+}
+
+.icon.suus-user-meditation:before {
+  content: "\f197";
+}
+
+.icon.suus-user-run:before {
+  content: "\f199";
+}
+
+.icon.suus-user-snowboard:before {
+  content: "\f19a";
+}
+
+.icon.suus-user-swim:before {
+  content: "\f19b";
+}
+
+.icon.suus-user:before {
+  content: "\f19c";
+}
+
+.icon.suus-vampire:before {
+  content: "\f19d";
+}
+
+.icon.suus-vector-2:before {
+  content: "\f19e";
+}
+
+.icon.suus-vector:before {
+  content: "\f19f";
+}
+
+.icon.suus-ventilation:before {
+  content: "\f1a0";
+}
+
+.icon.suus-vespa-front:before {
+  content: "\f1a1";
+}
+
+.icon.suus-vespa:before {
+  content: "\f1a2";
+}
+
+.icon.suus-vest-31:before {
+  content: "\f1a3";
+}
+
+.icon.suus-vest-sport:before {
+  content: "\f1a4";
+}
+
+.icon.suus-vest:before {
+  content: "\f1a5";
+}
+
+.icon.suus-video-64:before {
+  content: "\f1a7";
+}
+
+.icon.suus-video-65:before {
+  content: "\f1a8";
+}
+
+.icon.suus-video-66:before {
+  content: "\f1a6";
+}
+
+.icon.suus-video-67:before {
+  content: "\f1a9";
+}
+
+.icon.suus-videocamera-71:before {
+  content: "\f1ab";
+}
+
+.icon.suus-videocamera-72:before {
+  content: "\f1aa";
+}
+
+.icon.suus-virus:before {
+  content: "\f1ac";
+}
+
+.icon.suus-voice-record:before {
+  content: "\f1ad";
+}
+
+.icon.suus-volleyball:before {
+  content: "\f1ae";
+}
+
+.icon.suus-volume-93:before {
+  content: "\f1af";
+}
+
+.icon.suus-volume-97:before {
+  content: "\f1b0";
+}
+
+.icon.suus-volume-98:before {
+  content: "\f1b2";
+}
+
+.icon.suus-volume-ban:before {
+  content: "\f1b1";
+}
+
+.icon.suus-volume-down:before {
+  content: "\f1b3";
+}
+
+.icon.suus-volume-off:before {
+  content: "\f1b4";
+}
+
+.icon.suus-volume-up:before {
+  content: "\f1b5";
+}
+
+.icon.suus-vpn:before {
+  content: "\f1b6";
+}
+
+.icon.suus-wallet-43:before {
+  content: "\f1b7";
+}
+
+.icon.suus-wallet-44:before {
+  content: "\f1b8";
+}
+
+.icon.suus-wallet-90:before {
+  content: "\f1b9";
+}
+
+.icon.suus-wallet:before {
+  content: "\f1ba";
+}
+
+.icon.suus-wand-11:before {
+  content: "\f1bb";
+}
+
+.icon.suus-wardrobe:before {
+  content: "\f1bd";
+}
+
+.icon.suus-wash-2:before {
+  content: "\f1bc";
+}
+
+.icon.suus-wash-30:before {
+  content: "\f1be";
+}
+
+.icon.suus-wash-60:before {
+  content: "\f1bf";
+}
+
+.icon.suus-wash-90:before {
+  content: "\f1c0";
+}
+
+.icon.suus-wash-hand:before {
+  content: "\f1c1";
+}
+
+.icon.suus-wash:before {
+  content: "\f1c3";
+}
+
+.icon.suus-washing-fluid:before {
+  content: "\f1c2";
+}
+
+.icon.suus-waste-danger:before {
+  content: "\f1c5";
+}
+
+.icon.suus-waste-recycling:before {
+  content: "\f1c4";
+}
+
+.icon.suus-waste:before {
+  content: "\f1c6";
+}
+
+.icon.suus-watch-circle:before {
+  content: "\f1c7";
+}
+
+.icon.suus-watch-dev:before {
+  content: "\f1c8";
+}
+
+.icon.suus-watch-time:before {
+  content: "\f1cb";
+}
+
+.icon.suus-watch:before {
+  content: "\f1c9";
+}
+
+.icon.suus-water-hand:before {
+  content: "\f1ca";
+}
+
+.icon.suus-water-sink:before {
+  content: "\f1cd";
+}
+
+.icon.suus-water:before {
+  content: "\f1cc";
+}
+
+.icon.suus-watermelon:before {
+  content: "\f1ce";
+}
+
+.icon.suus-wc:before {
+  content: "\f1cf";
+}
+
+.icon.suus-web-design:before {
+  content: "\f1d0";
+}
+
+.icon.suus-webcam-38:before {
+  content: "\f1d2";
+}
+
+.icon.suus-webcam-39:before {
+  content: "\f1d1";
+}
+
+.icon.suus-webpage-2:before {
+  content: "\f1d3";
+}
+
+.icon.suus-webpage:before {
+  content: "\f1d4";
+}
+
+.icon.suus-weed:before {
+  content: "\f1d5";
+}
+
+.icon.suus-weight:before {
+  content: "\f1d7";
+}
+
+.icon.suus-what:before {
+  content: "\f1d6";
+}
+
+.icon.suus-wheel-2:before {
+  content: "\f1d9";
+}
+
+.icon.suus-wheel:before {
+  content: "\f1db";
+}
+
+.icon.suus-wheelchair:before {
+  content: "\f1da";
+}
+
+.icon.suus-whisk:before {
+  content: "\f1d8";
+}
+
+.icon.suus-whiskers:before {
+  content: "\f1dc";
+}
+
+.icon.suus-whistle:before {
+  content: "\f1dd";
+}
+
+.icon.suus-white-house:before {
+  content: "\f1de";
+}
+
+.icon.suus-widget:before {
+  content: "\f1df";
+}
+
+.icon.suus-wifi-2:before {
+  content: "\f1e0";
+}
+
+.icon.suus-wifi-off:before {
+  content: "\f1e2";
+}
+
+.icon.suus-wifi-protected:before {
+  content: "\f1e1";
+}
+
+.icon.suus-wifi-router:before {
+  content: "\f1e3";
+}
+
+.icon.suus-wifi:before {
+  content: "\f1e4";
+}
+
+.icon.suus-wind-2:before {
+  content: "\f1e5";
+}
+
+.icon.suus-wind:before {
+  content: "\f1e6";
+}
+
+.icon.suus-window-add:before {
+  content: "\f1e7";
+}
+
+.icon.suus-window-code:before {
+  content: "\f1e9";
+}
+
+.icon.suus-window-delete:before {
+  content: "\f1e8";
+}
+
+.icon.suus-window-dev:before {
+  content: "\f1ea";
+}
+
+.icon.suus-window-paragraph:before {
+  content: "\f1eb";
+}
+
+.icon.suus-window-responsive:before {
+  content: "\f1ec";
+}
+
+.icon.suus-window-zoom-in:before {
+  content: "\f1ed";
+}
+
+.icon.suus-window-zoom-out:before {
+  content: "\f1ee";
+}
+
+.icon.suus-wink-06:before {
+  content: "\f1ef";
+}
+
+.icon.suus-wink-11:before {
+  content: "\f1f0";
+}
+
+.icon.suus-wink-69:before {
+  content: "\f1f1";
+}
+
+.icon.suus-witch-hat:before {
+  content: "\f1f2";
+}
+
+.icon.suus-wolf:before {
+  content: "\f1f4";
+}
+
+.icon.suus-woman-2:before {
+  content: "\f1f3";
+}
+
+.icon.suus-woman-21:before {
+  content: "\f1f5";
+}
+
+.icon.suus-woman-24:before {
+  content: "\f1f6";
+}
+
+.icon.suus-woman-25:before {
+  content: "\f1f7";
+}
+
+.icon.suus-woman-down:before {
+  content: "\f1f8";
+}
+
+.icon.suus-woman-man:before {
+  content: "\f1f9";
+}
+
+.icon.suus-woman-up:before {
+  content: "\f1fc";
+}
+
+.icon.suus-woman:before {
+  content: "\f1fd";
+}
+
+.icon.suus-wood:before {
+  content: "\f1fa";
+}
+
+.icon.suus-wool-ball:before {
+  content: "\f1fb";
+}
+
+.icon.suus-worl-marker:before {
+  content: "\f1fe";
+}
+
+.icon.suus-world-2:before {
+  content: "\f1ff";
+}
+
+.icon.suus-world-pin:before {
+  content: "\f200";
+}
+
+.icon.suus-world:before {
+  content: "\f201";
+}
+
+.icon.suus-zip-54:before {
+  content: "\f202";
+}
+
+.icon.suus-zip-55:before {
+  content: "\f203";
+}
+
+.icon.suus-zombie:before {
+  content: "\f204";
+}
+
+.icon.suus-zoom-100:before {
+  content: "\f205";
+}
+
+.icon.suus-zoom-2:before {
+  content: "\f206";
+}
+
+.icon.suus-zoom-88:before {
+  content: "\f207";
+}
+
+.icon.suus-zoom-99:before {
+  content: "\f208";
+}
+
+.icon.suus-zoom-bold-in:before {
+  content: "\f209";
+}
+
+.icon.suus-zoom-bold-out:before {
+  content: "\f20a";
+}
+
+.icon.suus-zoom-bold:before {
+  content: "\f20b";
+}
+
+.icon.suus-zoom-in:before {
+  content: "\f20c";
+}
+
+.icon.suus-zoom-out:before {
+  content: "\f20d";
+}
+
+.icon.suus-zoom-split-in:before {
+  content: "\f20e";
+}
+
+.icon.suus-zoom-split-out:before {
+  content: "\f20f";
+}
+
+.icon.suus-zoom-split:before {
+  content: "\f210";
+}
+
+.icon.suus-zoom:before {
+  content: "\f211";
+}

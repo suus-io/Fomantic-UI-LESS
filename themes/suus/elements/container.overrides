@@ -1,0 +1,10 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+@media only screen and (min-width: 1200px) {
+  .ui.container {
+    width: unset;
+    max-width: 1127px !important;
+  }
+}

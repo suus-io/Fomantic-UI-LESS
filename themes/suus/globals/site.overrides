@@ -1,0 +1,244 @@
+/*******************************
+        Global Overrides
+*******************************/
+
+/*******************************
+            Calendar
+*******************************/
+@focusBoxShadow: inset 0 0 0 1px @focusedFormBorderColor;
+@focusInvertedBoxShadow: inset 0 0 0 1px @focusedFormBorderColor;
+
+@todayFontWeight: bold;
+
+@rangeBackground: @transparentBlack;
+@rangeTextColor: @selectedTextColor;
+@rangeBoxShadow: none;
+@rangeInvertedBackground: @transparentWhite;
+@rangeInvertedTextColor: @invertedSelectedTextColor;
+@rangeInvertedBoxShadow: none;
+
+@import '../modules/calendar.less';
+/******************************/
+
+.vue-tooltip-theme {
+  max-width: 500px !important;
+}
+
+
+/*! system-font.css v1.1.0 | CC0-1.0 License | github.com/jonathantneal/system-font-face */
+
+@font-face {
+  font-family: system-ui;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Segoe UI Light"), local("Ubuntu Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+@font-face {
+  font-family: system-ui;
+  font-style: italic;
+  font-weight: 300;
+  src: local(".SFNSText-LightItalic"), local(".HelveticaNeueDeskInterface-Italic"), local(".LucidaGrandeUI"), local("Segoe UI Light Italic"), local("Ubuntu Light Italic"), local("Roboto-LightItalic"), local("DroidSans"), local("Tahoma");
+}
+
+@font-face {
+  font-family: system-ui;
+  font-style: normal;
+  font-weight: 400;
+  src: local(".SFNSText-Regular"), local(".HelveticaNeueDeskInterface-Regular"), local(".LucidaGrandeUI"), local("Segoe UI"), local("Ubuntu"), local("Roboto-Regular"), local("DroidSans"), local("Tahoma");
+}
+
+@font-face {
+  font-family: system-ui;
+  font-style: italic;
+  font-weight: 400;
+  src: local(".SFNSText-Italic"), local(".HelveticaNeueDeskInterface-Italic"), local(".LucidaGrandeUI"), local("Segoe UI Italic"), local("Ubuntu Italic"), local("Roboto-Italic"), local("DroidSans"), local("Tahoma");
+}
+
+@font-face {
+  font-family: system-ui;
+  font-style: normal;
+  font-weight: 500;
+  src: local(".SFNSText-Medium"), local(".HelveticaNeueDeskInterface-MediumP4"), local(".LucidaGrandeUI"), local("Segoe UI Semibold"), local("Ubuntu Medium"), local("Roboto-Medium"), local("DroidSans-Bold"), local("Tahoma Bold");
+}
+
+@font-face {
+  font-family: system-ui;
+  font-style: italic;
+  font-weight: 500;
+  src: local(".SFNSText-MediumItalic"), local(".HelveticaNeueDeskInterface-MediumItalicP4"), local(".LucidaGrandeUI"), local("Segoe UI Semibold Italic"), local("Ubuntu Medium Italic"), local("Roboto-MediumItalic"), local("DroidSans-Bold"), local("Tahoma Bold");
+}
+
+@font-face {
+  font-family: system-ui;
+  font-style: normal;
+  font-weight: 700;
+  src: local(".SFNSText-Bold"), local(".HelveticaNeueDeskInterface-Bold"), local(".LucidaGrandeUI"), local("Segoe UI Bold"), local("Ubuntu Bold"), local("Roboto-Bold"), local("DroidSans-Bold"), local("Tahoma Bold");
+}
+
+@font-face {
+  font-family: system-ui;
+  font-style: italic;
+  font-weight: 700;
+  src: local(".SFNSText-BoldItalic"), local(".HelveticaNeueDeskInterface-BoldItalic"), local(".LucidaGrandeUI"), local("Segoe UI Bold Italic"), local("Ubuntu Bold Italic"), local("Roboto-BoldItalic"), local("DroidSans-Bold"), local("Tahoma Bold");
+}
+/* END system font */
+
+// Semantic UI has these classes, however they're only applicable to
+// grids, containers, rows and columns.
+// plus, there isn't any `mobile hidden`, `X hidden` class.
+// this snippet is using the same class names and same approach
+// plus a bit more but to all elements.
+//
+// see https://github.com/Semantic-Org/Semantic-UI/issues/1114
+
+/* Mobile */
+@media only screen and (max-width: (@tabletBreakpoint - 1)) {
+  [class*="mobile hidden"],
+  .mobile.hidden,
+  [class*="tablet only"]:not(.mobile),
+  [class*="computer only"]:not(.mobile),
+  [class*="large screen only"]:not(.mobile),
+  [class*="widescreen only"]:not(.mobile),
+  [class*="or lower hidden"] {
+    display: none !important;
+  }
+}
+
+/* Tablet / iPad Portrait */
+@media only screen and (min-width: @tabletBreakpoint) and (max-width: (@computerBreakpoint - 1)) {
+  [class*="mobile only"]:not(.tablet),
+  [class*="tablet hidden"],
+  [class*="computer only"]:not(.tablet),
+  [class*="large screen only"]:not(.tablet),
+  [class*="widescreen only"]:not(.tablet),
+  [class*="or lower hidden"]:not(.mobile) {
+    display: none !important;
+  }
+}
+
+/* Computer / Desktop / iPad Landscape */
+@media only screen and (min-width: @computerBreakpoint) and (max-width: (@largeMonitorBreakpoint - 1)) {
+  [class*="mobile only"]:not(.computer),
+  [class*="tablet only"]:not(.computer),
+  [class*="computer hidden"],
+  .mobile.and.tablet.only,
+  [class*="large screen only"]:not(.computer),
+  [class*="widescreen only"]:not(.computer),
+  [class*="or lower hidden"]:not(.tablet):not(.mobile) {
+    display: none !important;
+  }
+}
+
+/* Large Monitor */
+@media only screen and (min-width: @largeMonitorBreakpoint) and (max-width: (@widescreenMonitorBreakpoint - 1)) {
+  [class*="mobile only"]:not([class*="large screen"]),
+  [class*="tablet only"]:not([class*="large screen"]),
+  [class*="computer only"]:not([class*="large screen"]),
+  .mobile.and.tablet.only,
+  [class*="large screen hidden"],
+  [class*="widescreen only"]:not([class*="large screen"]),
+  [class*="or lower hidden"]:not(.computer):not(.tablet):not(.mobile) {
+    display: none !important;
+  }
+}
+
+/* Widescreen Monitor */
+@media only screen and (min-width: @widescreenMonitorBreakpoint) {
+  [class*="mobile only"]:not([class*="widescreen"]),
+  [class*="tablet only"]:not([class*="widescreen"]),
+  [class*="computer only"]:not([class*="widescreen"]),
+  .mobile.and.tablet.only,
+  [class*="large screen only"]:not([class*="widescreen"]),
+  [class*="widescreen hidden"],
+  [class*="widescreen or lower hidden"] {
+    display: none !important;
+  }
+}
+
+.app {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  min-height: 50vh;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+body {
+  display: flex !important;
+  flex-direction: column !important;
+  align-content: space-between;
+
+  .app > .content,
+  & > .content {
+    background: #F8F8F8;
+    padding: 0 4em;
+    flex-grow: 10;
+    max-width: 100%;
+    box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.11);
+    flex-basis: 70vw;
+    @media screen and (max-width: @tabletBreakpoint) {
+      padding: 0;
+    }
+    p a:not(.ui) {
+      padding: 0 0.2rem;
+      background: #DBEDFF;
+      border: 1px solid #637E9E;
+      box-sizing: border-box;
+      border-radius: 3px;
+    }
+  }
+}
+
+.ui.selection.dropdown {
+  .avatar.corps {
+    display: inline-block;
+  }
+}
+
+p.right {
+  text-align: right;
+}
+
+@media screen and (min-width: @tabletBreakpoint) {
+  #app {
+    .content {
+      max-width: 80vw;
+    }
+  }
+}
+
+
+
+@media screen and (max-width: @tabletBreakpoint) {
+  #app {
+    .ui.menu.subsub {
+      height: 100% !important;
+      max-width: unset;
+    }
+  }
+
+  .app .content.fullscreen {
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+  }
+}
+
+dl {
+  dt {
+    flex-grow: 1;
+    flex-basis: 150px;
+    min-width: 150px;
+    padding-left: 0 !important;
+  }
+  dd {
+    flex-grow: 1;
+    flex-basis: 200px;
+    min-width: 150px;
+    padding-left: 0 !important;
+    margin-bottom: 0.5em !important;
+  }
+}

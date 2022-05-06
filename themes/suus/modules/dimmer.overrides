@@ -1,0 +1,115 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui.modal:not(.fullscreen) {
+  margin: 0 !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .ui.modal:not(.fullscreen) {
+    margin: 0 !important;
+  }
+}
+
+#create-dimmer {
+  padding-top: 6rem;
+  backdrop-filter: blur(10px);
+  > .container {
+    overflow-y: auto;
+    width: 100%;
+    padding: 1rem;
+    .hide {
+      display: none !important;
+    }
+  }
+  .tiles {
+    i.icon.tile-icon {
+      color: black;
+      font-size: 4rem;
+      padding: 2.5rem;
+      &::before {
+        background: white !important;
+        text-align: center;
+        font-weight: lighter;
+        border-radius: 8px;
+      }
+    }
+    .tile-label {
+      font-size: 18px;
+      padding: 1em;
+      text-align: center;
+      color: white;
+    }
+  }
+  .wizard {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    justify-content: flex-start;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.47);
+    width: auto;
+    margin: 0 2rem;
+    padding: 0;
+    .step {
+      padding: 1.75rem 0rem;
+      display: inline-flex;
+      justify-items: center;
+      color: #999;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 19px;
+      align-items: center;
+      cursor: pointer;
+      @media screen and (max-width: @tabletBreakpoint) {
+        display: none;
+        &.cancel {
+          display: initial;
+          > .content {
+            display: none;
+          }
+          > .icon {
+            display: initial;
+          }
+        }
+      }
+      &.breadcrumb::before {
+        content: "\eeba";
+        font-family: Icons;
+        margin: 0 1rem;
+        font-size: 2em;
+        color: #bababa;
+        align-self: center;
+        font-weight: lighter;
+      }
+      &.breadcrumb.active {
+        font-weight: normal;
+        color: #FFFFFF;
+      }
+      &.breadcrumb:first-of-type {
+        &::before {
+          content: none;
+        }
+      }
+      &.cancel {
+        flex-grow: 1;
+        justify-content: right;
+        text-align: right;
+        display: block;
+        &::after {
+          content: none;
+        }
+        .content {
+          display: inline-flex;
+        }
+        .icon {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+}

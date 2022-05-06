@@ -1,0 +1,128 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+@percussionGold:   white;
+@percussionSilver: white;
+
+.ui.avatar.images .image,
+.ui.avatar.images img,
+.ui.avatar.images svg,
+.ui.avatar.image img,
+.ui.avatar.image svg,
+.ui.avatar.image {
+  margin-right: 0;
+}
+
+.avatar {
+  height: 1.16666667em !important;
+  width: 1.16666667em !important;
+  border: 0.075em solid #FFFFFF;
+  box-shadow: 0 0 2px 0 rgba(96,96,96,0.9);
+  display: table-cell;
+  border-radius: 1em;
+  overflow: hidden;
+  box-sizing: border-box;
+  vertical-align: middle;
+
+  &.image {
+    border: 3px solid white;
+    background-color: #FFFFFF;
+    box-shadow: 0.5px 3px 5px 0px rgba(0,0,0,0.15), 0px 0px 0px 1px rgba(151,151,151,0.21);
+    box-sizing: content-box;
+  }
+}
+
+.has-avatar {
+  &::before {
+    content: ' ';
+    height: 1.16666667em;
+    width: 1.16666667em;
+    border: 0.1em solid #FFFFFF;
+    box-shadow: 0 0 2px 0 rgba(96,96,96, 0.5);
+    display: inline-table; //prevents from getting oval on small vertical space
+    border-radius: 1em;
+    overflow: hidden;
+    box-sizing: border-box;
+    vertical-align: middle;
+    //margin-right: 0.33em;
+  }
+}
+
+
+
+/* Some demo couleurs */
+.avatar.corps {
+  transform: rotate(328deg);
+  height: 1.16666667em;
+  width: 1.16666667em;
+  &.small {
+    border-width: 1.5px;
+  }
+  &.borussia {
+    border-color: @percussionSilver;
+    background: linear-gradient(90deg, #333 33%, white 33%, white 66%, #333 66%);
+  }
+  &.testonia {
+    border-color: @percussionSilver;
+    background: linear-gradient(90deg, #43CAFF 33%, white 33%, white 66%, #437CFF 66%);
+  }
+  &.franconia {
+    border-color: @percussionSilver;
+    background: linear-gradient(90deg, #dd8185 50%, #8fc92e 50%);
+  }
+  &.vandalia {
+    border-color: @percussionGold;
+    background: linear-gradient(90deg, #fec541 25%, #0338e2 25%, #0338e2 50%, #f90100 50%, #f90100 75%, #fec541 75%);
+  }
+  &.marcomannia {
+    border-color: @percussionGold;
+    background: linear-gradient(90deg, #d92e19 33%, white 33%, white 66%, #222 66%);
+  }
+}
+.has-avatar.corps {
+  &::before {
+    transform: rotate(328deg);
+  }
+
+  &.borussia {
+    border-color: @percussionSilver;
+    &::before {
+      background: linear-gradient(90deg, #222 33%, white 33%, white 66%, #222 66%);
+    }
+  }
+  &.testonia {
+    border-color: @percussionSilver;
+    &::before {
+      background: linear-gradient(90deg, #43CAFF 33%, white 33%, white 66%, #437CFF 66%);
+    }
+  }
+  &.franconia {
+    border-color: @percussionSilver;
+    &::before {
+      background: linear-gradient(90deg, #dd8185 50%, #8fc92e 50%);
+    }
+  }
+  &.vandalia {
+    border-color: @percussionGold;
+    &::before {
+      background: linear-gradient(90deg, #fec541 25%, #0338e2 25%, #0338e2 50%, #f90100 50%, #f90100 75%, #fec541 75%);
+    }
+  }
+  &.marcomannia {
+    border-color: @percussionGold;
+    &::before {
+      background: linear-gradient(90deg, #d92e19 33%, white 33%, white 66%, #222 66%);
+    }
+  }
+}
+
+.ui.tiny.images .image, .ui.tiny.images img, .ui.tiny.images svg, .ui.tiny.image {
+    font-size: 5rem;
+}
+
+@media screen and (max-width: @tabletBreakpoint) {
+  .ui.tiny.images .image, .ui.tiny.images img, .ui.tiny.images svg, .ui.tiny.image {
+    width: 6em;
+  }
+}

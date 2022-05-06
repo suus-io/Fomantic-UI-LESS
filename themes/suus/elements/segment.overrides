@@ -1,0 +1,68 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui.horizontal.segments {
+  padding: 0 @15px;
+  & > .segment {
+    border-left: none;
+    padding-left: @20px;
+    padding-right: @20px;
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+}
+
+.ui.segments.attached.bottom {
+  margin-top: 0;
+}
+
+.ui.segments {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.11);
+  border: none;
+}
+
+.ui.secondary.segment {
+  background: @white;
+  padding: 1rem 3rem;
+  &, a {
+    color: #8B8A8A;
+  }
+}
+
+.ui.segment.unpadded {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+
+
+// topics/show
+.likes {
+  display: flex;
+  justify-content: space-between;
+}
+.like-link, .unlike-link {
+  white-space: nowrap;
+  padding-right: 1rem;
+}
+
+@media screen and (max-width: @tabletBreakpoint) {
+  .likes {
+    flex-direction: column-reverse;
+    .likes-list {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.ui.segments .ui.segment.post-text {
+  padding: 2.2857rem 3rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11) !important;
+  border: none !important;
+  font-size: 1.1428rem;
+  @media screen and (max-width: @tabletBreakpoint) {
+    padding: 3.286rem 1.5rem;
+  }
+}

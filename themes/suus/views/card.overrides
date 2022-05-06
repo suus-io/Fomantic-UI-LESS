@@ -1,0 +1,46 @@
+/*******************************
+         Theme Overrides
+*******************************/
+.ui.card {
+  display: inline-flex;
+}
+
+.ui.grid {
+  .column .ui.card {
+    height: 100%;
+  }
+}
+
+.ui.card.horizontal {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 45rem;
+  .image {
+    width: 17rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    .extra {
+      margin-left: -1em;
+      justify-self: end;
+      margin-top: auto;
+      margin-right: -1em;
+      max-width: unset;
+      margin-bottom: -1em;
+      min-height: 0em !important;
+      flex-grow: 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
+      position: static;
+      background: none;
+      width: auto;
+      padding: 0.75em 1em;
+      top: 0em;
+      left: 0em;
+      color: rgba(0, 0, 0, 0.4);
+      box-shadow: none;
+      transition: color 0.1s ease;
+    }
+  }
+}

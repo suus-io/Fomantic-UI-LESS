@@ -1,0 +1,13 @@
+/*******************************
+         Site Overrides
+*******************************/
+.ui.breadcrumb a.section {
+  font-size: 0.85714286rem;
+  background-color: #eeeeee !important;
+  background-image: none !important;
+  color: #424242 !important;
+  padding: 0.92857143em 2.5em;
+  font-family: system-ui;
+  text-transform: uppercase;
+  font-weight: 900;
+}

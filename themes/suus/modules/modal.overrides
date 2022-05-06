@@ -1,0 +1,10 @@
+/*******************************
+         Theme Overrides
+*******************************/
+#changelog {
+  margin-left: 0;
+}
+
+#support_info {
+  margin-left: 0;
+}

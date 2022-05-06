@@ -1,0 +1,148 @@
+/*******************************
+         Theme Overrides
+*******************************/
+h1.ui.header, .content h1.ui.header:first-child {
+  margin-top: @38px;
+  margin-bottom: @34px;
+  text-align: center;
+  color: #424242;
+}
+h2.ui.header {
+  font-weight: bold;
+  text-transform: uppercase;
+  .sub.header {
+    text-transform: none;
+  }
+}
+h4.ui.header {
+  font-weight: 300;
+}
+.ui.header {
+  .sub.header {
+    a:not(:hover) {
+      color: #8B8A8A;
+    }
+  }
+}
+.ui.header.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.ui.dividing.header {
+  padding-left: 0.5em;
+}
+
+.ui.header {
+//  border-bottom: none;
+  .meta {
+    padding-top: 1rem;
+    margin-bottom: 0.429rem;
+    color: #424242;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    & > * {
+      white-space: nowrap;
+      padding: 0.3em 1em;
+    }
+  }
+}
+
+.ui.header {
+  &.centered {
+    text-align: center;
+    width: 100%;
+    margin-bottom: @30px;
+  }
+  .secondary {
+    color: @grey;
+  }
+  &.image {
+    display: inline-block;
+    text-align: center;
+    margin: 2rem 0 1rem;
+    &:first-child {
+      margin-top: 0;
+    }
+    & > .avatar, & > a > .avatar {
+      margin: 0 auto 1rem;
+      font-size: 10rem;
+    }
+    & > .content {
+      display: block;
+      padding: 0;
+    }
+  }
+  .meta {
+      align-items: baseline;
+      span { 
+          display: flex;
+          line-height: 16px;
+          align-items: center;
+          .icon {
+            line-height: 16px;
+            height: 16px;
+          }
+      }
+  }
+}
+
+body.members.show {
+  .content .ui.segment:first-of-type {
+    margin-top: 11rem;
+    h1.image.header {
+      margin-top: -11rem;
+    }
+  }
+}
+
+.header.context {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  & > div {
+    padding-top: 2rem;
+
+    &:first-child {
+      flex-basis: auto;
+      flex-grow: 1;
+    }
+    &:last-child {
+      flex-basis: auto;
+    }
+  }
+}
+
+.app .content.fullscreen .header.context > div {
+  padding-top: 0;
+}
+
+
+.ui.header-buttons {
+  margin-top: 1.5rem !important;
+  text-align: right;
+  display: block;
+
+  & + .ui.header {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: @tabletBreakpoint) {
+  h1.ui.header {
+    font-size: 2rem;
+  }
+  //.ui.header.with.action {
+  //  display: flex;
+  //  flex-direction: column-reverse;
+  //  .ui.button {
+  //    margin-top: 2rem;
+  //  }
+  //}
+}

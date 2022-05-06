@@ -1,0 +1,22 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui.divided.items {
+  .image.ui.placeholder {
+    width: 3rem !important;
+    height: 3rem !important;
+  }
+  .ui.placeholder {
+    width: 100% !important;
+  }
+}
+img.loading {
+  animation: placeholderShimmer 2s linear;
+  animation-iteration-count: infinite;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.08) 0, rgba(0, 0, 0, 0.15) 15%, rgba(0, 0, 0, 0.08) 30%);
+  background-size: 1200px 100%;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

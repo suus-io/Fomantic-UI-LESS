@@ -1,0 +1,64 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+@font-face {
+  font-family: 'Checkbox';
+  src:
+    url(data:font/woff;base64,d09GRgABAAAAAASQAA0AAAAABugAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABMAAAABoAAAAcb6FLvkdERUYAAAFMAAAAHQAAACAANQAET1MvMgAAAWwAAAA+AAAAYA8TBG9jbWFwAAABrAAAAFUAAAFeGFfX4mdhc3AAAAIEAAAACAAAAAgAAAAQZ2x5ZgAAAgwAAADJAAABVHshwGBoZWFkAAAC2AAAAC4AAAA2FdZm52hoZWEAAAMIAAAAHQAAACQHfQPIaG10eAAAAygAAAAZAAAAHg56AEVsb2NhAAADRAAAABIAAAASAQoAjG1heHAAAANYAAAAGAAAACAACgAvbmFtZQAAA3AAAADnAAABp5xOC4Fwb3N0AAAEWAAAADUAAABZCrAmUXicY2BgYGQAgjO2i86D6Isbr5TDaABTIwgWAAB4nGNgZGBg4ANiCQYQYGJgBEJ2IGYB8xgABJcAOgAAAHicY2BmdmKcwMDKwMA0k+kMAwNDP4RmfM1gzMjJgAoYBdAEGBwYGF8wMR/4f4DBgRmIQWqQZBUYGAEydgqMAAB4nGNgYGBmgGAZBkYGEIgA8hjBfBYGGyDNxcDBwASEjAwKL5j+//3/H6xK4QUDhP3/iQQrWAcXAwwwgsxjZANiZqgAE5BgYkAFQDtYGIY3AAAkpA0gAAAAAAEAAf//AA94nIWNPQrCQBCFZ3YhtoMkOyAEiSGx0Mr8iIhYWaQRPIjbCHolb2DhcexT2yhOslHBxoGdt483fA8Q3qMAFgr++w3s9FXdYQCAfg+9eDTGtMjXWGazIbptAn2lp0+G6Xkj2hIznfHYyJbUwTQZYUhsxEtyam+aFulDqxNVgS+/wO95cTQapyvM52UWzVjICRE/KiYZVhdR1d8710nHgUon2sK040y63dLiN3OJRbuFHGL24dfyrCGqHVGsseysa/sG/GPhBYvmLJ4AAAB4nGNgZGBgYGJgeKKSEBHPb/OVgZuFAQRu1gnaIdPMu5nzgBQHSC0DAwD0BQf3AAB4nGNgZGBgPvD/AAMDCwMIMO9mYGRABewAWiYDTgAAAHicY2GAAMZQCM0ExCwMDK7MqiAeAAqXAM4AAAAAAAAAAAgACAAQABgASABsAKoAAHicY2BkYGDgYNBlANEMDEwMaAAABbUAOnicfc5BSsNAGMXxf9q0agURFy50M3shlOoNikIXddGFa5N0SEvLDKQp2KUH8AxuXXkkz+JL+NYJJPzmffNmAlzxS0L7JJxzYx5wxoN5qPzZnMrv5hGXfJrHyr/NE+74UytJL5Rcdye0Huiue/NQ+aM5lV/NI27ZmsfKv8wTnvhhzgZPyY6CyAfMN77cFVFaaVBxZE9OraWvjvtc6Kn0jN40qDnoVyIBx4yMqWJfH7YxuFk27a2/dLVGxUpbQndYrrVnrazgpO9C1chSb7s3UymGxlU++Dpv/NoVJ7co4zLGkPEPj0VARQB4nGNgYsAPOBgYGJkYmBiZGZgZWRhZGdnY0nMqCzIM2UvzMg0MDMC0q4WBAZSG8Y0A660LKwAAAA==) format('woff')
+  ;
+}
+
+/* Checkmark */
+.ui.checkbox label:after,
+.ui.checkbox .box:after {
+  font-family: 'Checkbox';
+}
+
+/* Checked */
+.ui.checkbox input:checked ~ .box:after,
+.ui.checkbox input:checked ~ label:after {
+  content: '\e800';
+}
+
+/* Indeterminate */
+.ui.checkbox input:indeterminate ~ .box:after,
+.ui.checkbox input:indeterminate ~ label:after {
+  font-size: 12px;
+  content: '\e801';
+}
+
+
+/*  UTF Reference
+.check:before { content: '\e800'; }
+.dash:before  { content: '\e801'; }
+.plus:before { content: '\e802'; }
+*/
+
+.checkbox.checked > label {
+    font-weight: bold;
+}
+.content-checkboxes {
+  .ui.checkbox {
+    background: #eee;
+    padding: 1rem;
+    border-radius: 2px;
+    margin: 2px 0;
+    width: 100%;
+    transition: all ease .3s;
+    label {
+      .header {
+        font-weight: bold;
+      }
+    }
+    &.checked {
+      background: @blue;
+      label {
+        color: @white;
+        .description {
+          font-weight: normal !important;
+        }
+      }
+    }
+  }
+}

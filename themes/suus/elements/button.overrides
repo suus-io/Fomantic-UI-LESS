@@ -1,0 +1,286 @@
+/*******************************
+         Theme Overrides
+*******************************/
+.ui.buttons .disabled.button,
+.ui.disabled.button,
+.ui.button:disabled,
+.ui.disabled.button:hover,
+.ui.disabled.active.button
+.ui.disabled.icon.button:hover,
+.ui.disabled.icon.active.button {
+  color: #ababab !important;
+  pointer-events: auto !important;
+}
+
+.ui.buttons.right.aligned {
+  text-align: right;
+  display: block;
+}
+
+.ui[class*="right labeled"].icon.button {
+  & > .text {
+    padding-right: 1rem;
+  }
+  & > .icon {
+    vertical-align: middle;
+    bottom: 1em;
+    right: 1.25em;
+    width: 1.5em;
+  }
+}
+
+.ui.labeled.icon.button {
+  padding-left: 3.5em !important;
+  padding-right: 1.6em !important;
+
+  & > .icon {
+    &::before {
+      top: -2px;
+    }
+  }
+}
+
+.ui.labeled.icon.button {
+  padding-left: 3.5em !important;
+  padding-right: 1.6em !important;
+
+  &.dropdown {
+    padding-left: 5em !important;
+  }
+
+  & > .icon {
+    &::before {
+      top: -2px;
+      font-size: 16px;
+    }
+  }
+}
+
+.ui.button {
+  a {
+    color: @textColor;
+  }
+}
+
+.ui.icon.button {
+    > .ui.icon {
+        text-align: center;
+        vertical-align: middle;
+        height: 18px;
+        width: 18px;
+    }
+    
+}
+
+.ui.icon.buttons {
+    > .ui.button {
+        span {
+            display: inline-block;
+            margin-left: 4px;
+         }
+    }
+
+}
+
+.ui.dropdown.button > .text {
+  cursor: pointer;
+  color: #444444;
+  font-family: system-ui;
+  text-transform: uppercase;
+  text-shadow: none;
+  font-weight: 900;
+  line-height: 1em;
+  font-style: normal;
+  text-align: center;
+  font-size: 1em;
+}
+
+.ui.floating.buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  .button {
+    position: relative;
+    top: -1.5rem;
+    flex-grow: 0;
+    margin: 0 @7px;
+
+    &.right {
+      margin-left: auto;
+      margin-right: @23px;
+    }
+
+    &.left {
+      margin-right: auto;
+      margin-left: @23px;
+    }
+  }
+}
+.wysiwyg + .ui.floating.buttons {
+  .button {
+    position: relative;
+    top: -3rem;
+  }
+}
+.wysiwyg.comment + .ui.floating.buttons {
+  .button {
+    top: -1rem;
+  }
+}
+
+.ui.floating.button {
+  position: relative;
+  bottom: 1.5rem;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+
+  &.right {
+    margin-left: auto;
+    margin-right: @23px;
+  }
+
+  &.left {
+    margin-right: auto;
+    margin-left: @23px;
+  }
+}
+
+@media screen and (max-width: @tabletBreakpoint) {
+  .ui.floating.buttons {
+    flex-wrap: wrap-reverse;
+    .button {
+      top: 0;
+      margin: .5em 0.5em;
+    }
+  }
+  :not(.ui.input) {
+    .ui.button {
+      width: 100%;
+      &.dropdown {
+        text-align: center;
+      }
+      &.help {
+        width: unset;
+      }
+      //& ~ .button { margin-top: 1em; }
+    }
+  }
+}
+
+
+.ui {
+  &.buttons .button, &.button {
+    color: white;
+    background-color: #f1f1f1 !important;
+    background-image: linear-gradient(to right, #cccccc 0%, #b0b0b0 100%) !important;
+
+    &:hover:not(.empty), &.active:not(.empty), &.loading:not(.empty) {
+      background-image: linear-gradient(to right, #b0b0b0 0%, #b0b0b0 100%) !important;
+      color: white !important;
+    }
+    &.disabled {
+      color: #ababab !important;
+      background-image: linear-gradient(to right, #dadada 0%, #cecece 100%) !important;
+    }
+    &.icon  {
+      background-color: #eeeeee !important;
+      background-image: none !important;
+      color: @black !important;
+      &:before {
+        font-weight: normal;
+      }
+      &:hover, &.active, &.loading {
+        background-color: #dddddd !important;
+        color: @black !important;
+      }
+      &.disabled {
+        &, &:hover {
+          background-color: #f1f1f1 !important;
+          color: #ababab !important;
+        }
+      }
+      &.primary, &.secondary {
+        color: @white !important;
+      }
+    }
+    &.empty {
+      background-color: white !important;
+      background-image: none !important;
+    }
+
+    &.compact {
+      background-image: none !important;
+      color: #363636 !important;
+      text-transform: none;
+      font-weight: normal;
+      border: 1px solid #D1D1D1;
+      border-radius: 2px;
+
+      &.primary {
+        color: @white !important;
+        border: 1px solid #3183F7 !important;
+      }
+
+      &.secondary {
+        background-color: #48DEBC !important;
+        border: 1px solid #2AC38B !important;
+      }
+    }
+  }
+
+  &.primary {
+    &.buttons .button, &.button {
+      background-color: #3182F7 !important;
+      background-image: linear-gradient(to right, #40A2F6 0%, #3182F7 100%) !important;
+
+      &:hover, &.active, &.loading {
+        background-image: linear-gradient(to right, #3182F7 0%, #3182F7 100%) !important;
+      }
+      &.disabled {
+        background-image: linear-gradient(to right, #aed0fc 0%, #accdfc 100%) !important;
+        color: white !important;
+      }
+    }
+  }
+  &.secondary {
+    &.buttons .button, &.button {
+      background-color: #3AD1A5 !important;
+      background-image: linear-gradient(to right, #3AD1A5 0%, #26be83 100%) !important;
+
+      &:hover, &.active, &.loading {
+        background-image: linear-gradient(to right, #3AD1A5 0%, #3AD1A5 100%) !important;
+      }
+      &.disabled {
+        background-image: linear-gradient(to right, #b1eedd 0%, #aae8d2 100%) !important;
+      }
+    }
+  }
+}
+
+.ui.button.fluid {
+  margin-bottom: 1rem;
+}
+
+.ui.button.help {
+  &.icon {
+    color: @white;
+    .icon {
+      color: inherit;
+    }
+  }
+  background: rgba(255,255,255,0.19) !important;
+  border: 1px solid rgba(255,255,255,0.24);
+  border-radius: 100px;
+  white-space: nowrap;
+  font-weight: normal;
+  text-transform: none;
+  padding: @18px;
+  color: white !important;
+  transition: all .2s;
+
+  &:hover, &:active {
+    background: rgba(255,255,255,0.36) !important;
+    color: white !important;
+  }
+}

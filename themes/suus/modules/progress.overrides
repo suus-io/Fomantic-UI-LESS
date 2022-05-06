@@ -1,0 +1,14 @@
+/*******************************
+            Progress
+*******************************/
+.ui.progress.top.attached {
+  z-index: 1;
+  overflow: visible;
+  top: @6px;
+  align-self: left;
+  width: 100%;
+}
+
+.ui.progress.tiny .bar > .progress {
+  color: transparent;
+}

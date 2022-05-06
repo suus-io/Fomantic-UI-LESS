@@ -1,0 +1,222 @@
+/*******************************
+         Theme Overrides
+*******************************/
+.ui.horizontal.list,
+.ui.horizontal.list:not(.celled) {
+  padding: 0;
+  .item {
+    &.active {
+      border: 1px solid #DCE9FF !important;
+      &, a {
+        background: @blue !important;
+        color: @white !important;
+      }
+    }
+    &, &:first-child, &:last-child {
+      border: none;
+      border-radius: 2px !important;
+      box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.11);
+      &:not(.icon) {
+        min-width: 12rem;
+      }
+      & > .icon, & > .image > .avatar {
+        font-size: @28px;
+        vertical-align: middle;
+        line-height: 1em;
+        color: @black;
+      }
+      padding: @14px @21px @15px @17px !important;
+      margin-left: @6px !important;
+      margin-right: @6px !important;
+    }
+  }
+}
+
+.ui.horizontal.list .item.active > .content {
+  color: @white !important;
+}
+
+.attends {
+  .foreign_attendees {
+    margin-top: 1.5em;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+    li {
+      margin-bottom: .5em;
+    }
+  }
+}
+
+/*.tree {
+  margin: 0 0 0 1em !important;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  ul {
+    margin: 0 0 0 1em !important;
+    padding: 0 !important;
+    list-style: none;
+    position: relative;
+    margin-left: 0.5em !important;
+    margin-left: 2rem !important;
+    margin-top: -1rem !important;
+    &:before {
+      content: "";
+      display: block;
+      width: 0;
+      position: absolute;
+      top: 0;
+      bottom: 1.4rem;
+      left: 0;
+      border-left: 1px solid;
+    }
+  }
+  &:before {
+    content: "";
+    display: block;
+    width: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-left: 1px solid;
+  }
+  li.title {
+    margin: 0 !important;
+    padding-left: 1.5em !important;
+    line-height: 1.8rem;
+    position: relative;
+    &:before {
+      content: "";
+      display: block;
+      width: 1rem;
+      height: 0;
+      border-top: 1px solid;
+      margin-top: -1px;
+      position: absolute;
+      top: 1.25rem;
+      left: 0;
+    }
+    &:last-child {
+      &:before {
+        background: transparent;
+        height: auto;
+        top: 1em;
+        bottom: 0;
+      }
+    }
+  }
+}*/
+
+.tree {
+  margin: 0 0 0 1em;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  ul {
+    margin: 0 0 0 1em;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    margin-left: 0.5em;
+  }
+  &:before, ul:before {
+    content: "";
+    display: block;
+    width: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-left: 1px solid;
+  }
+  li {
+    margin: 0;
+    padding-left: 1.5em;
+    line-height: 1.8rem;
+    position: relative;
+    &:before {
+      content: "";
+      display: block;
+      width: 1rem;
+      height: 0;
+      border-top: 1px solid;
+      margin-top: -1px;
+      position: absolute;
+      top: 1.25rem;
+      left: 0;
+    }
+    &:last-child:before {
+      background: white;
+      height: auto;
+      top: 1em;
+      bottom: 0;
+    }
+  }
+}
+
+
+
+@dl-colwidth: 50%;
+dl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  dt {
+    font-weight: bold;
+    flex-basis: @dl-colwidth;
+    flex-grow: 1;
+  }
+  dd {
+    flex-basis: calc(100% - @dl-colwidth);
+    flex-grow: 1;
+    margin: 0;
+    & + dd {
+      margin-left: @dl-colwidth;
+    }
+  }
+}
+hr {
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+.time-gap {
+  color: #8B8A8A;
+  border: 1px solid #DBDBDB;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  padding: 1rem;
+  margin: 1.5rem;
+}
+
+
+.ui.text.shape {
+  width: 100%;
+  .ui.icon {
+    position: absolute;
+    top: 1.25rem;
+    z-index: 999;
+    cursor: pointer;
+    &:first-of-type {
+      left: -1rem;
+    }
+    &:last-of-type {
+      right: -1rem;
+    }
+  }
+  .sides {
+    width: 100%;
+  }
+}
+
+a.boxed {
+  border: 1px solid #E9E9E9 !important;
+  border-radius: 2px !important;
+  background-color: #FAFAFA !important;
+  color: #363636 !important;
+  padding: 1px 5px !important;
+}

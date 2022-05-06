@@ -1,0 +1,197 @@
+/*******************************
+             Form
+*******************************/
+
+/*-------------------
+       Elements
+--------------------*/
+
+/* Form */
+@gutterWidth: 1em;
+@rowDistance: 1.5em;
+
+/* Text */
+@paragraphMargin: @rowDistance 0em;
+
+/* Field */
+// 2px to avoid box-shadow (=border) to be cropped away from adjacent elements
+@fieldMargin: 2px 2px @rowDistance;
+
+/* Fields */
+@fieldsMargin: 0em -(@gutterWidth / 2) @rowDistance;
+
+/* Form Label */
+@labelDistance: @4px;
+@labelMargin: 0.5em 0;
+@labelFontSize: @12px;
+@labelFontWeight: 900;
+@labelTextTransform: uppercase;
+@labelColor: #ADADAD;
+
+/* Input */
+@inputFont: @pageFont;
+@inputWidth: 100%;
+@inputFontSize: 1.28571429em;
+@inputPadding: 0.2em .5em @2px .5em;
+@inputBorder: none;
+@inputBorderRadius: 0;
+@inputColor: #545454; //@textColor;
+@inputTransition:
+  color @defaultDuration @defaultEasing,
+  border @defaultDuration @defaultEasing
+  box-shadow @defaultDuration @defaultEasing
+;
+@inputBoxShadow: 7px 7px 0px -6px #bbbbbb, -7px 7px 0px -6px #bbbbbb;
+
+/* Select */
+@selectBackground: @white;
+@selectBorderRadius: @inputBorderRadius;
+@selectBorder: @inputBorder;
+@selectPadding: 0.62em @inputHorizontalPadding;
+@selectBoxShadow: @inputBoxShadow;
+@selectTransition: @inputTransition;
+@selectColor: @inputColor;
+
+/* Text Area */
+@textAreaPadding: @inputVerticalPadding @inputHorizontalPadding;
+@textAreaHeight: 12em;
+@textAreaResize: vertical;
+@textAreaLineHeight: 1.2857em;
+@textAreaMinHeight: 8em;
+@textAreaMaxHeight: 24em;
+@textAreaBackground: @inputBackground;
+@textAreaBorder: 1px solid #bbbbbb;
+@textAreaFontSize: @inputFontSize;
+@textAreaTransition: @inputTransition;
+
+/* Checkbox */
+@checkboxVerticalAlign: middle;
+@checkboxLabelFontSize: 1em;
+@checkboxLabelTextTransform: @labelTextTransform;
+
+/* Inline Validation Prompt */
+@promptBackground: @white;
+@promptBorderColor: @formErrorBorder;
+@promptBorder: 1px solid @promptBorderColor;
+@promptTextColor: @formErrorColor;
+@inlinePromptMargin: -0.25em 0em -0.5em 0.5em;
+@inlinePromptBorderWidth: 1px;
+
+/*-------------------
+        States
+--------------------*/
+
+/* Focus */
+@inputFocusPointerSize: 0px;
+
+/* Input Focus */
+@inputFocusBackground: @inputBackground;
+@inputFocusBorderColor: transparent;
+@inputFocusColor: @fullBlack;
+@inputFocusBoxShadow: 7px 7px 0px -6px @lightBlue, -7px 7px 0px -6px @lightBlue;
+@inputFocusBorderRadius: 0;
+
+/* Text Area Focus */
+@textAreaFocusBackground: @inputFocusBackground;
+@textAreaFocusBorderColor: @inputFocusBorderColor;
+@textAreaFocusColor: @inputFocusColor;
+@textAreaFocusBoxShadow: none;
+@textAreaFocusBorderRadius: @inputFocusBorderRadius;
+
+/* Disabled */
+@disabledLabelOpacity: @disabledOpacity;
+
+/* Errored Input */
+@formErrorColor: @inputColor;
+@formErrorBorder: @inputBorder;
+@formErrorBackground: @inputBackground;
+
+/* AutoFill */
+@inputAutoFillBackground: #FFFFF0;
+@inputAutoFillBorder: #E5DFA1;
+@inputAutoFillFocusBackground: @inputAutoFillBackground;
+@inputAutoFillFocusBorder: #D5C315;
+@inputAutoFillErrorBackground: #FFFAF0;
+@inputAutoFillErrorBorder: #E0B4B4;
+
+
+
+/* Input Error */
+@inputErrorBorderRadius: 0;
+@inputErrorBoxShadow: 7px 7px 0px -6px @lightRed, -7px 7px 0px -6px @lightRed;
+
+/* Dropdown Error */
+@dropdownErrorHoverBackground: #FBE7E7;
+@dropdownErrorSelectedBackground: @dropdownErrorHoverBackground;
+@dropdownErrorActiveBackground: #FDCFCF;
+@dropdownErrorLabelBackground: #EACBCB;
+@dropdownErrorLabelColor: @errorTextColor;
+
+/* Focused Error */
+@inputErrorFocusBackground: @inputFocusBackground;
+@inputErrorFocusColor: @inputFocusColor;
+@inputErrorFocusBorder: none;
+@inputErrorFocusBoxShadow: @inputErrorBoxShadow;
+
+/* Placeholder Error */
+@inputErrorPlaceholderColor: lighten(@formErrorColor, 40);
+@inputErrorPlaceholderFocusColor: lighten(@formErrorColor, 30);
+
+/* Loading Dimmer */
+@loaderDimmerColor: rgba(255, 255, 255, 0.8);
+@loaderDimmerZIndex: 100;
+
+/* Loading Spinner */
+@loaderSize: 3em;
+@loaderLineZIndex: 101;
+
+/*-------------------
+        Types
+--------------------*/
+
+/* Required */
+@requiredContent: '*';
+@requiredColor: @negativeColor;
+@requiredVerticalOffset: -0.2em;
+@requiredDistance: 0.2em;
+@requiredMargin: @requiredVerticalOffset 0em 0em @requiredDistance;
+
+/* Inverted */
+@invertedInputBackground: @inputBackground;
+@invertedInputBorderColor: @whiteBorderColor;
+@invertedInputBoxShadow: @inputBoxShadow;
+@invertedInputColor: @inputColor;
+@invertedLabelColor: @invertedTextColor;
+@invertedInputBoxShadow: @inputBoxShadow;
+
+/*-------------------
+      Variations
+--------------------*/
+
+/* Grouped Fields */
+@groupedMargin: @fieldMargin;
+@groupedFieldMargin: 0.5em 0em;
+
+@groupedLabelDistance: @labelDistance;
+@groupedLabelColor: @labelColor;
+@groupedLabelMargin: @labelMargin;
+@groupedLabelFontSize: @labelFontSize;
+@groupedLabelFontWeight: @labelFontWeight;
+@groupedLabelTextTransform: @labelTextTransform;
+
+
+/* Inline */
+@inlineInputSize: @relativeMedium;
+@inlineLabelDistance: @relativeTiny;
+@inlineLabelColor: @labelColor;
+@inlineLabelFontSize: @labelFontSize;
+@inlineLabelFontWeight: @labelFontWeight;
+@inlineLabelTextTransform: @labelTextTransform;
+@groupedInlineLabelMargin: 0.035714em 1em 0em 0em;
+
+/*-------------------
+       Groups
+--------------------*/
+
+// to avoid box-shadow (=border) to be cropped away from adjacent elements
+@inlineFieldsMargin: 2px 1em 2px 2px;

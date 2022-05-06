@@ -1,0 +1,8 @@
+/*******************************
+         Theme Overrides
+*******************************/
+.ui.popup {
+  font-size: 1em;
+  text-transform: none;
+  letter-spacing: initial;
+}
