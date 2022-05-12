@@ -96,9 +96,9 @@
       Variations
 --------------------*/
 
-@attachedHorizontalOffset: -@borderWidth;
+@attachedHorizontalOffset: -(@borderWidth);
 @attachedVerticalOffset: 0;
-@attachedWidth: e(%("calc(100%% + %d)", -@attachedHorizontalOffset * 2));
+@attachedWidth: e(%("calc(100%% + %d)", -(@attachedHorizontalOffset) * 2));
 
 @orderedFontFamily: inherit;
 @orderedFontWeight: @bold;

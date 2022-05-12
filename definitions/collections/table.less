@@ -248,7 +248,7 @@
           box-shadow: @responsiveRowBoxShadow, @coloredBorderSize 0 0 0 @c inset;
         }
         &.right {
-          box-shadow: @responsiveRowBoxShadow, -@coloredBorderSize 0 0 0 @c inset;
+          box-shadow: @responsiveRowBoxShadow, -(@coloredBorderSize) 0 0 0 @c inset;
         }
       }
       & when (@variationTableInverted) {
@@ -257,7 +257,7 @@
             box-shadow: @responsiveRowBoxShadow, @coloredBorderSize 0 0 0 @l inset;
           }
           &.right {
-            box-shadow: @responsiveRowBoxShadow, -@coloredBorderSize 0 0 0 @l inset;
+            box-shadow: @responsiveRowBoxShadow, -(@coloredBorderSize) 0 0 0 @l inset;
           }
         }
       }
@@ -330,7 +330,7 @@
     background: @definitionHeaderBackground;
     font-weight: @definitionHeaderFontWeight;
     color: @definitionHeaderColor;
-    box-shadow: -@coloredBorderSizeCover -@coloredBorderSize 0 @coloredBorderSizeCover @definitionPageBackground;
+    box-shadow: -(@coloredBorderSizeCover) -(@coloredBorderSize) 0 @coloredBorderSizeCover @definitionPageBackground;
     -moz-transform: scale(1);
   }
 
@@ -343,7 +343,7 @@
     background: @definitionFooterBackground;
     font-weight: @definitionFooterFontWeight;
     color: @definitionFooterColor;
-    box-shadow: -@coloredBorderSizeCover @coloredBorderSize 0 @coloredBorderSizeCover @definitionPageBackground;
+    box-shadow: -(@coloredBorderSizeCover) @coloredBorderSize 0 @coloredBorderSizeCover @definitionPageBackground;
     -moz-transform: scale(1);
   }
 
@@ -536,7 +536,7 @@
           box-shadow: @responsiveRowBoxShadow, @coloredBorderSize 0 0 0 @c inset;
         }
         &.right {
-          box-shadow: @responsiveRowBoxShadow, -@coloredBorderSize 0 0 0 @c inset;
+          box-shadow: @responsiveRowBoxShadow, -(@coloredBorderSize) 0 0 0 @c inset;
         }
       }
       & when (@variationTableInverted) {
@@ -545,7 +545,7 @@
             box-shadow: @responsiveRowBoxShadow, @coloredBorderSize 0 0 0 @l inset;
           }
           &.right {
-            box-shadow: @responsiveRowBoxShadow, -@coloredBorderSize 0 0 0 @l inset;
+            box-shadow: @responsiveRowBoxShadow, -(@coloredBorderSize) 0 0 0 @l inset;
           }
         }
       }
@@ -844,7 +844,7 @@ each(@colors, {
         box-shadow: @coloredBorderSize 0 0 0 @c inset;
       }
       &.right {
-        box-shadow: -@coloredBorderSize 0 0 0 @c inset;
+        box-shadow: -(@coloredBorderSize) 0 0 0 @c inset;
       }
     }
     & when (@variationTableInverted) {
@@ -854,7 +854,7 @@ each(@colors, {
           box-shadow: @coloredBorderSize 0 0 0 @l inset;
         }
         &.right {
-          box-shadow: -@coloredBorderSize 0 0 0 @l inset;
+          box-shadow: -(@coloredBorderSize) 0 0 0 @l inset;
         }
       }
     }

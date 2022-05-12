@@ -286,7 +286,7 @@
   /* Arrow */
   .ui.steps:not(.unstackable) .step:after {
     top: unset;
-    bottom: -@arrowSize;
+    bottom: -(@arrowSize);
     right: 50%;
     transform: translateY(-50%) translateX(50%) rotate(45deg);
   }
@@ -430,7 +430,7 @@
     /* Arrow */
     .ui[class*="tablet stackable"].steps .step:after {
       top: unset;
-      bottom: -@arrowSize;
+      bottom: -(@arrowSize);
       right: 50%;
       transform: translateY(-50%) translateX(50%) rotate(45deg);
     }

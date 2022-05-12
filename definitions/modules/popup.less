@@ -136,7 +136,7 @@
     left: 50%;
     background: @tooltipArrowBottomBackground;
     margin-left: @tooltipArrowHorizontalOffset;
-    margin-bottom: -@tooltipArrowVerticalOffset;
+    margin-bottom: -(@tooltipArrowVerticalOffset);
   }
   [data-tooltip]:not([data-position]):after {
     left: 50%;
@@ -274,7 +274,7 @@
           left: 50%;
           background: @tooltipArrowTopBackground;
           margin-left: @tooltipArrowHorizontalOffset;
-          margin-bottom: -@tooltipArrowVerticalOffset;
+          margin-bottom: -(@tooltipArrowVerticalOffset);
         }
       }
       & when (@variationPopupLeft) {
@@ -292,7 +292,7 @@
           bottom: 100%;
           left: @arrowDistanceFromEdge;
           margin-left: @tooltipArrowHorizontalOffset;
-          margin-bottom: -@tooltipArrowVerticalOffset;
+          margin-bottom: -(@tooltipArrowVerticalOffset);
         }
       }
       & when (@variationPopupRight) {
@@ -310,7 +310,7 @@
           bottom: 100%;
           right: @arrowDistanceFromEdge;
           margin-left: @tooltipArrowHorizontalOffset;
-          margin-bottom: -@tooltipArrowVerticalOffset;
+          margin-bottom: -(@tooltipArrowVerticalOffset);
         }
       }
     }
@@ -336,7 +336,7 @@
           top: 100%;
           left: 50%;
           margin-left: @tooltipArrowHorizontalOffset;
-          margin-top: -@arrowOffset;
+          margin-top: -(@arrowOffset);
           transform-origin: center top;
         }
       }
@@ -353,7 +353,7 @@
           top: 100%;
           left: @arrowDistanceFromEdge;
           margin-left: @tooltipArrowHorizontalOffset;
-          margin-top: -@tooltipArrowVerticalOffset;
+          margin-top: -(@tooltipArrowVerticalOffset);
         }
       }
       & when (@variationPopupRight) {
@@ -369,7 +369,7 @@
           top: 100%;
           right: @arrowDistanceFromEdge;
           margin-left: @tooltipArrowVerticalOffset;
-          margin-top: -@tooltipArrowHorizontalOffset;
+          margin-top: -(@tooltipArrowHorizontalOffset);
         }
       }
     }
@@ -403,7 +403,7 @@
           left: 100%;
           top: 50%;
           margin-top: @tooltipArrowHorizontalOffset;
-          margin-left: -@tooltipArrowVerticalOffset;
+          margin-left: -(@tooltipArrowVerticalOffset);
           background: @arrowCenterBackground;
           box-shadow: @rightArrowBoxShadow;
         }

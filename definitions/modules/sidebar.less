@@ -234,7 +234,7 @@ body.pushable > .pusher {
 & when (@variationSidebarRight) {
   .ui.visible.right.sidebar ~ .fixed,
   .ui.visible.right.sidebar ~ .pusher {
-    transform: translate3d(-@width, 0, 0);
+    transform: translate3d(-(@width), 0, 0);
   }
 }
 & when (@variationSidebarTop) {
@@ -246,7 +246,7 @@ body.pushable > .pusher {
 & when (@variationSidebarBottom) {
   .ui.visible.bottom.sidebar ~ .fixed,
   .ui.visible.bottom.sidebar ~ .pusher {
-    transform: translate3d(0, -@height, 0);
+    transform: translate3d(0, -(@height), 0);
   }
 }
 
@@ -336,24 +336,24 @@ body.pushable > .pusher {
     & when (@variationSidebarThin) {
       .ui.visible.thin.right.sidebar ~ .fixed,
       .ui.visible.thin.right.sidebar ~ .pusher {
-        transform: translate3d(-@thinWidth, 0, 0);
+        transform: translate3d(-(@thinWidth), 0, 0);
       }
 
       .ui.visible[class*="very thin"].right.sidebar ~ .fixed,
       .ui.visible[class*="very thin"].right.sidebar ~ .pusher {
-        transform: translate3d(-@veryThinWidth, 0, 0);
+        transform: translate3d(-(@veryThinWidth), 0, 0);
       }
     }
 
     & when (@variationSidebarWide) {
       .ui.visible.wide.right.sidebar ~ .fixed,
       .ui.visible.wide.right.sidebar ~ .pusher {
-        transform: translate3d(-@wideWidth, 0, 0);
+        transform: translate3d(-(@wideWidth), 0, 0);
       }
 
       .ui.visible[class*="very wide"].right.sidebar ~ .fixed,
       .ui.visible[class*="very wide"].right.sidebar ~ .pusher {
-        transform: translate3d(-@veryWideWidth, 0, 0);
+        transform: translate3d(-(@veryWideWidth), 0, 0);
       }
     }
   }

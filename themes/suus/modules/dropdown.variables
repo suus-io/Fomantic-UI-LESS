@@ -159,7 +159,7 @@
 @selectionIconOpacity: 1;
 @selectionIconZIndex: 3;
 @selectionIconHitbox: @selectionVerticalPadding;
-@selectionIconMargin: -@selectionIconHitbox;
+@selectionIconMargin: -(@selectionIconHitbox);
 @selectionIconPadding: @selectionIconHitbox / @dropdownIconSize;
 @selectionIconTransition: opacity @defaultDuration @defaultEasing;
 
@@ -363,12 +363,12 @@
 
 @pointingArrowBackground: @white;
 @pointingArrowZIndex: 2;
-@pointingArrowBoxShadow: -@menuBorderWidth -@menuBorderWidth 0px 0px @menuBorderColor;
+@pointingArrowBoxShadow: -(@menuBorderWidth) -(@menuBorderWidth) 0px 0px @menuBorderColor;
 @pointingArrowSize: @relative7px;
 
 @pointingMenuDistance: @mini;
 @pointingMenuBorderRadius: @borderRadius;
-@pointingArrowBoxShadow: -@menuBorderWidth -@menuBorderWidth 0px 0px @menuBorderColor;
+@pointingArrowBoxShadow: -(@menuBorderWidth) -(@menuBorderWidth) 0px 0px @menuBorderColor;
 
 /* Pointing Upward */
 @pointingUpwardMenuBorderRadius: @borderRadius;

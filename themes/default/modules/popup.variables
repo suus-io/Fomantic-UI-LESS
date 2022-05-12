@@ -58,9 +58,9 @@
 @arrowBottomBackground: @arrowBackground;
 
 @arrowBoxShadow: @arrowStroke @arrowStroke 0 0 @arrowColor;
-@leftArrowBoxShadow: @arrowStroke -@arrowStroke 0 0 @arrowColor;
-@rightArrowBoxShadow: -@arrowStroke @arrowStroke 0 0 @arrowColor;
-@bottomArrowBoxShadow: -@arrowStroke -@arrowStroke 0 0 @arrowColor;
+@leftArrowBoxShadow: @arrowStroke -(@arrowStroke) 0 0 @arrowColor;
+@rightArrowBoxShadow: -(@arrowStroke) @arrowStroke 0 0 @arrowColor;
+@bottomArrowBoxShadow: -(@arrowStroke) -(@arrowStroke) 0 0 @arrowColor;
 
 /*-------------------
        Types
@@ -92,8 +92,8 @@
 @tooltipInvertedHeaderColor: @invertedHeaderColor;
 
 /* Arrow */
-@tooltipArrowVerticalOffset: -@2px;
-@tooltipArrowHorizontalOffset: -@1px;
+@tooltipArrowVerticalOffset: -(@)2px;
+@tooltipArrowHorizontalOffset: -(@)1px;
 @tooltipArrowBoxShadow: @arrowBoxShadow;
 @tooltipArrowBackground: @arrowBackground;
 @tooltipArrowTopBackground: @arrowTopBackground;

@@ -159,7 +159,7 @@
 
 /* Bulleted */
 @bulletDistance: 1.25rem;
-@bulletOffset: -@bulletDistance;
+@bulletOffset: -(@bulletDistance);
 
 @bulletOpacity: 1;
 @bulletCharacter: '\2022';

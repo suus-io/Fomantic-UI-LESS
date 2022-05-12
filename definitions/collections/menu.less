@@ -676,7 +676,7 @@ Floated Menu / Item
     border-top-width: @tabularBorderWidth;
     border-color: @tabularBorderColor;
     font-weight: @tabularActiveWeight;
-    margin-bottom: -@tabularBorderWidth;
+    margin-bottom: -(@tabularBorderWidth);
     box-shadow: @tabularActiveBoxShadow;
     border-radius: @tabularBorderRadius @tabularBorderRadius 0 0 !important;
   }
@@ -693,7 +693,7 @@ Floated Menu / Item
   .top.attached.segment + .ui.bottom.tabular.menu {
     position: relative;
     width: @tabularFluidWidth;
-    left: -@tabularFluidOffset;
+    left: -(@tabularFluidOffset);
   }
 
   /* Bottom Vertical Tabular */
@@ -715,7 +715,7 @@ Floated Menu / Item
     background: @tabularActiveBackground;
     color: @tabularActiveColor;
     border-color: @tabularBorderColor;
-    margin: -@tabularBorderWidth 0 0 0;
+    margin: -(@tabularBorderWidth) 0 0 0;
     border-radius: 0 0 @tabularBorderRadius @tabularBorderRadius !important;
   }
   & when (@variationMenuVertical) {
@@ -738,7 +738,7 @@ Floated Menu / Item
       background: @tabularActiveBackground;
       color: @tabularActiveColor;
       border-color: @tabularBorderColor;
-      margin: 0 -@tabularBorderWidth 0 0;
+      margin: 0 -(@tabularBorderWidth) 0 0;
       border-radius: @tabularBorderRadius 0 0 @tabularBorderRadius !important;
     }
 
@@ -762,7 +762,7 @@ Floated Menu / Item
       background: @tabularActiveBackground;
       color: @tabularActiveColor;
       border-color: @tabularBorderColor;
-      margin: 0 0 0 -@tabularBorderWidth;
+      margin: 0 0 0 -(@tabularBorderWidth);
       border-radius: 0 @tabularBorderRadius @tabularBorderRadius 0 !important;
     }
   }
@@ -822,8 +822,8 @@ Floated Menu / Item
 
   .ui.secondary.menu {
     background: @secondaryBackground;
-    margin-left: -@secondaryItemSpacing;
-    margin-right: -@secondaryItemSpacing;
+    margin-left: -(@secondaryItemSpacing);
+    margin-right: -(@secondaryItemSpacing);
     border-radius: 0;
     border: none;
     box-shadow: none;
@@ -963,7 +963,7 @@ Floated Menu / Item
       border-radius: 0;
       align-self: flex-end;
 
-      margin: 0 0 -@secondaryPointingBorderWidth;
+      margin: 0 0 -(@secondaryPointingBorderWidth);
       padding: @secondaryPointingItemVerticalPadding @secondaryPointingItemHorizontalPadding;
       border-bottom-width: @secondaryPointingBorderWidth;
       transition: @secondaryItemTransition;
@@ -973,12 +973,12 @@ Floated Menu / Item
     }
 
     .ui.secondary.pointing.menu .item > .label:not(.floating) {
-      margin-top: -@labelVerticalPadding;
-      margin-bottom: -@labelVerticalPadding;
+      margin-top: -(@labelVerticalPadding);
+      margin-bottom: -(@labelVerticalPadding);
     }
     .ui.secondary.pointing.menu .item > .circular.label {
-      margin-top: -@circularLabelVerticalPadding;
-      margin-bottom: -@circularLabelVerticalPadding;
+      margin-top: -(@circularLabelVerticalPadding);
+      margin-bottom: -(@circularLabelVerticalPadding);
     }
 
     /* Item Types */

@@ -34,7 +34,7 @@
 @titleMargin: 0 0.5em;
 
 @closeSize: 1em;
-@closeMargin: (-@closeSize / 2) 0 0;
+@closeMargin: (-(@closeSize) / 2) 0 0;
 @closeTop: 50%;
 @closeRight: 1em;
 @closeColor: @white;

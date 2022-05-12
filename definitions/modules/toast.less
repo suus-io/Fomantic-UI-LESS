@@ -146,10 +146,10 @@
     & > .attached.progress when (@variationToastProgress) {
       z-index:1;
       &.bottom {
-        margin: @toastMarginProgress -@toastLeftRightMargin @toastMarginBottom;
+        margin: @toastMarginProgress -(@toastLeftRightMargin) @toastMarginBottom;
       }
       &.top {
-        margin: @toastMarginBottom -@toastLeftRightMargin @toastMarginProgress;
+        margin: @toastMarginBottom -(@toastLeftRightMargin) @toastMarginProgress;
       }
       & .bar {
         min-width: 0;
@@ -212,8 +212,8 @@
         }
       }
       &.vertical > .close.icon when (@variationToastVertical) and (@variationToastClose) {
-        margin-top: -@toastCloseTopDistance;
-        margin-right: -@toastCloseTopDistance;
+        margin-top: -(@toastCloseTopDistance);
+        margin-right: -(@toastCloseTopDistance);
       }
       &:not(.vertical) > .close.icon when (@variationToastClose) {
         position: absolute;
@@ -222,7 +222,7 @@
           right: @toastCloseRightDistance;
         }
         &.left {
-          margin-left: -@toastCloseRightDistance;
+          margin-left: -(@toastCloseRightDistance);
         }
       }
     }
@@ -320,8 +320,8 @@
       }
       &:not(.attached) {
         border-top: 0;
-        margin-top: -@toastActionPaddingBottom;
-        margin-bottom: -@toastActionPaddingBottom;
+        margin-top: -(@toastActionPaddingBottom);
+        margin-bottom: -(@toastActionPaddingBottom);
         margin-left: @toastActionMarginLeft;
         justify-content: space-around;
         &:not(.basic) {

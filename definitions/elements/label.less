@@ -415,7 +415,7 @@ a.ui.label {
   /* Positioning */
   .ui.ribbon.label {
     left: @ribbonOffset;
-    margin-right: -@ribbonTriangleSize;
+    margin-right: -(@ribbonTriangleSize);
     padding-left: @ribbonDistance;
     padding-right: @ribbonTriangleSize;
   }
@@ -966,7 +966,7 @@ each(@colors,{
     .ui.basic[class*="pointing below"].label:before {
       bottom: auto;
       top: 100%;
-      margin-top: -@basicPointingTriangleOffset;
+      margin-top: -(@basicPointingTriangleOffset);
     }
     /*--- Left ---*/
     .ui.basic[class*="left pointing"].label:before {
@@ -1003,7 +1003,7 @@ each(@colors,{
     transform: translateX(-50%);
   }
   .ui.left.aligned.floating.label {
-    transform: translateX(-@floatingAlignOffset);
+    transform: translateX(-(@floatingAlignOffset));
   }
   .ui.bottom.floating.label {
     top: auto;

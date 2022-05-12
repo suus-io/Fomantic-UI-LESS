@@ -70,13 +70,13 @@
 @imageLabelBoxShadow: none;
 @imageLabelPadding: @imageLabelVerticalPadding @imageLabelHorizontalPadding @imageLabelVerticalPadding @imageLabelTextDistance;
 
-@imageLabelImageMargin: -@verticalPadding @imageLabelTextDistance -@verticalPadding -@imageLabelTextDistance;
+@imageLabelImageMargin: -(@verticalPadding) @imageLabelTextDistance -(@verticalPadding) -(@imageLabelTextDistance);
 @imageLabelImageBorderRadius: @imageLabelBorderRadius 0 0 @imageLabelBorderRadius;
 @imageLabelImageHeight: @imageHeight;
 
 @imageLabelDetailBackground: @strongTransparentBlack;
 @imageLabelDetailPadding: @imageLabelVerticalPadding @imageLabelHorizontalPadding;
-@imageLabelDetailMargin: -@imageLabelVerticalPadding -@imageLabelHorizontalPadding -@imageLabelVerticalPadding @imageLabelDetailDistance;
+@imageLabelDetailMargin: -(@imageLabelVerticalPadding) -(@imageLabelHorizontalPadding) -(@imageLabelVerticalPadding) @imageLabelDetailDistance;
 
 /*-------------------
         States
@@ -105,7 +105,7 @@
 /* Basic */
 @basicBackground: none @white;
 @basicBorderWidth: 1px;
-@basicBorderWidthOffset: -@basicBorderWidth;
+@basicBorderWidthOffset: -(@basicBorderWidth);
 @basicBorderFullWidthOffset: e(%("calc(100%% + %d)", @basicBorderWidth));
 @basicBorder: @basicBorderWidth solid @borderColor;
 @basicColor: @textColor;
@@ -139,18 +139,18 @@
 @ribbonShadowColor: rgba(0, 0, 0, 0.15);
 
 @ribbonMargin: 1rem;
-@ribbonOffset: e(%("calc(%d - %d)", -@ribbonMargin, @ribbonTriangleSize));
+@ribbonOffset: e(%("calc(%d - %d)", -(@ribbonMargin), @ribbonTriangleSize));
 @basicRibbonOffset: e(%("calc(%d - %d)", @verticalPadding, @basicBorderWidth));
 @ribbonDistance: e(%("calc(%d + %d)", @ribbonMargin, @ribbonTriangleSize));
 @rightRibbonOffset: e(%("calc(100%% + %d + %d)", @ribbonMargin, @ribbonTriangleSize));
 
 @ribbonImageTopDistance: 1rem;
 @ribbonImageMargin: -0.05rem; /* Rounding Offset on Triangle */
-@ribbonImageOffset: e(%("calc(%d - %d)", -@ribbonImageMargin, @ribbonTriangleSize));
+@ribbonImageOffset: e(%("calc(%d - %d)", -(@ribbonImageMargin), @ribbonTriangleSize));
 @rightRibbonImageOffset: e(%("calc(100%% + %d + %d)", @ribbonImageMargin, @ribbonTriangleSize));
 
 @ribbonTableMargin: @relativeMedium; /* Rounding Offset on Triangle */
-@ribbonTableOffset: e(%("calc(%d - %d)", -@ribbonTableMargin, @ribbonTriangleSize));
+@ribbonTableOffset: e(%("calc(%d - %d)", -(@ribbonTableMargin), @ribbonTriangleSize));
 @rightRibbonTableOffset: e(%("calc(100%% + %d + %d)", @ribbonTableMargin, @ribbonTriangleSize));
 
 /* Inverted */
@@ -204,7 +204,7 @@
 @attachedCornerBorderRadius: @3px;
 @attachedBorderRadius: @borderRadius;
 
-@attachedOffset: -@borderWidth;
+@attachedOffset: -(@borderWidth);
 @attachedWidthOffset: e(%("calc(100%% + %d)", @borderWidth * 2));
 
 /* Corner */
@@ -245,7 +245,7 @@
 @pointingTriangleZIndex: 2;
 
 /* Basic Pointing */
-@basicPointingTriangleOffset: -@pointingBorderWidth;
+@basicPointingTriangleOffset: -(@pointingBorderWidth);
 
 /* Floating */
 @floatingTopOffset: -1em;

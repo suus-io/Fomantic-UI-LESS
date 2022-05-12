@@ -152,8 +152,8 @@
 /* Attached */
 @attachedTopOffset: 0;
 @attachedBottomOffset: 0;
-@attachedHorizontalOffset: -@borderWidth;
-@attachedWidth: e(%("calc(100%% + %d)", -@attachedHorizontalOffset * 2));
+@attachedHorizontalOffset: -(@borderWidth);
+@attachedWidth: e(%("calc(100%% + %d)", -(@attachedHorizontalOffset) * 2));
 @attachedBoxShadow: none;
 @attachedBorder: @borderWidth solid @solidBorderColor;
 @attachedBottomBoxShadow:

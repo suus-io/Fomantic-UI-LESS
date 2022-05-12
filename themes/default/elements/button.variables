@@ -32,7 +32,7 @@
 /* Internal Shadow */
 @shadowDistance: 0;
 @shadowOffset: (@shadowDistance / 2);
-@shadowBoxShadow: 0 -@shadowDistance 0 0 @borderColor inset;
+@shadowBoxShadow: 0 -(@shadowDistance) 0 0 @borderColor inset;
 
 /* Box Shadow */
 @borderBoxShadowColor: transparent;
@@ -169,7 +169,7 @@
 @labeledLabelPadding: '';
 @labeledLabelFontSize: @relativeMedium;
 @labeledLabelBorderColor: @borderColor;
-@labeledLabelBorderOffset: -@borderBoxShadowWidth;
+@labeledLabelBorderOffset: -(@borderBoxShadowWidth);
 @labeledTagLabelSize: 1.85em; /* hypotenuse of triangle */
 @labeledIconMargin: 0;
 

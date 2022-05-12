@@ -14,7 +14,7 @@
 @toastBoxMarginBottom: 0.5em;
 @toastBoxMarginRight: @toastBoxMarginBottom;
 @toastMarginProgress: -0.2em;
-@toastMargin: 0 -@toastLeftRightMargin @toastMarginBottom;
+@toastMargin: 0 -(@toastLeftRightMargin) @toastMarginBottom;
 @toastTextColor: @invertedTextColor;
 @toastInvertedTextColor: @textColor;
 @toastNeutralTextColor: @textColor;

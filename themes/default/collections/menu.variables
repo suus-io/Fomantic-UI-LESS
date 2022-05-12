@@ -38,7 +38,7 @@
 
 /* Sub Menu */
 @subMenuDistance: 0.5em;
-@subMenuMargin: @subMenuDistance -@itemHorizontalPadding 0;
+@subMenuMargin: @subMenuDistance -(@itemHorizontalPadding) 0;
 @subMenuFontSize: @relativeTiny;
 @subMenuTextColor: rgba(0, 0, 0, 0.5);
 
@@ -129,7 +129,7 @@
 @imageLabelTextDistance: 0.8em;
 @imageLabelVerticalPadding: 0.2833em; /* Calculates as: @verticalLabel (from label.less) - @labelVerticalPadding (from here) */
 @imageLabelHeight: (1em + @imageLabelVerticalPadding * 2);  /* Logic adopted from label.less */
-@imageLabelImageMargin: -@imageLabelVerticalPadding @imageLabelTextDistance -@imageLabelVerticalPadding -@imageLabelTextDistance;
+@imageLabelImageMargin: -(@imageLabelVerticalPadding) @imageLabelTextDistance -(@imageLabelVerticalPadding) -(@imageLabelTextDistance);
 
 /* Dropdown in Menu */
 @dropdownMenuBoxShadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
@@ -215,7 +215,7 @@
 
 /* Secondary */
 @secondaryBackground: none;
-@secondaryMargin: 0 -@secondaryItemSpacing;
+@secondaryMargin: 0 -(@secondaryItemSpacing);
 @secondaryItemBackground: none;
 @secondaryItemSpacing: @relative5px;
 @secondaryItemMargin: 0 @secondaryItemSpacing;
@@ -244,7 +244,7 @@
 @secondaryVerticalItemMargin: 0 0 @secondaryItemVerticalSpacing;
 @secondaryVerticalItemBorderRadius: @defaultBorderRadius;
 
-@secondaryMenuSubMenuMargin: 0 -@secondaryItemHorizontalPadding;
+@secondaryMenuSubMenuMargin: 0 -(@secondaryItemHorizontalPadding);
 @secondaryMenuSubMenuItemMargin: 0;
 @secondarySubMenuHorizontalPadding: (@itemHorizontalPadding / @tinySize) + @subMenuIndent;
 @secondaryMenuSubMenuItemPadding: @relative7px @secondarySubMenuHorizontalPadding;
@@ -267,7 +267,7 @@
 @secondaryPointingActiveHoverTextColor: @secondaryPointingActiveTextColor;
 
 @secondaryPointingHeaderColor: @darkTextColor;
-@secondaryVerticalPointingItemMargin: 0 -@secondaryPointingBorderWidth 0 0;
+@secondaryVerticalPointingItemMargin: 0 -(@secondaryPointingBorderWidth) 0 0;
 
 
 /* Inverted Secondary */
@@ -436,8 +436,8 @@
 /* Attached */
 @attachedTopOffset: 0;
 @attachedBottomOffset: 0;
-@attachedHorizontalOffset: -@borderWidth;
-@attachedWidth: e(%("calc(100%% + %d)", -@attachedHorizontalOffset * 2));
+@attachedHorizontalOffset: -(@borderWidth);
+@attachedWidth: e(%("calc(100%% + %d)", -(@attachedHorizontalOffset) * 2));
 @attachedBoxShadow: none;
 @attachedBorder: @borderWidth solid @solidBorderColor;
 @attachedBottomBoxShadow:

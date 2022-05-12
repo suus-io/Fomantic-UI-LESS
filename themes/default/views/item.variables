@@ -68,7 +68,7 @@
 @contentColor: @textColor;
 
 /* Header */
-@headerMargin: -@lineHeightOffset 0 0;
+@headerMargin: -(@lineHeightOffset) 0 0;
 @headerFontWeight: @bold;
 @headerFontSize: @relativeBig;
 @headerColor: @darkTextColor;

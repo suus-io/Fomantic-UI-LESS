@@ -140,7 +140,7 @@
 @extraLinkHoverColor: @linkHoverColor;
 
 /* Buttons */
-@buttonMargin: 0 -@borderWidth;
+@buttonMargin: 0 -(@borderWidth);
 @buttonWidth: e(%("calc(100%% + %d)", @borderWidth * 2));
 
 /*******************************
@@ -165,7 +165,7 @@
 @linkHoverBorder: @border;
 @linkHoverZIndex: 5;
 @linkHoverRaiseDistance: 3px;
-@linkHoverTransform: translateY(-@linkHoverRaiseDistance);
+@linkHoverTransform: translateY(-(@linkHoverRaiseDistance));
 
 @shadowHoverBoxShadow: 0 @shadowDistance @linkHoverRaiseDistance 0 @solidSelectedBorderColor;
 @linkHoverBoxShadow:
@@ -207,23 +207,23 @@
 @oneCard: @oneColumn;
 @oneCardOffset: 0;
 @twoCard: e(%("calc(%d - %d)", @twoColumn, @twoCardSpacing * 2));
-@twoCardOffset: -@twoCardSpacing;
+@twoCardOffset: -(@twoCardSpacing);
 @threeCard: e(%("calc(%d - %d)", @threeColumn, @threeCardSpacing * 2));
-@threeCardOffset: -@threeCardSpacing;
+@threeCardOffset: -(@threeCardSpacing);
 @fourCard: e(%("calc(%d - %d)", @fourColumn, @fourCardSpacing * 2));
-@fourCardOffset: -@fourCardSpacing;
+@fourCardOffset: -(@fourCardSpacing);
 @fiveCard: e(%("calc(%d - %d)", @fiveColumn, @fiveCardSpacing * 2));
-@fiveCardOffset: -@fiveCardSpacing;
+@fiveCardOffset: -(@fiveCardSpacing);
 @sixCard: e(%("calc(%d - %d)", @sixColumn, @sixCardSpacing * 2));
-@sixCardOffset: -@sixCardSpacing;
+@sixCardOffset: -(@sixCardSpacing);
 @sevenCard: e(%("calc(%d - %d)", @sevenColumn, @sevenCardSpacing * 2));
-@sevenCardOffset: -@sevenCardSpacing;
+@sevenCardOffset: -(@sevenCardSpacing);
 @eightCard: e(%("calc(%d - %d)", @eightColumn, @sevenCardSpacing * 2));
-@eightCardOffset: -@sevenCardSpacing;
+@eightCardOffset: -(@sevenCardSpacing);
 @nineCard: e(%("calc(%d - %d)", @nineColumn, @nineCardSpacing * 2));
-@nineCardOffset: -@nineCardSpacing;
+@nineCardOffset: -(@nineCardSpacing);
 @tenCard: e(%("calc(%d - %d)", @tenColumn, @tenCardSpacing * 2));
-@tenCardOffset: -@tenCardSpacing;
+@tenCardOffset: -(@tenCardSpacing);
 
 /* Stackable */
 @stackableRowSpacing: 1em;

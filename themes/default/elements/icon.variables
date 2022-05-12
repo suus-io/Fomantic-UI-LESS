@@ -75,15 +75,15 @@
 @cornerIconSize: 0.45em;
 @cornerIconStroke: 1px;
 @cornerIconShadow:
-  -@cornerIconStroke -@cornerIconStroke 0 @white,
-   @cornerIconStroke -@cornerIconStroke 0 @white,
-  -@cornerIconStroke  @cornerIconStroke 0 @white,
+  -(@cornerIconStroke) -(@cornerIconStroke) 0 @white,
+   @cornerIconStroke -(@cornerIconStroke) 0 @white,
+  -(@cornerIconStroke)  @cornerIconStroke 0 @white,
    @cornerIconStroke  @cornerIconStroke 0 @white
 ;
 @cornerIconInvertedShadow:
-  -@cornerIconStroke -@cornerIconStroke 0 @black,
-   @cornerIconStroke -@cornerIconStroke 0 @black,
-  -@cornerIconStroke  @cornerIconStroke 0 @black,
+  -(@cornerIconStroke) -(@cornerIconStroke) 0 @black,
+   @cornerIconStroke -(@cornerIconStroke) 0 @black,
+  -(@cornerIconStroke)  @cornerIconStroke 0 @black,
    @cornerIconStroke  @cornerIconStroke 0 @black
 ;
 

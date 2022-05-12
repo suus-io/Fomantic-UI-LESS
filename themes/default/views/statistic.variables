@@ -14,7 +14,7 @@
 /* Group */
 @horizontalSpacing: 1.5em;
 @rowSpacing: 1em;
-@groupMargin: @verticalMargin -@horizontalSpacing -@rowSpacing;
+@groupMargin: @verticalMargin -(@horizontalSpacing) -(@rowSpacing);
 
 /* Group Element */
 @elementMargin: 0 @horizontalSpacing @rowSpacing;
@@ -70,7 +70,7 @@
 @invertedLabelColor: @invertedTextColor;
 
 /* Item Width */
-@itemGroupMargin: 0 0 -@rowSpacing;
+@itemGroupMargin: 0 0 -(@rowSpacing);
 @itemMargin: 0 0 @rowSpacing;
 
 /* Stackable */
